@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/rich_text/flutter_quill/quill_adapter.dart';
+import 'package:anzio/core/rich_text/flutter_quill/quill_adapter.dart';
 
 void main() {
   late QuillRichTextAdapter editorAdapter;

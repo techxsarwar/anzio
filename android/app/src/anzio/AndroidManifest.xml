@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!-- App logo alias for anzio_logo_1_0 -->
+        <activity-alias
+            android:name="com.parallelogram.anzio.anzio_logo_1_0"
+            android:targetActivity="com.parallelogram.anzio.MainActivity"
+            android:icon="@mipmap/anzio_logo_1_0"
+            android:enabled="false"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- App logo alias for anzio_logo_2_0 -->
+        <activity-alias
+            android:name="com.parallelogram.anzio.anzio_logo_2_0"
+            android:targetActivity="com.parallelogram.anzio.MainActivity"
+            android:icon="@mipmap/anzio_logo_2_0"
+            android:enabled="false"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- App logo alias for anzio_logo_3_0 -->
+        <activity-alias
+            android:name="com.parallelogram.anzio.anzio_logo_3_0"
+            android:targetActivity="com.parallelogram.anzio.MainActivity"
+            android:icon="@mipmap/anzio_logo_3_0"
+            android:enabled="false"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- App logo alias for anzio_logo_4_0 -->
+        <activity-alias
+            android:name="com.parallelogram.anzio.anzio_logo_4_0"
+            android:targetActivity="com.parallelogram.anzio.MainActivity"
+            android:icon="@mipmap/anzio_logo_4_0"
+            android:enabled="false"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- App logo alias for anzio_logo_5_0 -->
+        <activity-alias
+            android:name="com.parallelogram.anzio.anzio_logo_5_0"
+            android:targetActivity="com.parallelogram.anzio.MainActivity"
+            android:icon="@mipmap/anzio_logo_5_0"
+            android:enabled="false"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- App logo alias for anzio_logo_6_0 -->
+        <activity-alias
+            android:name="com.parallelogram.anzio.anzio_logo_6_0"
+            android:targetActivity="com.parallelogram.anzio.MainActivity"
+            android:icon="@mipmap/anzio_logo_6_0"
+            android:enabled="false"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <!-- App logo alias for anzio_logo_6_1 -->
+        <activity-alias
+            android:name="com.parallelogram.anzio.anzio_logo_6_1"
+            android:targetActivity="com.parallelogram.anzio.MainActivity"
+            android:icon="@mipmap/anzio_logo_6_1"
+            android:enabled="false"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+    </application>
+</manifest>

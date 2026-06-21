@@ -1,10 +1,10 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:storypad/core/constants/app_constants.dart' show kIsCupertino;
-import 'package:storypad/views/onboarding/local_widgets/onboarding_template.dart';
+import 'package:anzio/core/constants/app_constants.dart' show kIsCupertino;
+import 'package:anzio/views/onboarding/local_widgets/onboarding_template.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/widgets/base_view/base_route.dart';
+import 'package:anzio/widgets/base_view/base_route.dart';
 
 import 'onboarding_step_4_view_model.dart';
 

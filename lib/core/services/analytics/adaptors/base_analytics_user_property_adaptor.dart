@@ -1,13 +1,13 @@
 import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/services/analytics/adaptors/firebase_analytics_user_property_adaptor.dart';
-import 'package:storypad/core/services/analytics/adaptors/none_analytics_user_property_adaptor.dart';
-import 'package:storypad/core/types/add_on_type.dart';
-import 'package:storypad/core/types/app_logo.dart';
-import 'package:storypad/core/types/first_day_of_week_option.dart';
-import 'package:storypad/core/types/font_size_option.dart';
-import 'package:storypad/core/types/time_format_option.dart';
+import 'package:anzio/core/services/analytics/adaptors/firebase_analytics_user_property_adaptor.dart';
+import 'package:anzio/core/services/analytics/adaptors/none_analytics_user_property_adaptor.dart';
+import 'package:anzio/core/types/add_on_type.dart';
+import 'package:anzio/core/types/app_logo.dart';
+import 'package:anzio/core/types/first_day_of_week_option.dart';
+import 'package:anzio/core/types/font_size_option.dart';
+import 'package:anzio/core/types/time_format_option.dart';
 
 abstract class BaseAnalyticsUserPropertyAdaptor {
   static BaseAnalyticsUserPropertyAdaptor create() {

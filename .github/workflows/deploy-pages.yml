@@ -1,0 +1,64 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - develop  # Triggers when code is pushed to the develop branch
+
+# Set permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Read Flutter version from .tool-versions
+        id: flutter-version
+        run: |
+          FLUTTER_VERSION=$(grep flutter .tool-versions | awk '{print $2}' | cut -d'-' -f1)
+          echo "version=$FLUTTER_VERSION" >> $GITHUB_OUTPUT
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ steps.flutter-version.outputs.version }}
+          cache: true
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v4
+
+      - name: Enable Flutter Web support
+        run: flutter create --platforms=web .
+
+      - name: Get dependencies
+        run: flutter pub get
+
+      - name: Run build_runner code generation
+        run: dart run build_runner build --delete-conflicting-outputs
+
+      - name: Build Web App
+        run: flutter build web --base-href "/anzio/" --target=lib/main_community.dart --dart-define-from-file=configs/community.json
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build/web
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

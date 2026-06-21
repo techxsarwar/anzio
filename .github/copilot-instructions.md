@@ -1,4 +1,4 @@
-# GitHub Copilot Instructions for StoryPad
+# GitHub Copilot Instructions for Anzio
 
 **ALWAYS read docs/README.md first for navigation and project overview.**
 

@@ -2,11 +2,11 @@ import 'dart:isolate';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:storypad/core/databases/models/story_content_db_model.dart';
-import 'package:storypad/core/databases/models/story_page_db_model.dart';
-import 'package:storypad/core/objects/story_page_object.dart';
-import 'package:storypad/core/rich_text/rich_text.dart';
-import 'package:storypad/core/services/generate_body_plain_text_service.dart';
+import 'package:anzio/core/databases/models/story_content_db_model.dart';
+import 'package:anzio/core/databases/models/story_page_db_model.dart';
+import 'package:anzio/core/objects/story_page_object.dart';
+import 'package:anzio/core/rich_text/rich_text.dart';
+import 'package:anzio/core/services/generate_body_plain_text_service.dart';
 
 class StoryPageObjectsMap {
   final Map<int, StoryPageObject> _map = {};

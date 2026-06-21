@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/objects/backup_file_object.dart';
-import 'package:storypad/core/objects/backup_object.dart';
-import 'package:storypad/core/objects/device_info_object.dart';
+import 'package:anzio/core/objects/backup_file_object.dart';
+import 'package:anzio/core/objects/backup_object.dart';
+import 'package:anzio/core/objects/device_info_object.dart';
 
 void main() {
   group('BackupObject Tests', () {

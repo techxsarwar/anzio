@@ -1,11 +1,11 @@
 import 'dart:io';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/databases/models/event_db_model.dart';
-import 'package:storypad/core/databases/models/story_content_db_model.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
-import 'package:storypad/core/databases/models/story_page_db_model.dart';
-import 'package:storypad/core/services/export/export_stories_to_markdown_service.dart';
-import 'package:storypad/core/types/path_type.dart';
+import 'package:anzio/core/databases/models/event_db_model.dart';
+import 'package:anzio/core/databases/models/story_content_db_model.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
+import 'package:anzio/core/databases/models/story_page_db_model.dart';
+import 'package:anzio/core/services/export/export_stories_to_markdown_service.dart';
+import 'package:anzio/core/types/path_type.dart';
 
 void main() {
   group('ExportStoriesToMarkdownService', () {
@@ -252,7 +252,7 @@ void main() {
       final content = await file.readAsString();
 
       expect(content, contains('---'));
-      expect(content, contains('storypad_id: 1735537709471'));
+      expect(content, contains('anzio_id: 1735537709471'));
       expect(content, contains('starred: true'));
       expect(content, contains('feeling: "excited"'));
       expect(content, contains('created_at: 2025-01-04'));
@@ -359,8 +359,8 @@ void main() {
       final content1 = await files[0].readAsString();
       final content2 = await files[1].readAsString();
 
-      expect(content1, contains('storypad_template_id: template_123'));
-      expect(content2, contains('storypad_template_id: 42'));
+      expect(content1, contains('anzio_template_id: template_123'));
+      expect(content2, contains('anzio_template_id: 42'));
     });
 
     test('should generate markdown content from Quill Delta', () async {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/widgets/sp_fade_in.dart';
+import 'package:anzio/widgets/sp_fade_in.dart';
 
 class FadeInBuilder extends StatelessWidget {
   const FadeInBuilder({

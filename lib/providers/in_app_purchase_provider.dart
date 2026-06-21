@@ -4,20 +4,20 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/mixins/dispose_aware_mixin.dart';
-import 'package:storypad/core/services/avoid_dublicated_call_service.dart';
-import 'package:storypad/core/services/backups/backup_cloud_service.dart';
-import 'package:storypad/core/services/backups/backup_service_type.dart';
-import 'package:storypad/core/services/email_hasher_service.dart';
-import 'package:storypad/core/services/internet_checker_service.dart';
-import 'package:storypad/core/services/logger/app_logger.dart';
-import 'package:storypad/core/services/messenger_service.dart';
-import 'package:storypad/core/storages/selected_purchase_sync_provider_storage.dart';
-import 'package:storypad/core/repositories/backup_repository.dart' show UserChangeType;
-import 'package:storypad/core/types/app_product.dart';
-import 'package:storypad/providers/backup_provider.dart';
-import 'package:storypad/widgets/bottom_sheets/sp_android_redemption_sheet.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/mixins/dispose_aware_mixin.dart';
+import 'package:anzio/core/services/avoid_dublicated_call_service.dart';
+import 'package:anzio/core/services/backups/backup_cloud_service.dart';
+import 'package:anzio/core/services/backups/backup_service_type.dart';
+import 'package:anzio/core/services/email_hasher_service.dart';
+import 'package:anzio/core/services/internet_checker_service.dart';
+import 'package:anzio/core/services/logger/app_logger.dart';
+import 'package:anzio/core/services/messenger_service.dart';
+import 'package:anzio/core/storages/selected_purchase_sync_provider_storage.dart';
+import 'package:anzio/core/repositories/backup_repository.dart' show UserChangeType;
+import 'package:anzio/core/types/app_product.dart';
+import 'package:anzio/providers/backup_provider.dart';
+import 'package:anzio/widgets/bottom_sheets/sp_android_redemption_sheet.dart';
 
 // Uses RevenueCat anonymous ID for purchases. No account login required.
 // When a user connects a cloud service (e.g. Google Drive), their globally-unique
@@ -30,7 +30,7 @@ class InAppPurchaseProvider extends ChangeNotifier with DisposeAwareMixin {
   bool get hasAnyLegacyPurchases => AppLegacyProduct.values.any((product) => isActive(product.productIdentifier));
   bool get periodCalendar => isActive(AppLegacyProduct.period_calendar.productIdentifier);
 
-  bool get isProUser => isActive(AppProduct.storypad_pro_lifetime.productIdentifier) || hasAnyLegacyPurchases;
+  bool get isProUser => isActive(AppProduct.anzio_pro_lifetime.productIdentifier) || hasAnyLegacyPurchases;
 
   CustomerInfo? _customerInfo;
   List<StoreProduct>? storeProducts;
@@ -274,7 +274,7 @@ class InAppPurchaseProvider extends ChangeNotifier with DisposeAwareMixin {
   Future<bool> purchase(BuildContext context) async {
     if (!kIAPEnabled) return false;
 
-    final productToPurchase = AppProduct.storypad_pro_lifetime.productIdentifier;
+    final productToPurchase = AppProduct.anzio_pro_lifetime.productIdentifier;
 
     return _purchaseGuard.run(() async {
       await _ensureInitialized();

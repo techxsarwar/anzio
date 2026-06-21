@@ -1,9 +1,9 @@
 import 'package:copy_with_extension/copy_with_extension.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:storypad/core/databases/adapters/objectbox/tags_box.dart';
-import 'package:storypad/core/databases/models/base_db_model.dart';
-import 'package:storypad/core/databases/models/tag_category_db_model.dart';
-import 'package:storypad/core/services/tag_id_generator_service.dart';
+import 'package:anzio/core/databases/adapters/objectbox/tags_box.dart';
+import 'package:anzio/core/databases/models/base_db_model.dart';
+import 'package:anzio/core/databases/models/tag_category_db_model.dart';
+import 'package:anzio/core/services/tag_id_generator_service.dart';
 
 part 'tag_db_model.g.dart';
 

@@ -1,4 +1,4 @@
-Consider yourself a senior UX/UI designer, let's brainstorm best UX/UI quick actions feature for storypad.
+Consider yourself a senior UX/UI designer, let's brainstorm best UX/UI quick actions feature for anzio.
 
 We want to allow users to quickly perform common actions directly from their phone homepage without having to open the app.
 

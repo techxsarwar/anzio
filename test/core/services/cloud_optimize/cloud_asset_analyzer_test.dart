@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/databases/models/asset_db_model.dart';
-import 'package:storypad/core/objects/cloud_file_object.dart';
-import 'package:storypad/core/services/cloud_optimize/cloud_asset_analyzer.dart';
-import 'package:storypad/core/types/asset_type.dart';
+import 'package:anzio/core/databases/models/asset_db_model.dart';
+import 'package:anzio/core/objects/cloud_file_object.dart';
+import 'package:anzio/core/services/cloud_optimize/cloud_asset_analyzer.dart';
+import 'package:anzio/core/types/asset_type.dart';
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -250,7 +250,7 @@ void main() {
         6001,
         cloudDestinations: {
           'web_dav': {
-            'storypad': {'file_id': 'wd-6001', 'file_name': '6001.jpg'},
+            'anzio': {'file_id': 'wd-6001', 'file_name': '6001.jpg'},
           },
         },
       );

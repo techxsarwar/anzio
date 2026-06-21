@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/core/services/windowed_detector_service.dart';
-import 'package:storypad/widgets/sp_nested_navigation.dart';
+import 'package:anzio/core/services/windowed_detector_service.dart';
+import 'package:anzio/widgets/sp_nested_navigation.dart';
 
 // On big screen, root view will modify the default padding which pushes FAB too far to the edge.
 // This custom FAB location will add extra offset to compensate for that.

@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:flutter/widgets.dart';
-import 'package:storypad/core/objects/sp_latlng_bounds.dart';
-import 'package:storypad/core/objects/sp_latlng.dart';
+import 'package:anzio/core/objects/sp_latlng_bounds.dart';
+import 'package:anzio/core/objects/sp_latlng.dart';
 
 typedef SpMapViewportChanged = void Function(SpMapViewport viewport);
 

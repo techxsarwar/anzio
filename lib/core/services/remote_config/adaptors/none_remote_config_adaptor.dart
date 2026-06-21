@@ -1,4 +1,4 @@
-import 'package:storypad/core/services/remote_config/adaptors/base_remote_config_adaptor.dart';
+import 'package:anzio/core/services/remote_config/adaptors/base_remote_config_adaptor.dart';
 
 class NoneRemoteConfigAdaptor extends BaseRemoteConfigAdaptor {
   @override

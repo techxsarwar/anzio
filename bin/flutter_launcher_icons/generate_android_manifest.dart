@@ -6,7 +6,7 @@ void main(List<String> args) {
   if (args.length < 2) {
     print('Error: Missing required arguments');
     print('Usage: dart generate_android_manifest.dart <FLAVOR> <ICON_NAME>');
-    print('Example: dart generate_android_manifest.dart storypad storypad_logo_1_0');
+    print('Example: dart generate_android_manifest.dart anzio anzio_logo_1_0');
     exit(1);
   }
 
@@ -56,7 +56,7 @@ String _getPackageName() {
 
   if (!mainManifestFile.existsSync()) {
     print('Warning: Could not find main AndroidManifest.xml, using default package name');
-    return 'com.tc.writestory';
+    return 'com.parallelogram.anzio';
   }
 
   final content = mainManifestFile.readAsStringSync();
@@ -76,7 +76,7 @@ String _getPackageName() {
   }
 
   print('Warning: Could not extract package name, using default');
-  return 'com.tc.writestory';
+  return 'com.parallelogram.anzio';
 }
 
 /// Get all available logos from assets/logos directory

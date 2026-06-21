@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'dart:io';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/databases/models/asset_db_model.dart';
-import 'package:storypad/core/services/assets/import_media_from_tar_service.dart';
-import 'package:storypad/core/types/asset_type.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/databases/models/asset_db_model.dart';
+import 'package:anzio/core/services/assets/import_media_from_tar_service.dart';
+import 'package:anzio/core/types/asset_type.dart';
 import 'package:tar/tar.dart';
 
 // ---------------------------------------------------------------------------
@@ -90,7 +90,7 @@ void main() {
   late Directory testSupportDir;
 
   setUpAll(() async {
-    testSupportDir = await Directory.systemTemp.createTemp('storypad_asset_import_test_');
+    testSupportDir = await Directory.systemTemp.createTemp('anzio_asset_import_test_');
     kSupportDirectory = testSupportDir;
   });
 
@@ -327,9 +327,9 @@ void main() {
     // --- real file integration (optional) ---
 
     group('real .tar.gz file', () {
-      const realFilePath = 'examples/backups/StoryPad-iPhone-assets-2026-05-08T01:47:47.635256.tar.gz';
+      const realFilePath = 'examples/backups/Anzio-iPhone-assets-2026-05-08T01:47:47.635256.tar.gz';
 
-      test('parses real StoryPad export without throwing', () async {
+      test('parses real Anzio export without throwing', () async {
         final file = File(realFilePath);
         if (!file.existsSync()) {
           markTestSkipped('Real archive not found at $realFilePath — skipping');

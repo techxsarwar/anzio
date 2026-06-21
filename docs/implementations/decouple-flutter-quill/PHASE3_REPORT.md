@@ -32,7 +32,7 @@ class StoryPageObject {
 **After**:
 
 ```dart
-import 'package:storypad/core/rich_text/rich_text.dart';
+import 'package:anzio/core/rich_text/rich_text.dart';
 
 class StoryPageObject {
   final RichTextController bodyController;

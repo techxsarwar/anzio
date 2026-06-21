@@ -1,4 +1,4 @@
-import 'package:storypad/core/storages/storage_adapters/base_storage_adapter.dart';
+import 'package:anzio/core/storages/storage_adapters/base_storage_adapter.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
 class SecureStorageAdaptor<T> extends BaseStorageAdapter<T> {

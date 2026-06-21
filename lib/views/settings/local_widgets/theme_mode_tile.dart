@@ -1,12 +1,12 @@
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:storypad/core/services/color_from_day_service.dart';
-import 'package:storypad/providers/device_preferences_provider.dart';
-import 'package:storypad/widgets/bottom_sheets/sp_theme_mode_sheet.dart';
-import 'package:storypad/widgets/sp_animated_icon.dart';
-import 'package:storypad/widgets/sp_icons.dart';
-import 'package:storypad/widgets/sp_setting_icon_badge.dart';
+import 'package:anzio/core/services/color_from_day_service.dart';
+import 'package:anzio/providers/device_preferences_provider.dart';
+import 'package:anzio/widgets/bottom_sheets/sp_theme_mode_sheet.dart';
+import 'package:anzio/widgets/sp_animated_icon.dart';
+import 'package:anzio/widgets/sp_icons.dart';
+import 'package:anzio/widgets/sp_setting_icon_badge.dart';
 
 class ThemeModeTile extends StatelessWidget {
   const ThemeModeTile({

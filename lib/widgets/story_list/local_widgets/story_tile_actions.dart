@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:storypad/views/home/home_view.dart';
+import 'package:anzio/views/home/home_view.dart';
 import 'package:adaptive_dialog/adaptive_dialog.dart';
-import 'package:storypad/core/databases/models/story_preferences_db_model.dart';
-import 'package:storypad/core/services/analytics/analytics_service.dart';
-import 'package:storypad/core/services/messenger_service.dart';
-import 'package:storypad/widgets/story_list/sp_story_list_with_query.dart';
+import 'package:anzio/core/databases/models/story_preferences_db_model.dart';
+import 'package:anzio/core/services/analytics/analytics_service.dart';
+import 'package:anzio/core/services/messenger_service.dart';
+import 'package:anzio/widgets/story_list/sp_story_list_with_query.dart';
 
 class StoryTileActions {
   final StoryDbModel story;

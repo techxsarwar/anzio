@@ -3,10 +3,10 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/extensions/color_scheme_extension.dart';
-import 'package:storypad/core/services/logger/app_logger.dart';
-import 'package:storypad/widgets/sp_fade_in.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/core/extensions/color_scheme_extension.dart';
+import 'package:anzio/core/services/logger/app_logger.dart';
+import 'package:anzio/widgets/sp_fade_in.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 class MessengerService {
   final BuildContext context;

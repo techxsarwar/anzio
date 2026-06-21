@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/services/markdown_content_filter_service.dart';
+import 'package:anzio/core/services/markdown_content_filter_service.dart';
 
 void main() {
   group('MarkdownContentFilterService', () {

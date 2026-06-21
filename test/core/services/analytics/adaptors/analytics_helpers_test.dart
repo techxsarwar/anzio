@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/services/analytics/adaptors/none_analytics_event_adaptor.dart';
+import 'package:anzio/core/services/analytics/adaptors/none_analytics_event_adaptor.dart';
 
 // Test via a concrete subclass (NoneAnalyticsEventAdaptor) since the helpers
 // are non-abstract methods on the abstract base.

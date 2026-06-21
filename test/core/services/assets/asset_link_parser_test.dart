@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/services/assets/asset_link_parser.dart';
+import 'package:anzio/core/services/assets/asset_link_parser.dart';
 
 void main() {
   group('AssetLinkParser', () {

@@ -1,6 +1,6 @@
 # Backup System
 
-Multi-device cloud backup and sync for StoryPad using Google Drive with timestamp-based conflict resolution.
+Multi-device cloud backup and sync for Anzio using Google Drive with timestamp-based conflict resolution.
 
 ## Architecture
 

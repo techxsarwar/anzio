@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:in_app_review/in_app_review.dart';
-import 'package:storypad/core/storages/story_write_count_storage.dart';
+import 'package:anzio/core/storages/story_write_count_storage.dart';
 
 class InAppReviewService {
   static const List<int> _thresholds = [3, 10, 25];

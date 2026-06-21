@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
-import 'package:storypad/core/databases/models/story_page_db_model.dart';
-import 'package:storypad/core/rich_text/rich_text.dart';
+import 'package:anzio/core/databases/models/story_page_db_model.dart';
+import 'package:anzio/core/rich_text/rich_text.dart';
 
 class StoryContentPagesToDocumentService {
   static Future<List<RichTextDocument>> forMultiplePages(List<StoryPageDbModel>? richPages) {

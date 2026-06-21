@@ -30,8 +30,8 @@ class _ExportSectionState extends State<_ExportSection> {
           buildExportHeader(context),
           RadioListTile(
             secondary: const Icon(SpIcons.importOffline),
-            title: Text(tr('list_tile.export_storypad_json.title')),
-            subtitle: Text(tr('list_tile.export_storypad_json.subtitle')),
+            title: Text(tr('list_tile.export_anzio_json.title')),
+            subtitle: Text(tr('list_tile.export_anzio_json.subtitle')),
             contentPadding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 6.0),
             value: AppExportOption.storyPadJson,
           ),

@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
-import 'package:storypad/core/databases/models/tag_db_model.dart';
-import 'package:storypad/core/mixins/dispose_aware_mixin.dart';
-import 'package:storypad/providers/tags_provider.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
+import 'package:anzio/core/databases/models/tag_db_model.dart';
+import 'package:anzio/core/mixins/dispose_aware_mixin.dart';
+import 'package:anzio/providers/tags_provider.dart';
 import 'tags_view.dart';
 
 class TagsViewModel extends ChangeNotifier with DisposeAwareMixin {

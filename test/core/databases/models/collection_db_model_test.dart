@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/databases/models/base_db_model.dart';
-import 'package:storypad/core/databases/models/collection_db_model.dart';
+import 'package:anzio/core/databases/models/base_db_model.dart';
+import 'package:anzio/core/databases/models/collection_db_model.dart';
 
 // Mock model for testing
 class _MockDbModel extends BaseDbModel {

@@ -1,4 +1,4 @@
-# Templates (StoryPad Pro)
+# Templates (Anzio Pro)
 
 ## Description
 

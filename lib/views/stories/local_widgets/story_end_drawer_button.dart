@@ -1,6 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 class StoryEndDrawerButton extends StatelessWidget {
   const StoryEndDrawerButton({

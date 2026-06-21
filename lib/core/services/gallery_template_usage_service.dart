@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/services/avoid_dublicated_call_service.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/services/avoid_dublicated_call_service.dart';
 
 // Tracks how often each template is used by a device.
 // Note: A malicious user could fake usage by spoofing device IDs,

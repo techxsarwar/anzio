@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:open_location_code/open_location_code.dart' as olc;
-import 'package:storypad/core/objects/sp_latlng.dart';
-import 'package:storypad/core/services/geocoding/sp_coordinate_parser_service.dart';
+import 'package:anzio/core/objects/sp_latlng.dart';
+import 'package:anzio/core/services/geocoding/sp_coordinate_parser_service.dart';
 
 void main() {
   // Phnom Penh — used as a reference city for short Plus Code tests.

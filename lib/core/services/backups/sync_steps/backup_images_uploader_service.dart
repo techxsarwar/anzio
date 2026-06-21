@@ -1,12 +1,12 @@
 import 'dart:async';
-import 'package:storypad/core/databases/models/asset_db_model.dart';
-import 'package:storypad/core/databases/models/collection_db_model.dart';
-import 'package:storypad/core/objects/backup_exceptions/backup_exception.dart' as exp;
-import 'package:storypad/core/services/backups/sync_steps/backup_sync_message.dart';
-import 'package:storypad/core/services/backups/backup_cloud_service.dart';
-import 'package:storypad/core/services/logger/app_logger.dart';
-import 'package:storypad/core/services/retry/retry_executor.dart';
-import 'package:storypad/core/services/retry/retry_policy.dart';
+import 'package:anzio/core/databases/models/asset_db_model.dart';
+import 'package:anzio/core/databases/models/collection_db_model.dart';
+import 'package:anzio/core/objects/backup_exceptions/backup_exception.dart' as exp;
+import 'package:anzio/core/services/backups/sync_steps/backup_sync_message.dart';
+import 'package:anzio/core/services/backups/backup_cloud_service.dart';
+import 'package:anzio/core/services/logger/app_logger.dart';
+import 'package:anzio/core/services/retry/retry_executor.dart';
+import 'package:anzio/core/services/retry/retry_policy.dart';
 
 class BackupImagesUploaderService {
   final StreamController<BackupSyncMessage?> controller = StreamController<BackupSyncMessage?>.broadcast();

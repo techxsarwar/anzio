@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/services/app_logo_service.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/services/app_logo_service.dart';
 
 class SpSplashScreenWrapper extends StatefulWidget {
   const SpSplashScreenWrapper({

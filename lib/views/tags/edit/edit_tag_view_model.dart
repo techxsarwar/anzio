@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/core/mixins/dispose_aware_mixin.dart';
-import 'package:storypad/core/databases/models/tag_db_model.dart';
+import 'package:anzio/core/mixins/dispose_aware_mixin.dart';
+import 'package:anzio/core/databases/models/tag_db_model.dart';
 import 'edit_tag_view.dart';
 
 class EditTagViewModel extends ChangeNotifier with DisposeAwareMixin {

@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/databases/models/asset_db_model.dart';
-import 'package:storypad/core/services/google_drive_asset_downloader_service.dart';
-import 'package:storypad/providers/backup_provider.dart';
-import 'package:storypad/widgets/bottom_sheets/base_bottom_sheet.dart';
-import 'package:storypad/widgets/sp_voice_player.dart';
+import 'package:anzio/core/databases/models/asset_db_model.dart';
+import 'package:anzio/core/services/google_drive_asset_downloader_service.dart';
+import 'package:anzio/providers/backup_provider.dart';
+import 'package:anzio/widgets/bottom_sheets/base_bottom_sheet.dart';
+import 'package:anzio/widgets/sp_voice_player.dart';
 
 /// Sheet for playing voice notes
 ///

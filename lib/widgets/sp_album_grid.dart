@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/widgets/sp_image.dart';
+import 'package:anzio/widgets/sp_image.dart';
 
 class SpAlbumGrid extends StatelessWidget {
   const SpAlbumGrid({

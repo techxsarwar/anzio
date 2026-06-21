@@ -2,12 +2,12 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/services/backups/backup_cloud_service.dart';
-import 'package:storypad/providers/backup_provider.dart';
-import 'package:storypad/providers/in_app_purchase_provider.dart';
-import 'package:storypad/widgets/bottom_sheets/base_bottom_sheet.dart';
-import 'package:storypad/widgets/sp_fade_in.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/core/services/backups/backup_cloud_service.dart';
+import 'package:anzio/providers/backup_provider.dart';
+import 'package:anzio/providers/in_app_purchase_provider.dart';
+import 'package:anzio/widgets/bottom_sheets/base_bottom_sheet.dart';
+import 'package:anzio/widgets/sp_fade_in.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 class SpPurchaseSyncProviderSheet extends BaseBottomSheet {
   const SpPurchaseSyncProviderSheet();

@@ -1,11 +1,11 @@
 import 'dart:io';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/databases/models/event_db_model.dart';
-import 'package:storypad/core/databases/models/story_content_db_model.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
-import 'package:storypad/core/databases/models/story_page_db_model.dart';
-import 'package:storypad/core/services/export/export_stories_to_text_service.dart';
-import 'package:storypad/core/types/path_type.dart';
+import 'package:anzio/core/databases/models/event_db_model.dart';
+import 'package:anzio/core/databases/models/story_content_db_model.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
+import 'package:anzio/core/databases/models/story_page_db_model.dart';
+import 'package:anzio/core/services/export/export_stories_to_text_service.dart';
+import 'package:anzio/core/types/path_type.dart';
 
 void main() {
   group('ExportStoriesToTextService', () {
@@ -56,12 +56,12 @@ void main() {
       expect(await result.exists(), true);
 
       final content = await result.readAsString();
-      expect(content, contains("StoryPad ID: 1735537709471"));
+      expect(content, contains("Anzio ID: 1735537709471"));
       expect(content, contains("Title: Let's Begin: 2025 ✨"));
       expect(content, contains('Date: 2025-01-04'));
       expect(content, contains('Hi there, this is me from 2025!'));
       expect(content, contains('###'));
-      expect(content, contains('StoryPad ID: 1715024221522'));
+      expect(content, contains('Anzio ID: 1715024221522'));
       expect(content, contains('Title: Another Story'));
       expect(content, contains('Date: 2024-05-07'));
       expect(content, contains('Another tough week again.'));
@@ -101,7 +101,7 @@ void main() {
 
       // Assert
       final content = await outputFile.readAsString();
-      expect(content, contains('StoryPad ID: 1'));
+      expect(content, contains('Anzio ID: 1'));
       expect(content, contains('Title: Story with Metadata'));
       expect(content, contains('Tags: Personal, Workout 🏋️'));
       expect(content, contains('Event: period'));
@@ -130,7 +130,7 @@ void main() {
 
       // Assert
       final content = await outputFile.readAsString();
-      expect(content, contains('StoryPad ID: 1'));
+      expect(content, contains('Anzio ID: 1'));
       expect(content, contains('Title: Simple Story'));
       expect(content, contains('Date: 2025-01-01'));
       expect(content, contains('Just some text.'));
@@ -160,11 +160,11 @@ void main() {
 
       // Assert
       final content = await outputFile.readAsString();
-      expect(content, contains('StoryPad ID: 1'));
+      expect(content, contains('Anzio ID: 1'));
       expect(content, isNot(contains('Title:')));
       expect(content, contains('Content without title'));
-      // Should have StoryPad ID as first line
-      expect(content.trim().startsWith('StoryPad ID: 1'), true);
+      // Should have Anzio ID as first line
+      expect(content.trim().startsWith('Anzio ID: 1'), true);
     });
 
     test('should convert formatted content to plain text', () async {
@@ -365,7 +365,7 @@ void main() {
 
       // Assert: Only valid story should be in output
       final content = await outputFile.readAsString();
-      expect(content, contains('StoryPad ID: 1'));
+      expect(content, contains('Anzio ID: 1'));
       expect(content, contains('Title: Valid Story'));
       expect(content, contains('Content here'));
 
@@ -433,7 +433,7 @@ void main() {
 
       // Assert: Images should appear as markdown embeds
       final content = await outputFile.readAsString();
-      expect(content, contains('StoryPad ID: 1'));
+      expect(content, contains('Anzio ID: 1'));
       expect(content, contains('Title: Story with Image'));
       expect(content, contains('Check out this image:'));
       expect(content, contains('![image](images/1759081859921.jpg)'));

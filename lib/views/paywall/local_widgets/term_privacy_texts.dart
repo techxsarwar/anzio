@@ -20,12 +20,12 @@ class _TermPrivacyTexts extends StatelessWidget {
             [
               (
                 (tr('general.term_of_use')),
-                () => UrlOpenerService.openInCustomTab(context, 'https://storypad.me/term-of-use'),
+                () => UrlOpenerService.openInCustomTab(context, 'https://anzio.me/term-of-use'),
               ),
               ("•", null),
               (
                 (tr('general.privacy_policy')),
-                () => UrlOpenerService.openInCustomTab(context, 'https://storypad.me/privacy-policy'),
+                () => UrlOpenerService.openInCustomTab(context, 'https://anzio.me/privacy-policy'),
               ),
             ].map((link) {
               return SpTapEffect(

@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/databases/models/story_page_db_model.dart';
-import 'package:storypad/core/services/stories/story_extract_assets_from_pages_service.dart';
+import 'package:anzio/core/databases/models/story_page_db_model.dart';
+import 'package:anzio/core/services/stories/story_extract_assets_from_pages_service.dart';
 
 void main() {
   group('StoryExtractAssetsFromPagesService', () {
@@ -118,7 +118,7 @@ void main() {
         expect(result.length, 1);
       });
 
-      test('ignores non-storypad asset links', () {
+      test('ignores non-anzio asset links', () {
         final pages = [
           _createPageWithBody([
             {

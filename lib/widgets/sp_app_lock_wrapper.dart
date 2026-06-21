@@ -4,9 +4,9 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/providers/app_lock_provider.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/providers/app_lock_provider.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 class SpAppLockWrapper extends StatelessWidget {
   const SpAppLockWrapper({

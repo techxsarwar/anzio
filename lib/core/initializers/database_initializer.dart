@@ -1,16 +1,16 @@
 import 'dart:io';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/databases/models/asset_db_model.dart';
-import 'package:storypad/core/databases/models/event_db_model.dart';
-import 'package:storypad/core/databases/models/preference_db_model.dart';
-import 'package:storypad/core/databases/models/relex_sound_mix_model.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
-import 'package:storypad/core/databases/models/tag_category_db_model.dart';
-import 'package:storypad/core/databases/models/tag_db_model.dart';
-import 'package:storypad/core/databases/models/template_db_model.dart';
-import 'package:storypad/core/services/assets/asset_orphaned_fixer_service.dart';
-import 'package:storypad/core/services/logger/app_logger.dart';
-import 'package:storypad/core/storages/computed_initial_tags_for_assets_storage.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/databases/models/asset_db_model.dart';
+import 'package:anzio/core/databases/models/event_db_model.dart';
+import 'package:anzio/core/databases/models/preference_db_model.dart';
+import 'package:anzio/core/databases/models/relex_sound_mix_model.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
+import 'package:anzio/core/databases/models/tag_category_db_model.dart';
+import 'package:anzio/core/databases/models/tag_db_model.dart';
+import 'package:anzio/core/databases/models/template_db_model.dart';
+import 'package:anzio/core/services/assets/asset_orphaned_fixer_service.dart';
+import 'package:anzio/core/services/logger/app_logger.dart';
+import 'package:anzio/core/storages/computed_initial_tags_for_assets_storage.dart';
 
 class DatabaseInitializer {
   static Future<void> call() async {
@@ -72,11 +72,11 @@ class DatabaseInitializer {
 
       /// URI link for embedding in Quill editor
       /// Automatically routes to correct scheme based on asset type:
-      /// - Audio: storypad://audio/{id}
-      /// - Image (or null): storypad://assets/{id}
+      /// - Audio: anzio://audio/{id}
+      /// - Image (or null): anzio://assets/{id}
       final legacyEmbedLink = switch (asset.type) {
-        .image => 'storypad://assets/${asset.id}',
-        .audio => 'storypad://audio/${asset.id}',
+        .image => 'anzio://assets/${asset.id}',
+        .audio => 'anzio://audio/${asset.id}',
       };
 
       for (int j = 0; j < result.length; j++) {

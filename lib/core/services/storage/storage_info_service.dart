@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:storypad/core/types/support_directory_path.dart';
+import 'package:anzio/core/types/support_directory_path.dart';
 
 // ignore: depend_on_referenced_packages
 import 'package:flutter_cache_manager/flutter_cache_manager.dart';

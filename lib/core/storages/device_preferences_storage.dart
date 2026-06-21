@@ -1,10 +1,10 @@
 // ignore_for_file: deprecated_member_use_from_same_package
 
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/extensions/font_weight_extension.dart';
-import 'package:storypad/core/objects/device_preferences_object.dart';
-import 'package:storypad/core/storages/base_object_storages/object_storage.dart';
-import 'package:storypad/core/storages/theme_storage.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/extensions/font_weight_extension.dart';
+import 'package:anzio/core/objects/device_preferences_object.dart';
+import 'package:anzio/core/storages/base_object_storages/object_storage.dart';
+import 'package:anzio/core/storages/theme_storage.dart';
 
 class DevicePreferencesStorage extends ObjectStorage<DevicePreferencesObject> {
   static DevicePreferencesStorage appInstance = DevicePreferencesStorage();

@@ -1,6 +1,6 @@
 import 'package:firebase_remote_config/firebase_remote_config.dart';
 import 'package:flutter/foundation.dart';
-import 'package:storypad/core/services/remote_config/adaptors/base_remote_config_adaptor.dart';
+import 'package:anzio/core/services/remote_config/adaptors/base_remote_config_adaptor.dart';
 
 class FirebaseRemoteConfigAdaptor extends BaseRemoteConfigAdaptor {
   final FirebaseRemoteConfig _remoteConfig = FirebaseRemoteConfig.instance;

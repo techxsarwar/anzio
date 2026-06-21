@@ -1,10 +1,10 @@
 // ignore_for_file: library_private_types_in_public_api
 
-import 'package:storypad/core/databases/adapters/objectbox/base_box.dart';
-import 'package:storypad/core/databases/adapters/objectbox/entities.dart';
-import 'package:storypad/core/databases/models/preference_db_model.dart';
-import 'package:storypad/core/services/backups/backup_service_type.dart';
-import 'package:storypad/objectbox.g.dart';
+import 'package:anzio/core/databases/adapters/objectbox/base_box.dart';
+import 'package:anzio/core/databases/adapters/objectbox/entities.dart';
+import 'package:anzio/core/databases/models/preference_db_model.dart';
+import 'package:anzio/core/services/backups/backup_service_type.dart';
+import 'package:anzio/objectbox.g.dart';
 
 part './helpers/defined_preference.dart';
 

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/mixins/dispose_aware_mixin.dart';
-import 'package:storypad/core/storages/previously_visited_template_tab.dart';
-import 'package:storypad/providers/in_app_purchase_provider.dart';
+import 'package:anzio/core/mixins/dispose_aware_mixin.dart';
+import 'package:anzio/core/storages/previously_visited_template_tab.dart';
+import 'package:anzio/providers/in_app_purchase_provider.dart';
 import 'templates_view.dart';
 
 class TemplatesViewModel extends ChangeNotifier with DisposeAwareMixin {

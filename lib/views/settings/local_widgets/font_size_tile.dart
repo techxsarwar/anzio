@@ -1,11 +1,11 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/types/font_size_option.dart';
-import 'package:storypad/providers/device_preferences_provider.dart';
-import 'package:storypad/widgets/bottom_sheets/sp_font_size_sheet.dart';
-import 'package:storypad/widgets/sp_icons.dart';
-import 'package:storypad/widgets/sp_setting_icon_badge.dart';
+import 'package:anzio/core/types/font_size_option.dart';
+import 'package:anzio/providers/device_preferences_provider.dart';
+import 'package:anzio/widgets/bottom_sheets/sp_font_size_sheet.dart';
+import 'package:anzio/widgets/sp_icons.dart';
+import 'package:anzio/widgets/sp_setting_icon_badge.dart';
 
 class FontSizeTile extends StatelessWidget {
   const FontSizeTile({

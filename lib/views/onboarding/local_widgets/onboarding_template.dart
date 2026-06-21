@@ -2,10 +2,10 @@ import 'dart:math';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:storypad/core/services/remote_config/remote_config_service.dart';
-import 'package:storypad/core/services/url_opener_service.dart';
-import 'package:storypad/widgets/sp_fade_in.dart';
-import 'package:storypad/widgets/sp_tap_effect.dart';
+import 'package:anzio/core/services/remote_config/remote_config_service.dart';
+import 'package:anzio/core/services/url_opener_service.dart';
+import 'package:anzio/widgets/sp_fade_in.dart';
+import 'package:anzio/widgets/sp_tap_effect.dart';
 
 part 'privacy_policy_text.dart';
 

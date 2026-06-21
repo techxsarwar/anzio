@@ -1,10 +1,10 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
-import 'package:storypad/providers/device_preferences_provider.dart';
-import 'package:storypad/widgets/bottom_sheets/base_bottom_sheet.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
+import 'package:anzio/providers/device_preferences_provider.dart';
+import 'package:anzio/widgets/bottom_sheets/base_bottom_sheet.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 class SpStoryInfoSheet extends BaseBottomSheet {
   final StoryDbModel story;

@@ -2,16 +2,16 @@ import 'package:adaptive_dialog/adaptive_dialog.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
-import 'package:storypad/core/types/path_type.dart';
-import 'package:storypad/providers/tags_provider.dart';
-import 'package:storypad/views/home/home_view.dart';
-import 'package:storypad/views/stories/edit/edit_story_view.dart';
-import 'package:storypad/widgets/story_list/sp_story_list_multi_edit_wrapper.dart';
-import 'package:storypad/core/mixins/dispose_aware_mixin.dart';
-import 'package:storypad/core/databases/models/tag_db_model.dart';
-import 'package:storypad/core/objects/search_filter_object.dart';
-import 'package:storypad/views/search/search_view.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
+import 'package:anzio/core/types/path_type.dart';
+import 'package:anzio/providers/tags_provider.dart';
+import 'package:anzio/views/home/home_view.dart';
+import 'package:anzio/views/stories/edit/edit_story_view.dart';
+import 'package:anzio/widgets/story_list/sp_story_list_multi_edit_wrapper.dart';
+import 'package:anzio/core/mixins/dispose_aware_mixin.dart';
+import 'package:anzio/core/databases/models/tag_db_model.dart';
+import 'package:anzio/core/objects/search_filter_object.dart';
+import 'package:anzio/views/search/search_view.dart';
 import 'show_tag_view.dart';
 
 class ShowTagViewModel extends ChangeNotifier with DisposeAwareMixin {

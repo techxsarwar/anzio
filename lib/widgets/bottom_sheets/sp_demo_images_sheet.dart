@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/core/services/cloud_storage/cloud_storage_service.dart';
-import 'package:storypad/widgets/bottom_sheets/base_bottom_sheet.dart';
-import 'package:storypad/widgets/sp_demo_images.dart';
+import 'package:anzio/core/services/cloud_storage/cloud_storage_service.dart';
+import 'package:anzio/widgets/bottom_sheets/base_bottom_sheet.dart';
+import 'package:anzio/widgets/sp_demo_images.dart';
 
 class SpDemoImagesSheet extends BaseBottomSheet {
   const SpDemoImagesSheet({

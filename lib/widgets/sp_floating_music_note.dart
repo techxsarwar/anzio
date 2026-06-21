@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/providers/relax_sounds_provider.dart';
+import 'package:anzio/providers/relax_sounds_provider.dart';
 
 class SpFloatingMusicNote extends StatefulWidget {
   const SpFloatingMusicNote._({

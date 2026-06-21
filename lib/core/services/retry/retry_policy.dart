@@ -1,5 +1,5 @@
 import 'dart:math';
-import 'package:storypad/core/objects/backup_exceptions/backup_exception.dart' as exp;
+import 'package:anzio/core/objects/backup_exceptions/backup_exception.dart' as exp;
 
 /// Configuration for retry behavior
 class RetryPolicy {

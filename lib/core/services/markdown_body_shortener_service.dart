@@ -1,5 +1,5 @@
 import 'dart:math';
-import 'package:storypad/core/extensions/string_extension.dart';
+import 'package:anzio/core/extensions/string_extension.dart';
 
 class MarkdownBodyShortenerService {
   static String call(String markdown, {int maxCharacterCount = 200}) {

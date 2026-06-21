@@ -1,8 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 class SpConnectGoogleDriveButton extends StatelessWidget {
   const SpConnectGoogleDriveButton({

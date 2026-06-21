@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/objects/backup_exceptions/backup_exception.dart';
-import 'package:storypad/core/services/retry/retry_policy.dart';
+import 'package:anzio/core/objects/backup_exceptions/backup_exception.dart';
+import 'package:anzio/core/services/retry/retry_policy.dart';
 
 void main() {
   group('RetryPolicy', () {

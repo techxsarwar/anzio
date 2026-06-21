@@ -2,8 +2,8 @@
 
 import 'package:copy_with_extension/copy_with_extension.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:storypad/core/objects/cloud_service_user.dart';
-import 'package:storypad/core/services/backups/backup_service_type.dart';
+import 'package:anzio/core/objects/cloud_service_user.dart';
+import 'package:anzio/core/services/backups/backup_service_type.dart';
 
 part 'google_user_object.g.dart';
 

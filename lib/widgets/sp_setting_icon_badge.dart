@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/core/services/color_from_day_service.dart';
+import 'package:anzio/core/services/color_from_day_service.dart';
 
 class SpSettingIconBadge extends StatelessWidget {
   const SpSettingIconBadge({

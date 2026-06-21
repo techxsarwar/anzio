@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/core/mixins/debounched_callback.dart';
-import 'package:storypad/core/mixins/dispose_aware_mixin.dart';
-import 'package:storypad/core/services/analytics/analytics_service.dart';
-import 'package:storypad/views/home/home_view.dart';
-import 'package:storypad/views/root/local_widgets/root_view_side_bar_info.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/services/app_quick_actions_service.dart';
-import 'package:storypad/widgets/base_view/base_route.dart';
+import 'package:anzio/core/mixins/debounched_callback.dart';
+import 'package:anzio/core/mixins/dispose_aware_mixin.dart';
+import 'package:anzio/core/services/analytics/analytics_service.dart';
+import 'package:anzio/views/home/home_view.dart';
+import 'package:anzio/views/root/local_widgets/root_view_side_bar_info.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/services/app_quick_actions_service.dart';
+import 'package:anzio/widgets/base_view/base_route.dart';
 
 class RootProvider extends ChangeNotifier with DisposeAwareMixin, DebounchedCallback {
   final String initialRoute = const HomeRoute().routeName;

@@ -1,10 +1,10 @@
 import 'dart:convert';
 import 'package:flutter/foundation.dart';
-import 'package:storypad/core/databases/adapters/objectbox/base_box.dart';
-import 'package:storypad/core/databases/adapters/objectbox/entities.dart';
-import 'package:storypad/core/databases/models/relax_sound_model.dart';
-import 'package:storypad/core/databases/models/relex_sound_mix_model.dart';
-import 'package:storypad/objectbox.g.dart';
+import 'package:anzio/core/databases/adapters/objectbox/base_box.dart';
+import 'package:anzio/core/databases/adapters/objectbox/entities.dart';
+import 'package:anzio/core/databases/models/relax_sound_model.dart';
+import 'package:anzio/core/databases/models/relex_sound_mix_model.dart';
+import 'package:anzio/objectbox.g.dart';
 
 part 'helpers/relax_sound_mixes_box_transformer.dart';
 

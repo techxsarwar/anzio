@@ -162,7 +162,7 @@ StoryObjectBox_.latitude.between(bounds.south, bounds.north)
 
 ## Import / Export
 
-### StoryPad backup JSON
+### Anzio backup JSON
 
 ```json
 {

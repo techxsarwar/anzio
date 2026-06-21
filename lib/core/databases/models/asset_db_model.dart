@@ -1,12 +1,12 @@
 import 'dart:io';
 import 'package:json_annotation/json_annotation.dart';
 import 'package:copy_with_extension/copy_with_extension.dart';
-import 'package:storypad/core/services/backups/backup_service_type.dart';
-import 'package:storypad/core/types/asset_type.dart';
-import 'package:storypad/core/databases/adapters/objectbox/assets_box.dart';
-import 'package:storypad/core/databases/models/base_db_model.dart';
-import 'package:storypad/core/helpers/path_helper.dart';
-import 'package:storypad/core/objects/cloud_file_object.dart';
+import 'package:anzio/core/services/backups/backup_service_type.dart';
+import 'package:anzio/core/types/asset_type.dart';
+import 'package:anzio/core/databases/adapters/objectbox/assets_box.dart';
+import 'package:anzio/core/databases/models/base_db_model.dart';
+import 'package:anzio/core/helpers/path_helper.dart';
+import 'package:anzio/core/objects/cloud_file_object.dart';
 
 part 'asset_db_model.g.dart';
 
@@ -43,7 +43,7 @@ class AssetDbModel extends BaseDbModel {
   //     }
   //   },
   //   "web_dav": {
-  //     "storypad": {
+  //     "anzio": {
   //       "file_id": "ghi789",
   //       "file_name": "1762500783746.jpg"
   //     }

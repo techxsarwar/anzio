@@ -1,7 +1,7 @@
 // ignore_for_file: constant_identifier_names
 
 import 'package:flutter/material.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 enum BackupServiceType {
   google_drive(id: 'google_drive', displayName: 'Google Drive', hasGlobalUserId: true);

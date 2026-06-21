@@ -3,15 +3,15 @@ import 'package:fuzzy/data/result.dart';
 import 'package:fuzzy/fuzzy.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:easy_localization/easy_localization.dart';
-import 'package:storypad/app_theme.dart';
-import 'package:storypad/core/services/url_opener_service.dart';
+import 'package:anzio/app_theme.dart';
+import 'package:anzio/core/services/url_opener_service.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/widgets/base_view/base_route.dart';
-import 'package:storypad/widgets/sp_fade_in.dart';
-import 'package:storypad/widgets/sp_icons.dart';
-import 'package:storypad/widgets/sp_pop_up_menu_button.dart';
-import 'package:storypad/widgets/packages/sticky_header/sticky_header.dart';
+import 'package:anzio/widgets/base_view/base_route.dart';
+import 'package:anzio/widgets/sp_fade_in.dart';
+import 'package:anzio/widgets/sp_icons.dart';
+import 'package:anzio/widgets/sp_pop_up_menu_button.dart';
+import 'package:anzio/widgets/packages/sticky_header/sticky_header.dart';
 
 import 'fonts_view_model.dart';
 

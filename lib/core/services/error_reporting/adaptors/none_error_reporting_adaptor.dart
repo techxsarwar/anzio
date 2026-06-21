@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:storypad/core/services/error_reporting/adaptors/base_error_reporting_adaptor.dart';
+import 'package:anzio/core/services/error_reporting/adaptors/base_error_reporting_adaptor.dart';
 
 class NoneErrorReportingAdaptor extends BaseErrorReportingAdaptor {
   @override

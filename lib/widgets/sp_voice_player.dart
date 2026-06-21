@@ -3,14 +3,14 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/extensions/color_scheme_extension.dart';
-import 'package:storypad/core/services/duration_format_service.dart';
-import 'package:storypad/core/services/logger/app_logger.dart';
-import 'package:storypad/providers/device_preferences_provider.dart';
-import 'package:storypad/widgets/sp_animated_icon.dart';
-import 'package:storypad/widgets/sp_fade_in.dart';
-import 'package:storypad/widgets/sp_icons.dart';
-import 'package:storypad/widgets/sp_tap_effect.dart';
+import 'package:anzio/core/extensions/color_scheme_extension.dart';
+import 'package:anzio/core/services/duration_format_service.dart';
+import 'package:anzio/core/services/logger/app_logger.dart';
+import 'package:anzio/providers/device_preferences_provider.dart';
+import 'package:anzio/widgets/sp_animated_icon.dart';
+import 'package:anzio/widgets/sp_fade_in.dart';
+import 'package:anzio/widgets/sp_icons.dart';
+import 'package:anzio/widgets/sp_tap_effect.dart';
 
 /// A reusable audio player widget with a clean, minimal design inspired by Telegram's audio player UX.
 ///

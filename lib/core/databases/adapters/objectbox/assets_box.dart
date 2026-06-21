@@ -1,10 +1,10 @@
 import 'dart:convert';
-import 'package:storypad/core/databases/adapters/objectbox/preferences_box.dart';
-import 'package:storypad/core/types/asset_type.dart';
-import 'package:storypad/core/databases/adapters/objectbox/base_box.dart';
-import 'package:storypad/core/databases/adapters/objectbox/entities.dart';
-import 'package:storypad/core/databases/models/asset_db_model.dart';
-import 'package:storypad/objectbox.g.dart';
+import 'package:anzio/core/databases/adapters/objectbox/preferences_box.dart';
+import 'package:anzio/core/types/asset_type.dart';
+import 'package:anzio/core/databases/adapters/objectbox/base_box.dart';
+import 'package:anzio/core/databases/adapters/objectbox/entities.dart';
+import 'package:anzio/core/databases/models/asset_db_model.dart';
+import 'package:anzio/objectbox.g.dart';
 
 class AssetsBox extends BaseBox<AssetObjectBox, AssetDbModel> {
   @override

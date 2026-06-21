@@ -1,4 +1,4 @@
-import 'package:storypad/core/types/asset_type.dart';
+import 'package:anzio/core/types/asset_type.dart';
 
 /// Converts Quill Delta JSON format to plain text or markdown.
 ///

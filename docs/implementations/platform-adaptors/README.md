@@ -248,7 +248,7 @@ abstract class BaseCloudStorageAdaptor {
 
 ```dart
 class CdnCloudStorageAdaptor extends BaseCloudStorageAdaptor {
-  final String baseUrl; // e.g. 'https://cdn.storypad.me'
+  final String baseUrl; // e.g. 'https://cdn.anzio.me'
 
   @override
   Future<Uint8List?> downloadBytes(String hashPath) async {
@@ -263,7 +263,7 @@ class CdnCloudStorageAdaptor extends BaseCloudStorageAdaptor {
 }
 ```
 
-The CDN base URL can be hardcoded or loaded from a dart define (`--dart-define=CDN_BASE_URL=https://cdn.storypad.me`).
+The CDN base URL can be hardcoded or loaded from a dart define (`--dart-define=CDN_BASE_URL=https://cdn.anzio.me`).
 
 ### Migration Steps
 

@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/services/markdown_body_shortener_service.dart';
+import 'package:anzio/core/services/markdown_body_shortener_service.dart';
 
 void main() {
   group("MarkdownBodyShortenerService.call", () {
@@ -59,25 +59,25 @@ void main() {
     group('when markdown ends inside a link', () {
       test('complete plain link before adding ...', () {
         String markdown =
-            "Read this link for more details https://storypad.app/releases/2026/05/01/link-preview-updates before continuing";
+            "Read this link for more details https://anzio.app/releases/2026/05/01/link-preview-updates before continuing";
 
         String result = MarkdownBodyShortenerService.call(markdown, maxCharacterCount: 60);
 
         expect(
           result,
-          "Read this link for more details https://storypad.app/releases/2026/05/01/link-preview-updates...",
+          "Read this link for more details https://anzio.app/releases/2026/05/01/link-preview-updates...",
         );
       });
 
       test('complete markdown link before adding ...', () {
         String markdown =
-            "Read this release note [StoryPad link preview updates](https://storypad.app/releases/2026/05/01/link-preview-updates) before continuing";
+            "Read this release note [Anzio link preview updates](https://anzio.app/releases/2026/05/01/link-preview-updates) before continuing";
 
         String result = MarkdownBodyShortenerService.call(markdown, maxCharacterCount: 80);
 
         expect(
           result,
-          "Read this release note [StoryPad link preview updates](https://storypad.app/releases/2026/05/01/link-preview-updates)...",
+          "Read this release note [Anzio link preview updates](https://anzio.app/releases/2026/05/01/link-preview-updates)...",
         );
       });
     });

@@ -59,7 +59,7 @@ android {
         versionName = flutter.versionName
 
         // --dart-define-from-file=configs/example.json
-        resValue("string", "app_name", dartDefines["APP_NAME"] ?: "StoryPad C.")
+        resValue("string", "app_name", dartDefines["APP_NAME"] ?: "Anzio C.")
         resValue("string", "google_map_api_key", dartDefines["GOOGLE_MAPS_ANDROID_API_KEY"] ?: "")
     }
 
@@ -97,22 +97,22 @@ android {
     productFlavors {
         create("spooky") {
             dimension = "app"
-            applicationId = "com.juniorise.spooky"
-            namespace = "com.juniorise.spooky"
+            applicationId = "com.parallelogram.anzio"
+            namespace = "com.parallelogram.anzio"
             manifestPlaceholders["appLogo"] = "ic_launcher"
         }
 
-        create("storypad") {
+        create("anzio") {
             dimension = "app"
-            applicationId = "com.tc.writestory"
-            namespace = "com.tc.writestory"
-            manifestPlaceholders["appLogo"] = "storypad_logo_1_0"
+            applicationId = "com.parallelogram.anzio"
+            namespace = "com.parallelogram.anzio"
+            manifestPlaceholders["appLogo"] = "anzio_logo_1_0"
         }
 
         create("community") {
             dimension = "app"
-            applicationId = "com.juniorise.spooky.community"
-            namespace = "com.juniorise.spooky.community"
+            applicationId = "com.parallelogram.anzio.community"
+            namespace = "com.parallelogram.anzio.community"
             manifestPlaceholders["appLogo"] = "ic_launcher"
         }
     }

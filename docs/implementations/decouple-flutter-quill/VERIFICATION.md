@@ -156,7 +156,7 @@ No issues found! (ran in 1.8s)
 
 **Verified Against Local Clone:**
 
-- Location: `/Users/theachoem/Projects/Apps/storypad/packages/flutter-quill/`
+- Location: `/Users/theachoem/Projects/Apps/anzio/packages/flutter-quill/`
 - Files Checked:
   - `lib/src/controller/quill_controller.dart`
   - `lib/src/document/document.dart`

@@ -1,9 +1,9 @@
 import 'dart:io' show File;
 import 'dart:typed_data';
 import 'package:image_picker/image_picker.dart';
-import 'package:storypad/core/types/asset_type.dart';
-import 'package:storypad/core/databases/models/asset_db_model.dart';
-import 'package:storypad/core/helpers/path_helper.dart' as path show extension;
+import 'package:anzio/core/types/asset_type.dart';
+import 'package:anzio/core/databases/models/asset_db_model.dart';
+import 'package:anzio/core/helpers/path_helper.dart' as path show extension;
 
 class InsertFileToDbService {
   /// Generic method for inserting any asset type

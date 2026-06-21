@@ -1,8 +1,8 @@
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/widgets/base_view/base_route.dart';
-import 'package:storypad/widgets/story_list/sp_story_list.dart';
-import 'package:storypad/widgets/story_list/sp_story_list_multi_edit_wrapper.dart';
+import 'package:anzio/widgets/base_view/base_route.dart';
+import 'package:anzio/widgets/story_list/sp_story_list.dart';
+import 'package:anzio/widgets/story_list/sp_story_list_multi_edit_wrapper.dart';
 
 import 'recently_deleted_records_view_model.dart';
 

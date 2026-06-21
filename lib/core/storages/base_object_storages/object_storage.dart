@@ -1,4 +1,4 @@
-import 'package:storypad/core/storages/base_object_storages/map_storage.dart';
+import 'package:anzio/core/storages/base_object_storages/map_storage.dart';
 
 abstract class ObjectStorage<T> extends MapStorage {
   Map<String, dynamic> encode(T object);

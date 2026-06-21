@@ -1,7 +1,7 @@
 import 'dart:io';
-import 'package:storypad/core/databases/models/story_content_db_model.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
-import 'package:storypad/core/services/quill/quill_delta_to_plain_text_service.dart';
+import 'package:anzio/core/databases/models/story_content_db_model.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
+import 'package:anzio/core/services/quill/quill_delta_to_plain_text_service.dart';
 
 /// Service to export stories to a single plain text file.
 /// Stories are concatenated with simple dividers.
@@ -10,7 +10,7 @@ class ExportStoriesToTextService {
   ///
   /// The file structure:
   /// ```
-  /// StoryPad ID: 1735537709471
+  /// Anzio ID: 1735537709471
   /// Title: Story Title 1
   /// Date: 2024-12-20 14:30:45
   /// Tags: tag1, tag2
@@ -20,7 +20,7 @@ class ExportStoriesToTextService {
   ///
   /// ###
   ///
-  /// StoryPad ID: 1715024221522
+  /// Anzio ID: 1715024221522
   /// Title: Story Title 2
   /// Date: 2024-12-25 09:15:30
   ///
@@ -76,8 +76,8 @@ class ExportStoriesToTextService {
     StoryContentDbModel content, {
     Future<String?> Function(int tagId)? tagNameGetter,
   }) async {
-    // StoryPad ID (for reimport)
-    buffer.writeln('StoryPad ID: ${story.id}');
+    // Anzio ID (for reimport)
+    buffer.writeln('Anzio ID: ${story.id}');
 
     // Title (only if not empty)
     if (content.title?.trim().isNotEmpty == true) {

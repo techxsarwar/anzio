@@ -1,7 +1,7 @@
 import 'dart:io';
-import 'package:storypad/core/databases/models/asset_db_model.dart';
-import 'package:storypad/core/helpers/path_helper.dart';
-import 'package:storypad/core/services/logger/app_logger.dart';
+import 'package:anzio/core/databases/models/asset_db_model.dart';
+import 'package:anzio/core/helpers/path_helper.dart';
+import 'package:anzio/core/services/logger/app_logger.dart';
 
 /// Service for matching orphaned assets with their temporary files.
 ///

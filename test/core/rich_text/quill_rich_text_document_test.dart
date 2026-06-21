@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/rich_text/flutter_quill/quill_adapter.dart';
-import 'package:storypad/core/rich_text/rich_text_adapter.dart';
-import 'package:storypad/core/rich_text/rich_text_document.dart';
+import 'package:anzio/core/rich_text/flutter_quill/quill_adapter.dart';
+import 'package:anzio/core/rich_text/rich_text_adapter.dart';
+import 'package:anzio/core/rich_text/rich_text_document.dart';
 
 void main() {
   group('QuillRichTextDocument', () {

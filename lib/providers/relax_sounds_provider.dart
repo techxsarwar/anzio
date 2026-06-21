@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/databases/models/relex_sound_mix_model.dart';
-import 'package:storypad/core/mixins/debounched_callback.dart';
-import 'package:storypad/core/objects/relax_sound_object.dart';
-import 'package:storypad/core/services/multi_audio_notification_service.dart';
-import 'package:storypad/core/services/multi_audio_player_service.dart';
-import 'package:storypad/core/services/relax_sound_timer_service.dart';
-import 'package:storypad/providers/in_app_purchase_provider.dart';
-import 'package:storypad/views/paywall/paywall_view.dart';
+import 'package:anzio/core/databases/models/relex_sound_mix_model.dart';
+import 'package:anzio/core/mixins/debounched_callback.dart';
+import 'package:anzio/core/objects/relax_sound_object.dart';
+import 'package:anzio/core/services/multi_audio_notification_service.dart';
+import 'package:anzio/core/services/multi_audio_player_service.dart';
+import 'package:anzio/core/services/relax_sound_timer_service.dart';
+import 'package:anzio/providers/in_app_purchase_provider.dart';
+import 'package:anzio/views/paywall/paywall_view.dart';
 
 class RelaxSoundsProvider extends ChangeNotifier with DebounchedCallback {
   Map<String, RelaxSoundObject> get relaxSounds => RelaxSoundObject.defaultSoundsList();

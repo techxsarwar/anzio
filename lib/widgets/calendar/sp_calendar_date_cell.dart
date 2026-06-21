@@ -1,9 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/helpers/date_format_helper.dart';
-import 'package:storypad/widgets/sp_fade_in.dart';
-import 'package:storypad/widgets/sp_icons.dart';
-import 'package:storypad/widgets/sp_tap_effect.dart';
+import 'package:anzio/core/helpers/date_format_helper.dart';
+import 'package:anzio/widgets/sp_fade_in.dart';
+import 'package:anzio/widgets/sp_icons.dart';
+import 'package:anzio/widgets/sp_tap_effect.dart';
 
 /// A single date cell in the calendar.
 ///

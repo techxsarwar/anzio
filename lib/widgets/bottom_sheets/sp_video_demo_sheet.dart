@@ -1,10 +1,10 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:storypad/core/extensions/color_scheme_extension.dart';
-import 'package:storypad/core/services/cloud_storage/cloud_storage_service.dart';
-import 'package:storypad/core/services/messenger_service.dart';
-import 'package:storypad/widgets/bottom_sheets/base_bottom_sheet.dart';
+import 'package:anzio/core/extensions/color_scheme_extension.dart';
+import 'package:anzio/core/services/cloud_storage/cloud_storage_service.dart';
+import 'package:anzio/core/services/messenger_service.dart';
+import 'package:anzio/widgets/bottom_sheets/base_bottom_sheet.dart';
 import 'package:video_player/video_player.dart';
 
 class SpVideoDemoSheet extends BaseBottomSheet {

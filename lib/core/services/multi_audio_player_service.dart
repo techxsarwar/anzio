@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
-import 'package:storypad/core/services/audio_player_service.dart';
+import 'package:anzio/core/services/audio_player_service.dart';
 
 class MultiAudioPlayersService {
   final void Function(bool? playing) onStateChanged;

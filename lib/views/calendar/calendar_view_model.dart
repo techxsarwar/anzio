@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/mixins/dispose_aware_mixin.dart';
-import 'package:storypad/core/objects/calendar_segment_id.dart';
-import 'package:storypad/providers/device_preferences_provider.dart';
+import 'package:anzio/core/mixins/dispose_aware_mixin.dart';
+import 'package:anzio/core/objects/calendar_segment_id.dart';
+import 'package:anzio/providers/device_preferences_provider.dart';
 import 'calendar_view.dart';
 
 class CalendarViewModel extends ChangeNotifier with DisposeAwareMixin {

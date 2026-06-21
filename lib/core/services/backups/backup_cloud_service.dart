@@ -1,8 +1,8 @@
 import 'dart:io' as io;
-import 'package:storypad/core/objects/cloud_file_object.dart';
-import 'package:storypad/core/objects/cloud_service_user.dart';
-import 'package:storypad/core/objects/cloud_storage_quota_object.dart';
-import 'package:storypad/core/services/backups/backup_service_type.dart';
+import 'package:anzio/core/objects/cloud_file_object.dart';
+import 'package:anzio/core/objects/cloud_service_user.dart';
+import 'package:anzio/core/objects/cloud_storage_quota_object.dart';
+import 'package:anzio/core/services/backups/backup_service_type.dart';
 
 /// Abstract base class for cloud backup services
 /// Implementations: GoogleDriveClient, OneDriveClient, etc.

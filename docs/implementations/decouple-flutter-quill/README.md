@@ -1,6 +1,6 @@
 # Rich Text Abstraction Layer
 
-This directory contains the abstraction layer that decouples StoryPad from flutter_quill.
+This directory contains the abstraction layer that decouples Anzio from flutter_quill.
 
 ## Purpose
 
@@ -25,7 +25,7 @@ Enable swapping rich text editor implementations without rewriting the entire ap
 
 ```dart
 // Import abstractions (no flutter_quill dependency)
-import 'package:storypad/core/rich_text/rich_text.dart';
+import 'package:anzio/core/rich_text/rich_text.dart';
 
 // Use abstraction
 RichTextController controller = QuillRichTextController.fromJson(...);

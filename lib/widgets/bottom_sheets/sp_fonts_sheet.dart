@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/core/constants/app_constants.dart' show kIsCupertino;
-import 'package:storypad/views/fonts/fonts_view.dart';
-import 'package:storypad/widgets/bottom_sheets/base_bottom_sheet.dart';
+import 'package:anzio/core/constants/app_constants.dart' show kIsCupertino;
+import 'package:anzio/views/fonts/fonts_view.dart';
+import 'package:anzio/widgets/bottom_sheets/base_bottom_sheet.dart';
 
 class SpFontsSheet extends BaseBottomSheet {
   final String currentFontFamily;

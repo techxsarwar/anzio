@@ -1,21 +1,21 @@
 import 'package:adaptive_dialog/adaptive_dialog.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/databases/models/story_content_db_model.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
-import 'package:storypad/core/databases/models/template_db_model.dart';
-import 'package:storypad/core/mixins/debounched_callback.dart';
-import 'package:storypad/core/mixins/dispose_aware_mixin.dart';
-import 'package:storypad/core/objects/story_page_objects_map.dart';
-import 'package:storypad/core/services/analytics/analytics_service.dart';
-import 'package:storypad/core/services/messenger_service.dart';
-import 'package:storypad/core/services/gallery_template_usage_service.dart';
-import 'package:storypad/views/home/home_view.dart';
-import 'package:storypad/views/stories/edit/edit_story_view.dart';
-import 'package:storypad/views/stories/local_widgets/base_story_view_model.dart';
-import 'package:storypad/views/templates/edit/edit_template_view.dart';
-import 'package:storypad/views/templates/stories/template_stories_view.dart';
-import 'package:storypad/widgets/bottom_sheets/sp_template_info_sheet.dart';
+import 'package:anzio/core/databases/models/story_content_db_model.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
+import 'package:anzio/core/databases/models/template_db_model.dart';
+import 'package:anzio/core/mixins/debounched_callback.dart';
+import 'package:anzio/core/mixins/dispose_aware_mixin.dart';
+import 'package:anzio/core/objects/story_page_objects_map.dart';
+import 'package:anzio/core/services/analytics/analytics_service.dart';
+import 'package:anzio/core/services/messenger_service.dart';
+import 'package:anzio/core/services/gallery_template_usage_service.dart';
+import 'package:anzio/views/home/home_view.dart';
+import 'package:anzio/views/stories/edit/edit_story_view.dart';
+import 'package:anzio/views/stories/local_widgets/base_story_view_model.dart';
+import 'package:anzio/views/templates/edit/edit_template_view.dart';
+import 'package:anzio/views/templates/stories/template_stories_view.dart';
+import 'package:anzio/widgets/bottom_sheets/sp_template_info_sheet.dart';
 
 import 'show_template_view.dart';
 

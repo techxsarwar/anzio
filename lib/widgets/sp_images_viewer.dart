@@ -7,12 +7,12 @@ import 'package:photo_view/photo_view.dart';
 import 'package:photo_view/photo_view_gallery.dart';
 import 'package:provider/provider.dart';
 import 'package:share_plus/share_plus.dart';
-import 'package:storypad/core/helpers/path_helper.dart';
-import 'package:storypad/core/services/analytics/analytics_service.dart';
-import 'package:storypad/core/types/asset_type.dart';
-import 'package:storypad/providers/backup_provider.dart';
-import 'package:storypad/widgets/asset_db/sp_db_image_provider.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/core/helpers/path_helper.dart';
+import 'package:anzio/core/services/analytics/analytics_service.dart';
+import 'package:anzio/core/types/asset_type.dart';
+import 'package:anzio/providers/backup_provider.dart';
+import 'package:anzio/widgets/asset_db/sp_db_image_provider.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 Color _foregroundColor = Colors.grey[400]!;
 

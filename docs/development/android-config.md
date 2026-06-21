@@ -13,11 +13,11 @@ flavorDimensions "default"
 productFlavors {
     community {
         dimension "default"
-        applicationId "com.tc.writestory.community"
+        applicationId "com.parallelogram.anzio.community"
     }
-    storypad {
+    anzio {
         dimension "default"
-        applicationId "com.tc.writestory"
+        applicationId "com.parallelogram.anzio"
     }
     spooky {
         dimension "default"
@@ -34,7 +34,7 @@ Flavors:
 
 - `community/` → Community version
 - `spooky/` → Spooky version
-- `storypad/` → StoryPad version
+- `anzio/` → Anzio version
 
 **Setup**: Download from Firebase Console for each flavor.
 
@@ -86,7 +86,7 @@ Location: `android/keys/[flavor]/`
 flutter run --flavor community --dart-define-from-file=configs/community.json --target=lib/main_community.dart
 
 # Release
-flutter build appbundle --flavor storypad --dart-define-from-file=configs/storypad.json --target=lib/main_storypad.dart
+flutter build appbundle --flavor anzio --dart-define-from-file=configs/anzio.json --target=lib/main_anzio.dart
 ```
 
 ## Common Issues

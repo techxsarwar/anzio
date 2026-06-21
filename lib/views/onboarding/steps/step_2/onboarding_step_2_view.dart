@@ -1,16 +1,16 @@
 import 'dart:ui';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:storypad/core/constants/app_constants.dart' show kIsCupertino;
-import 'package:storypad/core/extensions/matrix_4_extension.dart';
-import 'package:storypad/gen/assets.gen.dart';
-import 'package:storypad/views/onboarding/local_widgets/fade_in_builder.dart';
-import 'package:storypad/views/onboarding/local_widgets/onboarding_template.dart';
-import 'package:storypad/views/onboarding/local_widgets/story_details_screenshot.dart';
-import 'package:storypad/views/onboarding/local_widgets/visible_when_notified.dart';
+import 'package:anzio/core/constants/app_constants.dart' show kIsCupertino;
+import 'package:anzio/core/extensions/matrix_4_extension.dart';
+import 'package:anzio/gen/assets.gen.dart';
+import 'package:anzio/views/onboarding/local_widgets/fade_in_builder.dart';
+import 'package:anzio/views/onboarding/local_widgets/onboarding_template.dart';
+import 'package:anzio/views/onboarding/local_widgets/story_details_screenshot.dart';
+import 'package:anzio/views/onboarding/local_widgets/visible_when_notified.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/widgets/base_view/base_route.dart';
+import 'package:anzio/widgets/base_view/base_route.dart';
 
 import 'onboarding_step_2_view_model.dart';
 

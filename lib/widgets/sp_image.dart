@@ -2,10 +2,10 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/extensions/color_scheme_extension.dart';
-import 'package:storypad/core/types/asset_type.dart';
-import 'package:storypad/widgets/asset_db/sp_db_asset_loader.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/core/extensions/color_scheme_extension.dart';
+import 'package:anzio/core/types/asset_type.dart';
+import 'package:anzio/widgets/asset_db/sp_db_asset_loader.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 class SpImage extends StatelessWidget {
   const SpImage({

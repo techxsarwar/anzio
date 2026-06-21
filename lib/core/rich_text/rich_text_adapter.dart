@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/core/databases/models/story_content_db_model.dart';
-import 'package:storypad/core/rich_text/flutter_quill/quill_adapter.dart';
-import 'package:storypad/core/rich_text/rich_text_controller.dart';
-import 'package:storypad/core/rich_text/rich_text_document.dart';
-import 'package:storypad/core/types/page_layout_type.dart';
+import 'package:anzio/core/databases/models/story_content_db_model.dart';
+import 'package:anzio/core/rich_text/flutter_quill/quill_adapter.dart';
+import 'package:anzio/core/rich_text/rich_text_controller.dart';
+import 'package:anzio/core/rich_text/rich_text_document.dart';
+import 'package:anzio/core/types/page_layout_type.dart';
 
 /// Abstract interface for rich text editor adapter.
 ///

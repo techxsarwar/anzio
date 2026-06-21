@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/types/app_lock_question.dart' show AppLockQuestion;
-import 'package:storypad/providers/app_lock_provider.dart';
-import 'package:storypad/views/app_locks/security_questions/enter/enter_security_question_view.dart';
-import 'package:storypad/core/mixins/dispose_aware_mixin.dart';
+import 'package:anzio/core/types/app_lock_question.dart' show AppLockQuestion;
+import 'package:anzio/providers/app_lock_provider.dart';
+import 'package:anzio/views/app_locks/security_questions/enter/enter_security_question_view.dart';
+import 'package:anzio/core/mixins/dispose_aware_mixin.dart';
 import 'security_questions_view.dart';
 
 class SecurityQuestionsViewModel extends ChangeNotifier with DisposeAwareMixin {

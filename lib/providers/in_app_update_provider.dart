@@ -2,9 +2,9 @@ import 'dart:io' show Platform;
 import 'package:flutter/foundation.dart' show ChangeNotifier, debugPrint;
 import 'package:in_app_update/in_app_update.dart'
     show AppUpdateInfo, AppUpdateResult, InAppUpdate, InstallStatus, UpdateAvailability;
-import 'package:storypad/core/services/app_store_opener_service.dart' show AppStoreOpenerService;
-import 'package:storypad/core/types/in_app_update_status.dart' show InAppUpdateStatus;
-import 'package:storypad/widgets/packages/new_version_plus.dart' show NewVersionPlus, VersionStatus;
+import 'package:anzio/core/services/app_store_opener_service.dart' show AppStoreOpenerService;
+import 'package:anzio/core/types/in_app_update_status.dart' show InAppUpdateStatus;
+import 'package:anzio/widgets/packages/new_version_plus.dart' show NewVersionPlus, VersionStatus;
 
 class InAppUpdateProvider extends ChangeNotifier {
   InAppUpdateProvider() {

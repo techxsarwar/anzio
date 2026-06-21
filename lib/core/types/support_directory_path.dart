@@ -1,7 +1,7 @@
 // ignore_for_file: constant_identifier_names
 
 import 'dart:io';
-import 'package:storypad/core/constants/app_constants.dart';
+import 'package:anzio/core/constants/app_constants.dart';
 
 enum SupportDirectoryPath {
   tmp,

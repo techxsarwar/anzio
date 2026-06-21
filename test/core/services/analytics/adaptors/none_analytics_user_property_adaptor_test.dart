@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/services/analytics/adaptors/none_analytics_user_property_adaptor.dart';
+import 'package:anzio/core/services/analytics/adaptors/none_analytics_user_property_adaptor.dart';
 
 void main() {
   late NoneAnalyticsUserPropertyAdaptor adaptor;

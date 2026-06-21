@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/extensions/color_scheme_extension.dart';
-import 'package:storypad/core/services/windowed_detector_service.dart';
-import 'package:storypad/providers/device_preferences_provider.dart';
-import 'package:storypad/providers/root_provider.dart';
-import 'package:storypad/views/relax_sounds/relax_sounds_view.dart';
-import 'package:storypad/widgets/sp_floating_music_note.dart';
-import 'package:storypad/views/root/local_widgets/root_view_side_bar_info.dart';
-import 'package:storypad/widgets/side_items/side_items.dart';
-import 'package:storypad/widgets/sp_fade_in.dart';
+import 'package:anzio/core/extensions/color_scheme_extension.dart';
+import 'package:anzio/core/services/windowed_detector_service.dart';
+import 'package:anzio/providers/device_preferences_provider.dart';
+import 'package:anzio/providers/root_provider.dart';
+import 'package:anzio/views/relax_sounds/relax_sounds_view.dart';
+import 'package:anzio/widgets/sp_floating_music_note.dart';
+import 'package:anzio/views/root/local_widgets/root_view_side_bar_info.dart';
+import 'package:anzio/widgets/side_items/side_items.dart';
+import 'package:anzio/widgets/sp_fade_in.dart';
 
 class RootSideBar extends StatefulWidget {
   const RootSideBar({

@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_material_design_icons/flutter_material_design_icons.dart';
-import 'package:storypad/core/constants/app_constants.dart';
+import 'package:anzio/core/constants/app_constants.dart';
 
 class SpIcons {
   static const IconData alarm = kIsCupertino ? CupertinoIcons.alarm : Icons.alarm_outlined;

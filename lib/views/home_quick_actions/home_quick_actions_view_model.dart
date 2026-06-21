@@ -3,15 +3,15 @@ import 'dart:async';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/databases/models/tag_db_model.dart';
-import 'package:storypad/core/mixins/dispose_aware_mixin.dart';
-import 'package:storypad/core/objects/app_quick_action_object.dart';
-import 'package:storypad/core/services/analytics/analytics_service.dart';
-import 'package:storypad/core/services/app_quick_actions_service.dart';
-import 'package:storypad/providers/device_preferences_provider.dart';
-import 'package:storypad/views/home_quick_actions/home_quick_actions_view.dart';
-import 'package:storypad/views/templates/templates_view.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/core/databases/models/tag_db_model.dart';
+import 'package:anzio/core/mixins/dispose_aware_mixin.dart';
+import 'package:anzio/core/objects/app_quick_action_object.dart';
+import 'package:anzio/core/services/analytics/analytics_service.dart';
+import 'package:anzio/core/services/app_quick_actions_service.dart';
+import 'package:anzio/providers/device_preferences_provider.dart';
+import 'package:anzio/views/home_quick_actions/home_quick_actions_view.dart';
+import 'package:anzio/views/templates/templates_view.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 class HomeQuickActionItem {
   const HomeQuickActionItem({

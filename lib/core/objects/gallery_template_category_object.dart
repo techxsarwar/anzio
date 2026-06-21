@@ -1,6 +1,6 @@
 import 'package:copy_with_extension/copy_with_extension.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:storypad/core/objects/gallery_template_object.dart';
+import 'package:anzio/core/objects/gallery_template_object.dart';
 
 part 'gallery_template_category_object.g.dart';
 

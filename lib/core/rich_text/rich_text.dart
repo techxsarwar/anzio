@@ -1,4 +1,4 @@
-// Rich Text Abstraction Layer for StoryPad
+// Rich Text Abstraction Layer for Anzio
 //
 // This library provides a platform-agnostic abstraction over rich text editing,
 // allowing the application to work with different rich text editor implementations

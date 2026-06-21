@@ -1,16 +1,16 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/databases/models/collection_db_model.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
-import 'package:storypad/core/databases/models/template_db_model.dart';
-import 'package:storypad/core/extensions/color_scheme_extension.dart';
-import 'package:storypad/views/templates/edit/edit_template_view.dart';
-import 'package:storypad/views/templates/local_widgets/template_tag_labels.dart';
-import 'package:storypad/views/templates/show/show_template_view.dart';
-import 'package:storypad/views/templates/templates_view.dart';
-import 'package:storypad/widgets/sp_fab_location.dart';
-import 'package:storypad/widgets/sp_icons.dart';
-import 'package:storypad/widgets/sp_markdown_body.dart';
+import 'package:anzio/core/databases/models/collection_db_model.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
+import 'package:anzio/core/databases/models/template_db_model.dart';
+import 'package:anzio/core/extensions/color_scheme_extension.dart';
+import 'package:anzio/views/templates/edit/edit_template_view.dart';
+import 'package:anzio/views/templates/local_widgets/template_tag_labels.dart';
+import 'package:anzio/views/templates/show/show_template_view.dart';
+import 'package:anzio/views/templates/templates_view.dart';
+import 'package:anzio/widgets/sp_fab_location.dart';
+import 'package:anzio/widgets/sp_icons.dart';
+import 'package:anzio/widgets/sp_markdown_body.dart';
 
 part 'template_tile.dart';
 part 'empty_body.dart';

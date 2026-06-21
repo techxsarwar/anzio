@@ -1,8 +1,8 @@
 // ignore_for_file: library_private_types_in_public_api
 
-import 'package:storypad/core/objects/app_lock_object.dart';
-import 'package:storypad/core/services/local_auth_service.dart';
-import 'package:storypad/core/storages/app_lock_storage.dart';
+import 'package:anzio/core/objects/app_lock_object.dart';
+import 'package:anzio/core/services/local_auth_service.dart';
+import 'package:anzio/core/storages/app_lock_storage.dart';
 
 class _AppLockInitialData {
   final LocalAuthService localAuth;

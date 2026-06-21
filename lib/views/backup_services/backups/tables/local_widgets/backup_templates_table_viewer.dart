@@ -1,7 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/databases/models/template_db_model.dart';
-import 'package:storypad/core/helpers/date_format_helper.dart';
+import 'package:anzio/core/databases/models/template_db_model.dart';
+import 'package:anzio/core/helpers/date_format_helper.dart';
 
 class BackupTemplatesTableViewer extends StatelessWidget {
   const BackupTemplatesTableViewer({

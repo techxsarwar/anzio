@@ -1,9 +1,9 @@
 import 'package:adaptive_dialog/adaptive_dialog.dart';
 import 'package:easy_localization/easy_localization.dart' show tr;
 import 'package:flutter/material.dart';
-import 'package:storypad/core/databases/models/place_db_model.dart';
-import 'package:storypad/core/services/location/sp_location_service.dart';
-import 'package:storypad/core/services/messenger_service.dart';
+import 'package:anzio/core/databases/models/place_db_model.dart';
+import 'package:anzio/core/services/location/sp_location_service.dart';
+import 'package:anzio/core/services/messenger_service.dart';
 
 /// App-level (UI) location flow for user-triggered actions.
 ///

@@ -1,4 +1,4 @@
-import 'package:storypad/core/storages/storage_adapters/base_storage_adapter.dart';
+import 'package:anzio/core/storages/storage_adapters/base_storage_adapter.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SharePreferencesStorageAdapter<T> extends BaseStorageAdapter<T> {

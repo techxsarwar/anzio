@@ -2,7 +2,7 @@
 
 ## State Management
 
-StoryPad uses **Provider + ChangeNotifier** with 3-level state hierarchy:
+Anzio uses **Provider + ChangeNotifier** with 3-level state hierarchy:
 
 ### 1. App State (Global)
 
@@ -28,7 +28,7 @@ StoryPad uses **Provider + ChangeNotifier** with 3-level state hierarchy:
 
 ## MVVM Pattern
 
-StoryPad follows **MVVM** with 3-4 files per feature:
+Anzio follows **MVVM** with 3-4 files per feature:
 
 ```
 views/stories/edit/
@@ -70,7 +70,7 @@ views/stories/edit/
 
 Follow Rails-style naming:
 
-| Rails   | StoryPad        | Purpose     |
+| Rails   | Anzio        | Purpose     |
 | ------- | --------------- | ----------- |
 | `index` | `StoriesView`   | List page   |
 | `show`  | `ShowStoryView` | Detail page |

@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/types/asset_type.dart';
+import 'package:anzio/core/types/asset_type.dart';
 
 void main() {
   group('AssetType - Enum Values', () {

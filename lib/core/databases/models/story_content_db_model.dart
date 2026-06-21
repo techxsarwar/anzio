@@ -1,12 +1,12 @@
 import 'package:json_annotation/json_annotation.dart';
 import 'package:copy_with_extension/copy_with_extension.dart';
-import 'package:storypad/core/databases/models/base_db_model.dart';
-import 'package:storypad/core/mixins/comparable.dart';
-import 'package:storypad/core/databases/models/story_page_db_model.dart';
-import 'package:storypad/core/mixins/list_reorderable.dart';
-import 'package:storypad/core/services/logger/app_logger.dart';
-import 'package:storypad/core/services/markdown_body_shortener_service.dart';
-import 'package:storypad/core/services/generate_body_plain_text_service.dart';
+import 'package:anzio/core/databases/models/base_db_model.dart';
+import 'package:anzio/core/mixins/comparable.dart';
+import 'package:anzio/core/databases/models/story_page_db_model.dart';
+import 'package:anzio/core/mixins/list_reorderable.dart';
+import 'package:anzio/core/services/logger/app_logger.dart';
+import 'package:anzio/core/services/markdown_body_shortener_service.dart';
+import 'package:anzio/core/services/generate_body_plain_text_service.dart';
 
 part 'story_content_db_model.g.dart';
 

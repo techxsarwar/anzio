@@ -7,11 +7,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/extensions/color_scheme_extension.dart';
-import 'package:storypad/core/extensions/font_weight_extension.dart';
-import 'package:storypad/core/objects/device_preferences_object.dart';
-import 'package:storypad/providers/device_preferences_provider.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/extensions/color_scheme_extension.dart';
+import 'package:anzio/core/extensions/font_weight_extension.dart';
+import 'package:anzio/core/objects/device_preferences_object.dart';
+import 'package:anzio/providers/device_preferences_provider.dart';
 
 class AppTheme extends StatelessWidget {
   const AppTheme({

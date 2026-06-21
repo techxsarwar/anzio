@@ -1,6 +1,6 @@
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/foundation.dart';
-import 'package:storypad/core/services/error_reporting/adaptors/base_error_reporting_adaptor.dart';
+import 'package:anzio/core/services/error_reporting/adaptors/base_error_reporting_adaptor.dart';
 
 class FirebaseCrashlyticsAdaptor extends BaseErrorReportingAdaptor {
   @override

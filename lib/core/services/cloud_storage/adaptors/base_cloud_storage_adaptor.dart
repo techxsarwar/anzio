@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:flutter/foundation.dart';
-import 'package:storypad/core/services/cloud_storage/adaptors/cdn_cloud_storage_adaptor.dart';
-import 'package:storypad/core/services/cloud_storage/adaptors/firebase_cloud_storage_adaptor.dart';
+import 'package:anzio/core/services/cloud_storage/adaptors/cdn_cloud_storage_adaptor.dart';
+import 'package:anzio/core/services/cloud_storage/adaptors/firebase_cloud_storage_adaptor.dart';
 
 /// Thrown when download is rejected due to access denial.
 class CloudStorageUnauthorizedException implements Exception {

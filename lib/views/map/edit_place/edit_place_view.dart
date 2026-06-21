@@ -1,9 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/databases/models/place_db_model.dart';
-import 'package:storypad/widgets/base_view/base_route.dart';
-import 'package:storypad/widgets/sp_section_title.dart';
+import 'package:anzio/core/databases/models/place_db_model.dart';
+import 'package:anzio/widgets/base_view/base_route.dart';
+import 'package:anzio/widgets/sp_section_title.dart';
 
 import 'edit_place_view_model.dart';
 

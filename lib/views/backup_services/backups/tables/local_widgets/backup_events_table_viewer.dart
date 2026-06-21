@@ -1,9 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/databases/models/event_db_model.dart';
-import 'package:storypad/core/extensions/string_extension.dart';
-import 'package:storypad/core/helpers/date_format_helper.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/core/databases/models/event_db_model.dart';
+import 'package:anzio/core/extensions/string_extension.dart';
+import 'package:anzio/core/helpers/date_format_helper.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 class BackupEventsTableViewer extends StatelessWidget {
   const BackupEventsTableViewer({

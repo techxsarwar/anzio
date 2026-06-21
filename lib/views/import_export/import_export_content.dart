@@ -17,7 +17,7 @@ class _ImportExportContent extends StatelessWidget {
           SpSectionTitle(title: tr('general.import')),
           ListTile(
             leading: const Icon(SpIcons.importOffline),
-            title: Text(tr('list_tile.import_storypad_json.title')),
+            title: Text(tr('list_tile.import_anzio_json.title')),
             onTap: () => viewModel.import(context),
           ),
           ListTile(
@@ -28,7 +28,7 @@ class _ImportExportContent extends StatelessWidget {
           // TODO: more import options with files support + export by date & export in PDF
           // ListTile(
           //   leading: const Icon(SpIcons.importOffline),
-          //   title: const Text("Import StoryPad JSON (.zip)"),
+          //   title: const Text("Import Anzio JSON (.zip)"),
           //   onTap: () => viewModel.import(context),
           // ),
           // ListTile(

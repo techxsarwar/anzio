@@ -1,4 +1,4 @@
-import 'package:storypad/core/storages/base_object_storages/list_storage.dart';
+import 'package:anzio/core/storages/base_object_storages/list_storage.dart';
 
 // Survey URL will be remotely changed via remote config.
 // User can click "No thank to dismissed" or take survey.

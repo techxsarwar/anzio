@@ -1,6 +1,6 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:storypad/core/types/asset_compression_option.dart';
+import 'package:anzio/core/types/asset_compression_option.dart';
 
 class AppFilePickerService {
   static final ImagePicker _imagePicker = ImagePicker();

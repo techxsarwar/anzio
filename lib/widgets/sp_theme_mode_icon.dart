@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/mixins/debounched_callback.dart';
-import 'package:storypad/providers/device_preferences_provider.dart';
-import 'package:storypad/widgets/sp_animated_icon.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/core/mixins/debounched_callback.dart';
+import 'package:anzio/providers/device_preferences_provider.dart';
+import 'package:anzio/widgets/sp_animated_icon.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 class SpThemeModeIcon extends StatefulWidget {
   const SpThemeModeIcon({

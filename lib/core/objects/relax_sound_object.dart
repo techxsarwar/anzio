@@ -1,8 +1,8 @@
 import 'package:copy_with_extension/copy_with_extension.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:storypad/core/services/remote_config/remote_config_service.dart';
-import 'package:storypad/core/types/relax_sound_background.dart';
+import 'package:anzio/core/services/remote_config/remote_config_service.dart';
+import 'package:anzio/core/types/relax_sound_background.dart';
 
 part 'relax_sound_object.g.dart';
 

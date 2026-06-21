@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:storypad/core/mixins/dispose_aware_mixin.dart';
+import 'package:anzio/core/mixins/dispose_aware_mixin.dart';
 import 'pin_unlock_view.dart';
 
 class PinUnlockViewModel extends ChangeNotifier with DisposeAwareMixin {

@@ -1,10 +1,10 @@
-# StoryPad
+# Anzio
 
-[![GitHub stars](https://img.shields.io/github/stars/theachoem/storypad?style=social)](https://github.com/theachoem/storypad/stargazers) [![GitHub license](https://img.shields.io/github/license/theachoem/storypad)](LICENSE) [![GitHub issues](https://img.shields.io/github/issues/theachoem/storypad)](https://github.com/theachoem/storypad/issues)
+[![GitHub stars](https://img.shields.io/github/stars/theachoem/anzio?style=social)](https://github.com/techxsarwar/anzio/stargazers) [![GitHub license](https://img.shields.io/github/license/theachoem/anzio)](LICENSE) [![GitHub issues](https://img.shields.io/github/issues/theachoem/anzio)](https://github.com/techxsarwar/anzio/issues)
 
-📝 **StoryPad** is a beautiful, privacy-first, open source journal & diary app designed for people who value simplicity, minimalism, and control over their personal data.
+📝 **Anzio** is a beautiful, privacy-first, open source journal & diary app designed for people who value simplicity, minimalism, and control over their personal data.
 
-[![Play Store](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.tc.writestory) [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/us/app/storypad-timeline-diary/id6744032172)
+[![Play Store](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.parallelogram.anzio) [![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)](https://apps.apple.com/us/app/anzio-timeline-diary/id6744032172)
 
 ![og_1200x630](https://github.com/user-attachments/assets/d1aeab6b-af2d-4503-9953-bf02d914ee45)
 
@@ -22,7 +22,7 @@
 - **Backup & sync** – private Google Drive sync & offline local export
 - **Themes & customization** – 20+ color themes, dark/light mode, fonts & layouts
 - **Export & share** – text, markdown, or full backups with attachments (images, audio, etc.)
-- **StoryPad Pro** (one-time purchase):
+- **Anzio Pro** (one-time purchase):
   - **Customize Backgrounds** – Personalize your writing space with themed backgrounds for enhanced focus & creativity
   - **Templates**– Create your own daily writing templates
   - **Relaxing Sounds** – Set the mood before you write or read
@@ -50,13 +50,13 @@ For easy setup and running, the GoogleService-Info.plist, google-services.json, 
 flutter run --flavor community --dart-define-from-file=configs/community.json --target=lib/main_community.dart
 ```
 
-## 🛠 <StoryPad> Project Overview
+## 🛠 <Anzio> Project Overview
 
-StoryPad is designed with simplicity in mind, both in its UI and codebase. We aimed to keep the code understandable while staying true to Flutter's principles.
+Anzio is designed with simplicity in mind, both in its UI and codebase. We aimed to keep the code understandable while staying true to Flutter's principles.
 
 ### 1. State Management:
 
-StoryPad uses Provider and Stateful widgets to manage its state, distinctly organized into three levels to avoid confusion:
+Anzio uses Provider and Stateful widgets to manage its state, distinctly organized into three levels to avoid confusion:
 
 - Global State: Managed by [ProviderScope](lib/provider_scope.dart), disposed when the app closes.
 - View State: Managed by ChangeNotifierProvider (package:provider/provider.dart), disposed when the page closes.
@@ -64,7 +64,7 @@ StoryPad uses Provider and Stateful widgets to manage its state, distinctly orga
 
 ### 2. MVVM Pattern:
 
-StoryPad leverages the MVVM (Model-View-ViewModel) pattern while each view is composed of three to four key files:
+Anzio leverages the MVVM (Model-View-ViewModel) pattern while each view is composed of three to four key files:
 
 - Model (optional): Represents the data structure, e.g., StoryDbModel.
 - View: Constructs the view model and builds the UI content, e.g., EditStoryView.
@@ -75,29 +75,29 @@ StoryPad leverages the MVVM (Model-View-ViewModel) pattern while each view is co
 
 ### 3. Local Database:
 
-StoryPad uses ObjectBox as the local database solution for persistent data storage. ObjectBox provides fast, efficient, and scalable database operations with rich search capabilities, making it ideal for mobile apps that require high-performance data handling.
+Anzio uses ObjectBox as the local database solution for persistent data storage. ObjectBox provides fast, efficient, and scalable database operations with rich search capabilities, making it ideal for mobile apps that require high-performance data handling.
 
 ## 🤝 Learn & Contribute
 
-Feel free to clone the StoryPad repository and explore the code. It's a great resource for learning how to build efficient, maintainable mobile apps with Flutter. You can also contribute improvements or new features, helping enhance the project for everyone.
+Feel free to clone the Anzio repository and explore the code. It's a great resource for learning how to build efficient, maintainable mobile apps with Flutter. You can also contribute improvements or new features, helping enhance the project for everyone.
 
 Check out our [Contribution Guide](CONTRIBUTING.md) for more details on how to contribute. Raise an issue if you need any support.
 
-A big thank you to the maintainers of the packages StoryPad relies on - without their work, StoryPad wouldn't be possible. You can view all the dependencies in the [pubspec.yaml](pubspec.yaml) file.
+A big thank you to the maintainers of the packages Anzio relies on - without their work, Anzio wouldn't be possible. You can view all the dependencies in the [pubspec.yaml](pubspec.yaml) file.
 
 ## 📄 License
 
-StoryPad is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
+Anzio is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
 
-We chose the GPL license to ensure that StoryPad's source code remains free and open. Anyone can use, study, modify, and distribute it - but any modifications must also remain open-source under the same license.
+We chose the GPL license to ensure that Anzio's source code remains free and open. Anyone can use, study, modify, and distribute it - but any modifications must also remain open-source under the same license.
 
 ## 🔗 Connect with Us
 
-- 🌐 **Official Website:** [StoryPad.me](https://storypad.me) - Explore features, screenshots, and more
-- 💬 **Community:** [r/storypad](https://www.reddit.com/r/storypad/) - Join our Reddit community
-- 🐦 **Follow Us:** [@storypadapp](https://x.com/storypadapp) - Get the latest updates on X
+- 🌐 **Official Website:** [Anzio.me](https://anzio.me) - Explore features, screenshots, and more
+- 💬 **Community:** [r/anzio](https://www.reddit.com/r/anzio/) - Join our Reddit community
+- 🐦 **Follow Us:** [@anzioapp](https://x.com/anzioapp) - Get the latest updates on X
 
 ## 📂 Source Code
 
-- 💻 **App Source Code:** [github.com/theachoem/storypad](https://github.com/theachoem/storypad)
-- 🖥 **Website Source Code:** [github.com/theachoem/storypad.me](https://github.com/theachoem/storypad.me)
+- 💻 **App Source Code:** [github.com/techxsarwar/anzio](https://github.com/techxsarwar/anzio)
+- 🖥 **Website Source Code:** [github.com/techxsarwar/anzio.me](https://github.com/techxsarwar/anzio.me)

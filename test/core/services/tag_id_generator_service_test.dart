@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/services/tag_id_generator_service.dart';
+import 'package:anzio/core/services/tag_id_generator_service.dart';
 
 void main() {
   group('TagIdGeneratorService', () {

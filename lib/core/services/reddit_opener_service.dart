@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/core/services/url_opener_service.dart';
+import 'package:anzio/core/services/url_opener_service.dart';
 
 class RedditOpenerService {
   /// Opens Reddit with a pre-filled post.

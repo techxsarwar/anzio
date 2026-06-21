@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/services/minimum_execution_time_service.dart';
+import 'package:anzio/core/services/minimum_execution_time_service.dart';
 
 void main() {
   group('MinimumExecutionTimeService.call', () {

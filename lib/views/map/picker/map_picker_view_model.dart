@@ -3,17 +3,17 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/databases/models/place_db_model.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
-import 'package:storypad/core/objects/sp_latlng.dart';
-import 'package:storypad/core/mixins/dispose_aware_mixin.dart';
-import 'package:storypad/core/services/geocoding/sp_geocoding_service.dart';
-import 'package:storypad/core/services/location/sp_app_location_service.dart';
-import 'package:storypad/core/services/location/sp_location_service.dart';
-import 'package:storypad/core/services/map/initial_map_camera_resolver.dart';
-import 'package:storypad/providers/device_preferences_provider.dart';
-import 'package:storypad/widgets/maps/sp_map_controller.dart';
-import 'package:storypad/widgets/maps/map_types.dart';
+import 'package:anzio/core/databases/models/place_db_model.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
+import 'package:anzio/core/objects/sp_latlng.dart';
+import 'package:anzio/core/mixins/dispose_aware_mixin.dart';
+import 'package:anzio/core/services/geocoding/sp_geocoding_service.dart';
+import 'package:anzio/core/services/location/sp_app_location_service.dart';
+import 'package:anzio/core/services/location/sp_location_service.dart';
+import 'package:anzio/core/services/map/initial_map_camera_resolver.dart';
+import 'package:anzio/providers/device_preferences_provider.dart';
+import 'package:anzio/widgets/maps/sp_map_controller.dart';
+import 'package:anzio/widgets/maps/map_types.dart';
 import 'map_picker_view.dart';
 
 class MapPickerViewModel extends ChangeNotifier with DisposeAwareMixin {

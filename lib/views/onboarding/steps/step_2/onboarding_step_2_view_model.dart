@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/views/onboarding/steps/step_3/onboarding_step_3_view.dart';
-import 'package:storypad/core/mixins/dispose_aware_mixin.dart';
-import 'package:storypad/views/onboarding/steps/step_4/onboarding_step_4_view.dart';
+import 'package:anzio/views/onboarding/steps/step_3/onboarding_step_3_view.dart';
+import 'package:anzio/core/mixins/dispose_aware_mixin.dart';
+import 'package:anzio/views/onboarding/steps/step_4/onboarding_step_4_view.dart';
 import 'onboarding_step_2_view.dart';
 
 class OnboardingStep2ViewModel extends ChangeNotifier with DisposeAwareMixin {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/widgets/sp_cross_fade.dart';
-import 'package:storypad/widgets/sp_tap_effect.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/widgets/sp_cross_fade.dart';
+import 'package:anzio/widgets/sp_tap_effect.dart';
 
 enum SpColorPickerLevel {
   one,

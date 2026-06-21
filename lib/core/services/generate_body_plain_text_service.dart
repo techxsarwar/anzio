@@ -1,6 +1,6 @@
-import 'package:storypad/core/databases/models/story_page_db_model.dart';
-import 'package:storypad/core/services/quill/quill_delta_to_plain_text_service.dart';
-import 'package:storypad/core/services/markdown_content_filter_service.dart';
+import 'package:anzio/core/databases/models/story_page_db_model.dart';
+import 'package:anzio/core/services/quill/quill_delta_to_plain_text_service.dart';
+import 'package:anzio/core/services/markdown_content_filter_service.dart';
 
 /// Result object for generateBodyPlainText operation
 class GenerateBodyPlainTextResult {

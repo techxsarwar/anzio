@@ -2,9 +2,9 @@ import 'dart:io';
 
 import 'package:flutter/services.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:storypad/core/services/assets/app_file_picker_service.dart';
-import 'package:storypad/core/services/assets/insert_file_to_db_service.dart';
-import 'package:storypad/core/services/logger/app_logger.dart';
+import 'package:anzio/core/services/assets/app_file_picker_service.dart';
+import 'package:anzio/core/services/assets/insert_file_to_db_service.dart';
+import 'package:anzio/core/services/logger/app_logger.dart';
 
 /// Checks and recovers any lost image data from the image picker (e.g. when the app was killed during photo capture).
 ///

@@ -2,7 +2,7 @@ import 'dart:io';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/objects/relax_sound_object.dart';
+import 'package:anzio/core/objects/relax_sound_object.dart';
 
 void main() async {
   group("RelaxSoundObject.defaultSounds", () {

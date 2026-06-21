@@ -1,10 +1,10 @@
-# Period Calendar (StoryPad Pro)
+# Period Calendar (Anzio Pro)
 
 One-time purchase, lifetime access.
 
 ## Description
 
-Track your period cycle with ease, right inside your StoryPad journal. The Period Calendar feature gives you a beautiful, intuitive way to monitor your cycle while keeping all your personal notes in one place. It's more than just a tracker—it's a seamless part of your journaling experience.
+Track your period cycle with ease, right inside your Anzio journal. The Period Calendar feature gives you a beautiful, intuitive way to monitor your cycle while keeping all your personal notes in one place. It's more than just a tracker—it's a seamless part of your journaling experience.
 
 ## Why You'll Love It
 

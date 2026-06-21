@@ -2,19 +2,19 @@ import 'dart:ui';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/app_theme.dart';
-import 'package:storypad/core/extensions/matrix_4_extension.dart';
-import 'package:storypad/providers/device_preferences_provider.dart';
-import 'package:storypad/providers/in_app_purchase_provider.dart';
-import 'package:storypad/views/home/home_view_model.dart' show HomeViewModel;
-import 'package:storypad/views/home/local_widgets/end_drawer/home_end_drawer_state.dart';
-import 'package:storypad/views/home/years/home_years_view.dart' show HomeYearsRoute, HomeYearsView;
-import 'package:storypad/views/paywall/paywall_view.dart';
-import 'package:storypad/widgets/side_items/side_items.dart';
-import 'package:storypad/widgets/sp_fade_in.dart';
-import 'package:storypad/widgets/sp_pro_badge.dart';
-import 'package:storypad/widgets/sp_tap_effect.dart';
-import 'package:storypad/widgets/sp_theme_mode_icon.dart';
+import 'package:anzio/app_theme.dart';
+import 'package:anzio/core/extensions/matrix_4_extension.dart';
+import 'package:anzio/providers/device_preferences_provider.dart';
+import 'package:anzio/providers/in_app_purchase_provider.dart';
+import 'package:anzio/views/home/home_view_model.dart' show HomeViewModel;
+import 'package:anzio/views/home/local_widgets/end_drawer/home_end_drawer_state.dart';
+import 'package:anzio/views/home/years/home_years_view.dart' show HomeYearsRoute, HomeYearsView;
+import 'package:anzio/views/paywall/paywall_view.dart';
+import 'package:anzio/widgets/side_items/side_items.dart';
+import 'package:anzio/widgets/sp_fade_in.dart';
+import 'package:anzio/widgets/sp_pro_badge.dart';
+import 'package:anzio/widgets/sp_tap_effect.dart';
+import 'package:anzio/widgets/sp_theme_mode_icon.dart';
 
 class HomeEndDrawer extends StatelessWidget {
   const HomeEndDrawer({

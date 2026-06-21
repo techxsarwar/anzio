@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/objects/app_quick_action_object.dart';
+import 'package:anzio/core/objects/app_quick_action_object.dart';
 
 void main() {
   group('AppQuickActionObject toId / tryFromId round-trip', () {

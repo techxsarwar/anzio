@@ -1,7 +1,7 @@
 // ignore_for_file: overridden_fields
 
 import 'package:objectbox/objectbox.dart';
-import 'package:storypad/core/constants/app_constants.dart';
+import 'package:anzio/core/constants/app_constants.dart';
 
 abstract class BaseObjectBox<T> {
   void toPermanentlyDeleted({

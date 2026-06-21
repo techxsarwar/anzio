@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/databases/adapters/objectbox/preferences_box.dart';
-import 'package:storypad/core/objects/cloud_storage_quota_object.dart';
-import 'package:storypad/core/services/backups/backup_service_type.dart';
-import 'package:storypad/core/services/storage/storage_info_service.dart';
-import 'package:storypad/core/types/support_directory_path.dart';
-import 'package:storypad/providers/backup_provider.dart';
+import 'package:anzio/core/databases/adapters/objectbox/preferences_box.dart';
+import 'package:anzio/core/objects/cloud_storage_quota_object.dart';
+import 'package:anzio/core/services/backups/backup_service_type.dart';
+import 'package:anzio/core/services/storage/storage_info_service.dart';
+import 'package:anzio/core/types/support_directory_path.dart';
+import 'package:anzio/providers/backup_provider.dart';
 
 import 'storage_management_view.dart';
 

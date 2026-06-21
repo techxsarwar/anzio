@@ -1,10 +1,10 @@
 # Quick Actions UX/UI Plan
 
-Plan for a StoryPad home-screen quick actions customization experience. This is UX/UI planning only; platform shortcut registration, persistence, paid entitlement checks, and navigation behavior can be implemented in later phases.
+Plan for a Anzio home-screen quick actions customization experience. This is UX/UI planning only; platform shortcut registration, persistence, paid entitlement checks, and navigation behavior can be implemented in later phases.
 
 ## Product Goal
 
-Let users choose the actions that appear when they long-press the StoryPad app icon from their phone home screen, so common journaling flows can start without first opening the full app.
+Let users choose the actions that appear when they long-press the Anzio app icon from their phone home screen, so common journaling flows can start without first opening the full app.
 
 ## User Value
 
@@ -62,7 +62,7 @@ Rationale: "Home Quick Actions" is clearer than "Quick Actions" because it expla
 - The UI should show the current limit as capacity, for example `3 of 5 used`.
 - Default actions should remain available for all users.
 - Template and tag shortcut customization should show as paid when unavailable.
-- iOS and Android preview styling should feel native, but the customization screen itself should remain consistent with StoryPad.
+- iOS and Android preview styling should feel native, but the customization screen itself should remain consistent with Anzio.
 
 ## Core Screen Structure
 
@@ -103,7 +103,7 @@ Home Quick Actions
 ┌─────────────────────────────┐
 │ Native Preview              │
 │   shortcut menu             │
-│        StoryPad icon        │
+│        Anzio icon        │
 └─────────────────────────────┘
 
 Enabled Actions
@@ -181,7 +181,7 @@ Home Quick Actions
 ### Risks
 
 - More complex to implement responsively.
-- Can feel busier than StoryPad needs for a small settings feature.
+- Can feel busier than Anzio needs for a small settings feature.
 - Preview may become too small on narrow phones unless carefully stacked.
 
 ### Best For
@@ -356,7 +356,7 @@ Keep it calm and transparent:
 - Avoid nested cards. Use sections, list tiles, and a single preview surface.
 - Reuse the existing Templates view for template browsing; do not recreate template browsing UI inside Home Quick Actions.
 - Keep preview dimensions stable so changing action labels does not shift the whole layout.
-- Use platform-specific preview styling only inside the preview area; the surrounding settings screen should stay StoryPad-native.
+- Use platform-specific preview styling only inside the preview area; the surrounding settings screen should stay Anzio-native.
 
 ## Suggested Icons For Later Implementation
 

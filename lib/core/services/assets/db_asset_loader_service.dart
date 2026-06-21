@@ -1,10 +1,10 @@
 import 'dart:async';
 import 'dart:io';
-import 'package:storypad/core/databases/models/asset_db_model.dart';
-import 'package:storypad/core/helpers/path_helper.dart';
-import 'package:storypad/core/objects/google_user_object.dart';
-import 'package:storypad/core/services/google_drive_asset_downloader_service.dart';
-import 'package:storypad/core/types/asset_type.dart';
+import 'package:anzio/core/databases/models/asset_db_model.dart';
+import 'package:anzio/core/helpers/path_helper.dart';
+import 'package:anzio/core/objects/google_user_object.dart';
+import 'package:anzio/core/services/google_drive_asset_downloader_service.dart';
+import 'package:anzio/core/types/asset_type.dart';
 
 /// Shared service for loading asset files with in-memory caching and deduplication.
 ///

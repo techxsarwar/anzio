@@ -41,7 +41,7 @@ class _SettingsContent extends StatelessWidget {
             ThemeModeTile.globalTheme(weekday: 1),
             ColorSeedTile(),
             buildDayColorTile(context),
-            if (kStoryPad) const AppIconTile(),
+            if (kAnzio) const AppIconTile(),
           ],
           ...[
             const Divider(),

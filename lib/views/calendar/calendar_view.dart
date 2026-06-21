@@ -1,15 +1,15 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/helpers/date_format_helper.dart';
-import 'package:storypad/core/objects/calendar_segment_id.dart';
-import 'package:storypad/core/services/month_picker_service.dart';
-import 'package:storypad/views/calendar/period/period_calendar_view.dart';
-import 'package:storypad/views/calendar/mood/mood_calendar_view.dart';
-import 'package:storypad/widgets/base_view/base_route.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/helpers/date_format_helper.dart';
+import 'package:anzio/core/objects/calendar_segment_id.dart';
+import 'package:anzio/core/services/month_picker_service.dart';
+import 'package:anzio/views/calendar/period/period_calendar_view.dart';
+import 'package:anzio/views/calendar/mood/mood_calendar_view.dart';
+import 'package:anzio/widgets/base_view/base_route.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/widgets/sp_tap_effect.dart';
+import 'package:anzio/widgets/sp_tap_effect.dart';
 
 import 'calendar_view_model.dart';
 

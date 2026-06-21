@@ -7,10 +7,10 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_custom_tabs/flutter_custom_tabs.dart' as custom_tab;
-import 'package:storypad/core/extensions/color_extension.dart';
-import 'package:storypad/core/services/analytics/analytics_service.dart';
-import 'package:storypad/core/services/messenger_service.dart';
-import 'package:storypad/widgets/sp_app_lock_wrapper.dart';
+import 'package:anzio/core/extensions/color_extension.dart';
+import 'package:anzio/core/services/analytics/analytics_service.dart';
+import 'package:anzio/core/services/messenger_service.dart';
+import 'package:anzio/widgets/sp_app_lock_wrapper.dart';
 import 'package:url_launcher/url_launcher.dart' as launcher;
 export 'package:url_launcher/url_launcher.dart' show LaunchMode;
 

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/mixins/dispose_aware_mixin.dart';
-import 'package:storypad/providers/device_preferences_provider.dart';
-import 'package:storypad/widgets/bottom_sheets/sp_demo_images_sheet.dart';
+import 'package:anzio/core/mixins/dispose_aware_mixin.dart';
+import 'package:anzio/providers/device_preferences_provider.dart';
+import 'package:anzio/widgets/bottom_sheets/sp_demo_images_sheet.dart';
 import 'add_ons_view.dart';
 
 class AddOnsViewModel extends ChangeNotifier with DisposeAwareMixin {

@@ -1,4 +1,4 @@
-import 'package:storypad/core/services/analytics/adaptors/base_analytics_user_property_adaptor.dart';
+import 'package:anzio/core/services/analytics/adaptors/base_analytics_user_property_adaptor.dart';
 
 class NoneAnalyticsUserPropertyAdaptor extends BaseAnalyticsUserPropertyAdaptor {
   @override

@@ -1,4 +1,4 @@
-import 'package:storypad/core/objects/sp_latlng.dart';
+import 'package:anzio/core/objects/sp_latlng.dart';
 
 class SpLatLngBounds {
   const SpLatLngBounds({

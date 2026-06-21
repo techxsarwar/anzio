@@ -3,7 +3,7 @@ import 'package:flutter_quill/flutter_quill.dart';
 import 'package:flutter_quill/quill_delta.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:storypad/core/services/quill/quill_delta_to_plain_text_service.dart';
+import 'package:anzio/core/services/quill/quill_delta_to_plain_text_service.dart';
 
 // Helper function to create a Document from a JSON string (Delta format)
 Document _docFromJson(String jsonString) {

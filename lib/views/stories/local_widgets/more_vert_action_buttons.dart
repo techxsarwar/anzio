@@ -1,9 +1,9 @@
 import 'dart:math';
 import 'package:animated_clipper/animated_clipper.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/widgets/sp_floating_pop_up_button.dart';
-import 'package:storypad/widgets/sp_icons.dart';
-import 'package:storypad/widgets/sp_tap_effect.dart';
+import 'package:anzio/widgets/sp_floating_pop_up_button.dart';
+import 'package:anzio/widgets/sp_icons.dart';
+import 'package:anzio/widgets/sp_tap_effect.dart';
 
 class MoreVertActionButtons extends StatelessWidget {
   const MoreVertActionButtons({

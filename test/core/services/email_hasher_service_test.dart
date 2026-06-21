@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/services/email_hasher_service.dart';
+import 'package:anzio/core/services/email_hasher_service.dart';
 
 void main() {
   group('EmailHasherService', () {

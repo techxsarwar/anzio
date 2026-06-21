@@ -2,11 +2,11 @@ import 'dart:io';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/extensions/color_scheme_extension.dart';
-import 'package:storypad/core/services/cloud_storage/cloud_storage_service.dart';
-import 'package:storypad/widgets/sp_firestore_storage_downloader_builder.dart';
-import 'package:storypad/widgets/sp_fade_in.dart';
-import 'package:storypad/widgets/sp_images_viewer.dart';
+import 'package:anzio/core/extensions/color_scheme_extension.dart';
+import 'package:anzio/core/services/cloud_storage/cloud_storage_service.dart';
+import 'package:anzio/widgets/sp_firestore_storage_downloader_builder.dart';
+import 'package:anzio/widgets/sp_fade_in.dart';
+import 'package:anzio/widgets/sp_images_viewer.dart';
 
 class SpDemoImages extends StatelessWidget {
   const SpDemoImages({

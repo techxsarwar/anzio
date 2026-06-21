@@ -1,4 +1,4 @@
-import 'package:storypad/core/storages/base_object_storages/integer_storage.dart';
+import 'package:anzio/core/storages/base_object_storages/integer_storage.dart';
 
 class StoryWriteCountStorage extends IntegerStorage {
   Future<int> increment() async {

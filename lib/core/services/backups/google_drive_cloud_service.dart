@@ -3,14 +3,14 @@ import 'dart:convert';
 import 'dart:io' as io;
 import 'package:google_sign_in/google_sign_in.dart' as gsi;
 import 'package:googleapis/drive/v3.dart' as drive;
-import 'package:storypad/core/objects/backup_exceptions/backup_exception.dart' as exp;
-import 'package:storypad/core/objects/cloud_file_object.dart';
-import 'package:storypad/core/objects/cloud_storage_quota_object.dart';
-import 'package:storypad/core/objects/google_user_object.dart';
-import 'package:storypad/core/services/backups/backup_cloud_service.dart';
-import 'package:storypad/core/services/backups/backup_service_type.dart';
-import 'package:storypad/core/services/logger/app_logger.dart';
-import 'package:storypad/core/storages/google_user_storage.dart';
+import 'package:anzio/core/objects/backup_exceptions/backup_exception.dart' as exp;
+import 'package:anzio/core/objects/cloud_file_object.dart';
+import 'package:anzio/core/objects/cloud_storage_quota_object.dart';
+import 'package:anzio/core/objects/google_user_object.dart';
+import 'package:anzio/core/services/backups/backup_cloud_service.dart';
+import 'package:anzio/core/services/backups/backup_service_type.dart';
+import 'package:anzio/core/services/logger/app_logger.dart';
+import 'package:anzio/core/storages/google_user_storage.dart';
 
 // ignore: depend_on_referenced_packages
 import 'package:http/http.dart' as http;
@@ -390,7 +390,7 @@ class GoogleDriveCloudService extends BackupCloudService {
 
         // Legacy backups are monolithic (contain all years), so we use a sentinel year (-1)
         // to indicate this is a legacy backup, not a yearly backup
-        final cloudFile = CloudFileObject.fromLegacyStoryPad(legacyFileList.files!.first);
+        final cloudFile = CloudFileObject.fromLegacyAnzio(legacyFileList.files!.first);
         return {-1: cloudFile};
       },
     );

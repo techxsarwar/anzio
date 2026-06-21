@@ -1,6 +1,6 @@
 /// Abstract interface for rich text document representation.
 ///
-/// This abstraction decouples StoryPad from specific rich text formats
+/// This abstraction decouples Anzio from specific rich text formats
 /// and allows swapping implementations.
 ///
 /// A document represents the complete rich text content including:

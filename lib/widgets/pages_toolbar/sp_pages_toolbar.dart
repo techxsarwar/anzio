@@ -1,17 +1,17 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/app_theme.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/databases/models/story_preferences_db_model.dart';
-import 'package:storypad/core/extensions/font_weight_extension.dart';
-import 'package:storypad/core/objects/story_page_object.dart';
-import 'package:storypad/core/rich_text/rich_text.dart';
-import 'package:storypad/providers/device_preferences_provider.dart';
-import 'package:storypad/views/settings/local_widgets/font_weight_tile.dart';
-import 'package:storypad/widgets/bottom_sheets/sp_font_weight_sheet.dart';
-import 'package:storypad/widgets/bottom_sheets/sp_fonts_sheet.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/app_theme.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/databases/models/story_preferences_db_model.dart';
+import 'package:anzio/core/extensions/font_weight_extension.dart';
+import 'package:anzio/core/objects/story_page_object.dart';
+import 'package:anzio/core/rich_text/rich_text.dart';
+import 'package:anzio/providers/device_preferences_provider.dart';
+import 'package:anzio/views/settings/local_widgets/font_weight_tile.dart';
+import 'package:anzio/widgets/bottom_sheets/sp_font_weight_sheet.dart';
+import 'package:anzio/widgets/bottom_sheets/sp_fonts_sheet.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 part './title_toolbar.dart';
 

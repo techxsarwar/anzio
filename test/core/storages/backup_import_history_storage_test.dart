@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:storypad/core/services/backups/backup_service_type.dart';
-import 'package:storypad/core/storages/backup_import_history_storage.dart';
+import 'package:anzio/core/services/backups/backup_service_type.dart';
+import 'package:anzio/core/storages/backup_import_history_storage.dart';
 
 void main() {
   SharedPreferences.setMockInitialValues({});

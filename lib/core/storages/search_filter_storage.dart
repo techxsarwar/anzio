@@ -1,5 +1,5 @@
-import 'package:storypad/core/objects/search_filter_object.dart';
-import 'package:storypad/core/storages/base_object_storages/object_storage.dart';
+import 'package:anzio/core/objects/search_filter_object.dart';
+import 'package:anzio/core/storages/base_object_storages/object_storage.dart';
 
 class SearchFilterStorage extends ObjectStorage<SearchFilterObject> {
   @override

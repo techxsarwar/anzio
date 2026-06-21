@@ -1,8 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/extensions/color_scheme_extension.dart';
-import 'package:storypad/core/storages/new_badge_storage.dart';
-import 'package:storypad/core/types/new_badge.dart';
+import 'package:anzio/core/extensions/color_scheme_extension.dart';
+import 'package:anzio/core/storages/new_badge_storage.dart';
+import 'package:anzio/core/types/new_badge.dart';
 
 class SpNewBadgeBuilder extends StatefulWidget {
   const SpNewBadgeBuilder({

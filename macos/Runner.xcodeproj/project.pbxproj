@@ -27,8 +27,8 @@
 		33CC10F32044A3C60003C045 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CC10F22044A3C60003C045 /* Assets.xcassets */; };
 		33CC10F62044A3C60003C045 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33CC10F42044A3C60003C045 /* MainMenu.xib */; };
 		33CC11132044BFA00003C045 /* MainFlutterWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CC11122044BFA00003C045 /* MainFlutterWindow.swift */; };
-		62DAA06C2F41ADD300CC9E4F /* storypad_logo_2_0.icon in Resources */ = {isa = PBXBuildFile; fileRef = 62DAA06A2F41ADD300CC9E4F /* storypad_logo_2_0.icon */; };
-		62DAA06D2F41ADD300CC9E4F /* storypad_logo_1_0.icon in Resources */ = {isa = PBXBuildFile; fileRef = 62DAA0692F41ADD300CC9E4F /* storypad_logo_1_0.icon */; };
+		62DAA06C2F41ADD300CC9E4F /* anzio_logo_2_0.icon in Resources */ = {isa = PBXBuildFile; fileRef = 62DAA06A2F41ADD300CC9E4F /* anzio_logo_2_0.icon */; };
+		62DAA06D2F41ADD300CC9E4F /* anzio_logo_1_0.icon in Resources */ = {isa = PBXBuildFile; fileRef = 62DAA0692F41ADD300CC9E4F /* anzio_logo_1_0.icon */; };
 		78A318202AECB46A00862997 /* FlutterGeneratedPluginSwiftPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 78A3181F2AECB46A00862997 /* FlutterGeneratedPluginSwiftPackage */; };
 		92B6E6BC28E36EC26D07CB16 /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C7576DA2E84F8A8AE10F6E /* Pods_RunnerTests.framework */; };
 		FCF31576F1661BB3728F2C91 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E9219F9FF30D98F729CB2D7 /* Pods_Runner.framework */; };
@@ -70,7 +70,7 @@
 		331C80D7294CF71000263BE5 /* RunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunnerTests.swift; sourceTree = "<group>"; };
 		333000ED22D3DE5D00554162 /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
 		335BBD1A22A9A15E00E9071D /* GeneratedPluginRegistrant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneratedPluginRegistrant.swift; sourceTree = "<group>"; };
-		33CC10ED2044A3C60003C045 /* storypad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = storypad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CC10ED2044A3C60003C045 /* anzio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anzio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CC10F02044A3C60003C045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33CC10F22044A3C60003C045 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Runner/Assets.xcassets; sourceTree = "<group>"; };
 		33CC10F52044A3C60003C045 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -86,25 +86,25 @@
 		42FB6C2612FEF7389AB15953 /* Pods-Runner.debug-spooky.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug-spooky.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug-spooky.xcconfig"; sourceTree = "<group>"; };
 		4624778AFD367CC6BE8A4446 /* Pods-RunnerTests.debug-community.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug-community.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug-community.xcconfig"; sourceTree = "<group>"; };
 		4E141ECC5FCF72640A3D1092 /* Pods-RunnerTests.profile-community.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile-community.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile-community.xcconfig"; sourceTree = "<group>"; };
-		62DAA0692F41ADD300CC9E4F /* storypad_logo_1_0.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = storypad_logo_1_0.icon; sourceTree = "<group>"; };
-		62DAA06A2F41ADD300CC9E4F /* storypad_logo_2_0.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = storypad_logo_2_0.icon; sourceTree = "<group>"; };
+		62DAA0692F41ADD300CC9E4F /* anzio_logo_1_0.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = anzio_logo_1_0.icon; sourceTree = "<group>"; };
+		62DAA06A2F41ADD300CC9E4F /* anzio_logo_2_0.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = anzio_logo_2_0.icon; sourceTree = "<group>"; };
 		6C07ADFFC5B7B643D221A23D /* Pods-Runner.release-community.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release-community.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release-community.xcconfig"; sourceTree = "<group>"; };
 		74116ACA916E441FC8D9A848 /* Pods-Runner.release-spooky.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release-spooky.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release-spooky.xcconfig"; sourceTree = "<group>"; };
 		75BB8522CFB6652374A95031 /* Pods-Runner.profile-spooky.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile-spooky.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile-spooky.xcconfig"; sourceTree = "<group>"; };
 		78E0A7A72DC9AD7400C4905E /* FlutterGeneratedPluginSwiftPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FlutterGeneratedPluginSwiftPackage; path = ephemeral/Packages/FlutterGeneratedPluginSwiftPackage; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		871734F7C2C1C756850EBDE3 /* Pods-Runner.debug-community.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug-community.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug-community.xcconfig"; sourceTree = "<group>"; };
-		9244CEC2FF884D160FCFF6EC /* Pods-RunnerTests.release-storypad.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release-storypad.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release-storypad.xcconfig"; sourceTree = "<group>"; };
-		957DBB949DD25F4F4A34640F /* Pods-RunnerTests.debug-storypad.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug-storypad.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug-storypad.xcconfig"; sourceTree = "<group>"; };
+		9244CEC2FF884D160FCFF6EC /* Pods-RunnerTests.release-anzio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release-anzio.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release-anzio.xcconfig"; sourceTree = "<group>"; };
+		957DBB949DD25F4F4A34640F /* Pods-RunnerTests.debug-anzio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.debug-anzio.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.debug-anzio.xcconfig"; sourceTree = "<group>"; };
 		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		98C0E7AF75CD685C04DD3AC1 /* Pods-Runner.profile-storypad.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile-storypad.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile-storypad.xcconfig"; sourceTree = "<group>"; };
+		98C0E7AF75CD685C04DD3AC1 /* Pods-Runner.profile-anzio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile-anzio.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile-anzio.xcconfig"; sourceTree = "<group>"; };
 		9EE0B50862E45422BCFFEA73 /* Pods-RunnerTests.profile-spooky.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile-spooky.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile-spooky.xcconfig"; sourceTree = "<group>"; };
 		A3C7576DA2E84F8A8AE10F6E /* Pods_RunnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RunnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AACC57F14C08B0D37CECEA57 /* Pods-RunnerTests.release-spooky.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release-spooky.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release-spooky.xcconfig"; sourceTree = "<group>"; };
 		C1AB7A1034ABA8601F241D03 /* Pods-RunnerTests.release-community.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release-community.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release-community.xcconfig"; sourceTree = "<group>"; };
-		CAF0B61115129202CB05B96F /* Pods-Runner.release-storypad.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release-storypad.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release-storypad.xcconfig"; sourceTree = "<group>"; };
-		EAF7CCCF311FBAE5D0781568 /* Pods-Runner.debug-storypad.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug-storypad.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug-storypad.xcconfig"; sourceTree = "<group>"; };
-		F6D218DE375F62AB8F833648 /* Pods-RunnerTests.profile-storypad.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile-storypad.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile-storypad.xcconfig"; sourceTree = "<group>"; };
+		CAF0B61115129202CB05B96F /* Pods-Runner.release-anzio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release-anzio.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release-anzio.xcconfig"; sourceTree = "<group>"; };
+		EAF7CCCF311FBAE5D0781568 /* Pods-Runner.debug-anzio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.debug-anzio.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.debug-anzio.xcconfig"; sourceTree = "<group>"; };
+		F6D218DE375F62AB8F833648 /* Pods-RunnerTests.profile-anzio.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile-anzio.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile-anzio.xcconfig"; sourceTree = "<group>"; };
 		F71BD256CBA9F59B0B38DFCF /* Pods-Runner.profile-community.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.profile-community.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.profile-community.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -163,7 +163,7 @@
 		33CC10EE2044A3C60003C045 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33CC10ED2044A3C60003C045 /* storypad.app */,
+				33CC10ED2044A3C60003C045 /* anzio.app */,
 				331C80D5294CF71000263BE5 /* RunnerTests.xctest */,
 			);
 			name = Products;
@@ -209,8 +209,8 @@
 		62DAA06B2F41ADD300CC9E4F /* logos */ = {
 			isa = PBXGroup;
 			children = (
-				62DAA0692F41ADD300CC9E4F /* storypad_logo_1_0.icon */,
-				62DAA06A2F41ADD300CC9E4F /* storypad_logo_2_0.icon */,
+				62DAA0692F41ADD300CC9E4F /* anzio_logo_1_0.icon */,
+				62DAA06A2F41ADD300CC9E4F /* anzio_logo_2_0.icon */,
 			);
 			name = logos;
 			path = ../assets/logos;
@@ -220,22 +220,22 @@
 			isa = PBXGroup;
 			children = (
 				42FB6C2612FEF7389AB15953 /* Pods-Runner.debug-spooky.xcconfig */,
-				EAF7CCCF311FBAE5D0781568 /* Pods-Runner.debug-storypad.xcconfig */,
+				EAF7CCCF311FBAE5D0781568 /* Pods-Runner.debug-anzio.xcconfig */,
 				871734F7C2C1C756850EBDE3 /* Pods-Runner.debug-community.xcconfig */,
 				74116ACA916E441FC8D9A848 /* Pods-Runner.release-spooky.xcconfig */,
-				CAF0B61115129202CB05B96F /* Pods-Runner.release-storypad.xcconfig */,
+				CAF0B61115129202CB05B96F /* Pods-Runner.release-anzio.xcconfig */,
 				6C07ADFFC5B7B643D221A23D /* Pods-Runner.release-community.xcconfig */,
 				75BB8522CFB6652374A95031 /* Pods-Runner.profile-spooky.xcconfig */,
-				98C0E7AF75CD685C04DD3AC1 /* Pods-Runner.profile-storypad.xcconfig */,
+				98C0E7AF75CD685C04DD3AC1 /* Pods-Runner.profile-anzio.xcconfig */,
 				F71BD256CBA9F59B0B38DFCF /* Pods-Runner.profile-community.xcconfig */,
 				387FFED6859D865F061196A1 /* Pods-RunnerTests.debug-spooky.xcconfig */,
-				957DBB949DD25F4F4A34640F /* Pods-RunnerTests.debug-storypad.xcconfig */,
+				957DBB949DD25F4F4A34640F /* Pods-RunnerTests.debug-anzio.xcconfig */,
 				4624778AFD367CC6BE8A4446 /* Pods-RunnerTests.debug-community.xcconfig */,
 				AACC57F14C08B0D37CECEA57 /* Pods-RunnerTests.release-spooky.xcconfig */,
-				9244CEC2FF884D160FCFF6EC /* Pods-RunnerTests.release-storypad.xcconfig */,
+				9244CEC2FF884D160FCFF6EC /* Pods-RunnerTests.release-anzio.xcconfig */,
 				C1AB7A1034ABA8601F241D03 /* Pods-RunnerTests.release-community.xcconfig */,
 				9EE0B50862E45422BCFFEA73 /* Pods-RunnerTests.profile-spooky.xcconfig */,
-				F6D218DE375F62AB8F833648 /* Pods-RunnerTests.profile-storypad.xcconfig */,
+				F6D218DE375F62AB8F833648 /* Pods-RunnerTests.profile-anzio.xcconfig */,
 				4E141ECC5FCF72640A3D1092 /* Pods-RunnerTests.profile-community.xcconfig */,
 			);
 			path = Pods;
@@ -296,7 +296,7 @@
 				78A3181F2AECB46A00862997 /* FlutterGeneratedPluginSwiftPackage */,
 			);
 			productName = Runner;
-			productReference = 33CC10ED2044A3C60003C045 /* storypad.app */;
+			productReference = 33CC10ED2044A3C60003C045 /* anzio.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -365,8 +365,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62DAA06C2F41ADD300CC9E4F /* storypad_logo_2_0.icon in Resources */,
-				62DAA06D2F41ADD300CC9E4F /* storypad_logo_1_0.icon in Resources */,
+				62DAA06C2F41ADD300CC9E4F /* anzio_logo_2_0.icon in Resources */,
+				62DAA06D2F41ADD300CC9E4F /* anzio_logo_1_0.icon in Resources */,
 				33CC10F32044A3C60003C045 /* Assets.xcassets in Resources */,
 				33CC10F62044A3C60003C045 /* MainMenu.xib in Resources */,
 			);
@@ -570,10 +570,10 @@
 				EXPANDED_CODE_SIGN_IDENTITY = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.storypad.RunnerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.anzio.RunnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/storypad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/storypad";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anzio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/anzio";
 			};
 			name = "Debug-spooky";
 		};
@@ -588,10 +588,10 @@
 				EXPANDED_CODE_SIGN_IDENTITY = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.storypad.RunnerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.anzio.RunnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/storypad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/storypad";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anzio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/anzio";
 			};
 			name = "Release-spooky";
 		};
@@ -606,10 +606,10 @@
 				EXPANDED_CODE_SIGN_IDENTITY = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.storypad.RunnerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.anzio.RunnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/storypad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/storypad";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anzio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/anzio";
 			};
 			name = "Profile-spooky";
 		};
@@ -666,7 +666,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33E5194F232828860026EE4D /* AppInfo.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = storypad_logo_1_0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = anzio_logo_1_0;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/DebugProfile.entitlements;
@@ -680,7 +680,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.spooky;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parallelogram.anzio;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
@@ -803,7 +803,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33E5194F232828860026EE4D /* AppInfo.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = storypad_logo_1_0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = anzio_logo_1_0;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/DebugProfile.entitlements;
@@ -817,7 +817,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.spooky;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parallelogram.anzio;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -828,7 +828,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33E5194F232828860026EE4D /* AppInfo.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = storypad_logo_1_0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = anzio_logo_1_0;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Release.entitlements;
@@ -842,7 +842,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.spooky;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parallelogram.anzio;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
@@ -864,7 +864,7 @@
 			};
 			name = "Release-spooky";
 		};
-		6203048A2DF4B1D10042D90D /* Debug-storypad */ = {
+		6203048A2DF4B1D10042D90D /* Debug-anzio */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
 			buildSettings = {
@@ -918,13 +918,13 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = "Debug-storypad";
+			name = "Debug-anzio";
 		};
-		6203048B2DF4B1D10042D90D /* Debug-storypad */ = {
+		6203048B2DF4B1D10042D90D /* Debug-anzio */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33E5194F232828860026EE4D /* AppInfo.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = storypad_logo_1_0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = anzio_logo_1_0;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/DebugProfile.entitlements;
@@ -938,16 +938,16 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tc.writestory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parallelogram.anzio;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
-			name = "Debug-storypad";
+			name = "Debug-anzio";
 		};
-		6203048C2DF4B1D10042D90D /* Debug-storypad */ = {
+		6203048C2DF4B1D10042D90D /* Debug-anzio */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 957DBB949DD25F4F4A34640F /* Pods-RunnerTests.debug-storypad.xcconfig */;
+			baseConfigurationReference = 957DBB949DD25F4F4A34640F /* Pods-RunnerTests.debug-anzio.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGNING_ALLOWED = NO;
@@ -959,20 +959,20 @@
 				EXPANDED_CODE_SIGN_IDENTITY = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.storypad.RunnerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.anzio.RunnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/storypad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/storypad";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anzio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/anzio";
 			};
-			name = "Debug-storypad";
+			name = "Debug-anzio";
 		};
-		6203048D2DF4B1D10042D90D /* Debug-storypad */ = {
+		6203048D2DF4B1D10042D90D /* Debug-anzio */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Manual;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
-			name = "Debug-storypad";
+			name = "Debug-anzio";
 		};
 		6203048E2DF4B1E90042D90D /* Debug-community */ = {
 			isa = XCBuildConfiguration;
@@ -1034,7 +1034,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33E5194F232828860026EE4D /* AppInfo.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = storypad_logo_1_0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = anzio_logo_1_0;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/DebugProfile.entitlements;
@@ -1048,7 +1048,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.spooky.community;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parallelogram.anzio.community;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1066,10 +1066,10 @@
 				EXPANDED_CODE_SIGN_IDENTITY = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.storypad.RunnerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.anzio.RunnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/storypad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/storypad";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anzio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/anzio";
 			};
 			name = "Debug-community";
 		};
@@ -1081,7 +1081,7 @@
 			};
 			name = "Debug-community";
 		};
-		620304922DF4B1F90042D90D /* Release-storypad */ = {
+		620304922DF4B1F90042D90D /* Release-anzio */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
@@ -1128,13 +1128,13 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
-			name = "Release-storypad";
+			name = "Release-anzio";
 		};
-		620304932DF4B1F90042D90D /* Release-storypad */ = {
+		620304932DF4B1F90042D90D /* Release-anzio */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33E5194F232828860026EE4D /* AppInfo.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = storypad_logo_1_0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = anzio_logo_1_0;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Release.entitlements;
@@ -1148,15 +1148,15 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tc.writestory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parallelogram.anzio;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
-			name = "Release-storypad";
+			name = "Release-anzio";
 		};
-		620304942DF4B1F90042D90D /* Release-storypad */ = {
+		620304942DF4B1F90042D90D /* Release-anzio */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9244CEC2FF884D160FCFF6EC /* Pods-RunnerTests.release-storypad.xcconfig */;
+			baseConfigurationReference = 9244CEC2FF884D160FCFF6EC /* Pods-RunnerTests.release-anzio.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGNING_ALLOWED = NO;
@@ -1168,20 +1168,20 @@
 				EXPANDED_CODE_SIGN_IDENTITY = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.storypad.RunnerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.anzio.RunnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/storypad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/storypad";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anzio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/anzio";
 			};
-			name = "Release-storypad";
+			name = "Release-anzio";
 		};
-		620304952DF4B1F90042D90D /* Release-storypad */ = {
+		620304952DF4B1F90042D90D /* Release-anzio */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
-			name = "Release-storypad";
+			name = "Release-anzio";
 		};
 		620304962DF4B2040042D90D /* Release-community */ = {
 			isa = XCBuildConfiguration;
@@ -1236,7 +1236,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33E5194F232828860026EE4D /* AppInfo.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = storypad_logo_1_0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = anzio_logo_1_0;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/Release.entitlements;
@@ -1250,7 +1250,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.spooky.community;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parallelogram.anzio.community;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1267,10 +1267,10 @@
 				EXPANDED_CODE_SIGN_IDENTITY = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.storypad.RunnerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.anzio.RunnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/storypad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/storypad";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anzio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/anzio";
 			};
 			name = "Release-community";
 		};
@@ -1282,7 +1282,7 @@
 			};
 			name = "Release-community";
 		};
-		6203049A2DF4B2150042D90D /* Profile-storypad */ = {
+		6203049A2DF4B2150042D90D /* Profile-anzio */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
@@ -1329,13 +1329,13 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
-			name = "Profile-storypad";
+			name = "Profile-anzio";
 		};
-		6203049B2DF4B2150042D90D /* Profile-storypad */ = {
+		6203049B2DF4B2150042D90D /* Profile-anzio */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33E5194F232828860026EE4D /* AppInfo.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = storypad_logo_1_0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = anzio_logo_1_0;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/DebugProfile.entitlements;
@@ -1349,15 +1349,15 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tc.writestory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parallelogram.anzio;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
-			name = "Profile-storypad";
+			name = "Profile-anzio";
 		};
-		6203049C2DF4B2150042D90D /* Profile-storypad */ = {
+		6203049C2DF4B2150042D90D /* Profile-anzio */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6D218DE375F62AB8F833648 /* Pods-RunnerTests.profile-storypad.xcconfig */;
+			baseConfigurationReference = F6D218DE375F62AB8F833648 /* Pods-RunnerTests.profile-anzio.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGNING_ALLOWED = NO;
@@ -1369,20 +1369,20 @@
 				EXPANDED_CODE_SIGN_IDENTITY = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.storypad.RunnerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.anzio.RunnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/storypad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/storypad";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anzio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/anzio";
 			};
-			name = "Profile-storypad";
+			name = "Profile-anzio";
 		};
-		6203049D2DF4B2150042D90D /* Profile-storypad */ = {
+		6203049D2DF4B2150042D90D /* Profile-anzio */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Manual;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
-			name = "Profile-storypad";
+			name = "Profile-anzio";
 		};
 		6203049E2DF4B2230042D90D /* Profile-community */ = {
 			isa = XCBuildConfiguration;
@@ -1437,7 +1437,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33E5194F232828860026EE4D /* AppInfo.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = storypad_logo_1_0;
+				ASSETCATALOG_COMPILER_APPICON_NAME = anzio_logo_1_0;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Runner/DebugProfile.entitlements;
@@ -1451,7 +1451,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.spooky.community;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parallelogram.anzio.community;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
@@ -1468,10 +1468,10 @@
 				EXPANDED_CODE_SIGN_IDENTITY = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.storypad.RunnerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juniorise.anzio.RunnerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/storypad.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/storypad";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anzio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/anzio";
 			};
 			name = "Profile-community";
 		};
@@ -1490,13 +1490,13 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				331C80DB294CF71000263BE5 /* Debug-spooky */,
-				6203048C2DF4B1D10042D90D /* Debug-storypad */,
+				6203048C2DF4B1D10042D90D /* Debug-anzio */,
 				620304902DF4B1E90042D90D /* Debug-community */,
 				331C80DC294CF71000263BE5 /* Release-spooky */,
-				620304942DF4B1F90042D90D /* Release-storypad */,
+				620304942DF4B1F90042D90D /* Release-anzio */,
 				620304982DF4B2040042D90D /* Release-community */,
 				331C80DD294CF71000263BE5 /* Profile-spooky */,
-				6203049C2DF4B2150042D90D /* Profile-storypad */,
+				6203049C2DF4B2150042D90D /* Profile-anzio */,
 				620304A02DF4B2230042D90D /* Profile-community */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1506,13 +1506,13 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33CC10F92044A3C60003C045 /* Debug-spooky */,
-				6203048A2DF4B1D10042D90D /* Debug-storypad */,
+				6203048A2DF4B1D10042D90D /* Debug-anzio */,
 				6203048E2DF4B1E90042D90D /* Debug-community */,
 				33CC10FA2044A3C60003C045 /* Release-spooky */,
-				620304922DF4B1F90042D90D /* Release-storypad */,
+				620304922DF4B1F90042D90D /* Release-anzio */,
 				620304962DF4B2040042D90D /* Release-community */,
 				338D0CE9231458BD00FA5F75 /* Profile-spooky */,
-				6203049A2DF4B2150042D90D /* Profile-storypad */,
+				6203049A2DF4B2150042D90D /* Profile-anzio */,
 				6203049E2DF4B2230042D90D /* Profile-community */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1522,13 +1522,13 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33CC10FC2044A3C60003C045 /* Debug-spooky */,
-				6203048B2DF4B1D10042D90D /* Debug-storypad */,
+				6203048B2DF4B1D10042D90D /* Debug-anzio */,
 				6203048F2DF4B1E90042D90D /* Debug-community */,
 				33CC10FD2044A3C60003C045 /* Release-spooky */,
-				620304932DF4B1F90042D90D /* Release-storypad */,
+				620304932DF4B1F90042D90D /* Release-anzio */,
 				620304972DF4B2040042D90D /* Release-community */,
 				338D0CEA231458BD00FA5F75 /* Profile-spooky */,
-				6203049B2DF4B2150042D90D /* Profile-storypad */,
+				6203049B2DF4B2150042D90D /* Profile-anzio */,
 				6203049F2DF4B2230042D90D /* Profile-community */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -1538,13 +1538,13 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33CC111C2044C6BA0003C045 /* Debug-spooky */,
-				6203048D2DF4B1D10042D90D /* Debug-storypad */,
+				6203048D2DF4B1D10042D90D /* Debug-anzio */,
 				620304912DF4B1E90042D90D /* Debug-community */,
 				33CC111D2044C6BA0003C045 /* Release-spooky */,
-				620304952DF4B1F90042D90D /* Release-storypad */,
+				620304952DF4B1F90042D90D /* Release-anzio */,
 				620304992DF4B2040042D90D /* Release-community */,
 				338D0CEB231458BD00FA5F75 /* Profile-spooky */,
-				6203049D2DF4B2150042D90D /* Profile-storypad */,
+				6203049D2DF4B2150042D90D /* Profile-anzio */,
 				620304A12DF4B2230042D90D /* Profile-community */,
 			);
 			defaultConfigurationIsVisible = 0;

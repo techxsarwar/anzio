@@ -87,7 +87,7 @@ class _HomeFloatingButtonsState extends State<_HomeFloatingButtons> with SingleT
           widget.viewModel.goToNewPage(context);
         },
       ),
-      if (kStoryPad && kSupportCamera)
+      if (kAnzio && kSupportCamera)
         IconButton.outlined(
           tooltip: tr("button.take_photo"),
           visualDensity: const VisualDensity(horizontal: 1.5, vertical: 1.5),

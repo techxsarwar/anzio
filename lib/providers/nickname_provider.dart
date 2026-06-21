@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/core/databases/models/preference_db_model.dart';
-import 'package:storypad/widgets/bottom_sheets/sp_nickname_bottom_sheet.dart';
+import 'package:anzio/core/databases/models/preference_db_model.dart';
+import 'package:anzio/widgets/bottom_sheets/sp_nickname_bottom_sheet.dart';
 
 class NicknameProvider extends ChangeNotifier {
   String? nickname = PreferenceDbModel.db.nickname.get();

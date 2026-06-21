@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/app_theme.dart';
-import 'package:storypad/core/databases/models/tag_db_model.dart';
-import 'package:storypad/core/databases/models/template_db_model.dart';
-import 'package:storypad/providers/tags_provider.dart';
-import 'package:storypad/views/tags/show/show_tag_view.dart';
+import 'package:anzio/app_theme.dart';
+import 'package:anzio/core/databases/models/tag_db_model.dart';
+import 'package:anzio/core/databases/models/template_db_model.dart';
+import 'package:anzio/providers/tags_provider.dart';
+import 'package:anzio/views/tags/show/show_tag_view.dart';
 
 class TemplateTagLabels extends StatelessWidget {
   const TemplateTagLabels({

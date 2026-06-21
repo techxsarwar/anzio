@@ -1,14 +1,14 @@
 import 'dart:io';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/types/support_directory_path.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/types/support_directory_path.dart';
 
 void main() {
   late Directory testSupportDir;
 
   setUpAll(() async {
     // Create a temporary directory for testing (once for all tests)
-    testSupportDir = await Directory.systemTemp.createTemp('storypad_test_');
+    testSupportDir = await Directory.systemTemp.createTemp('anzio_test_');
     kSupportDirectory = testSupportDir;
   });
 

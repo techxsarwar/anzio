@@ -1,12 +1,12 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/views/languages/languages_view.dart';
-import 'package:storypad/widgets/sp_fade_in.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/views/languages/languages_view.dart';
+import 'package:anzio/widgets/sp_fade_in.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/widgets/base_view/base_route.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/widgets/base_view/base_route.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 import 'onboarding_view_model.dart';
 

@@ -1,6 +1,6 @@
 import 'package:open_location_code/open_location_code.dart' as olc;
-import 'package:storypad/core/objects/sp_latlng.dart';
-import 'package:storypad/core/services/geocoding/sp_geocoding_service.dart';
+import 'package:anzio/core/objects/sp_latlng.dart';
+import 'package:anzio/core/services/geocoding/sp_geocoding_service.dart';
 
 /// Parses a free-form coordinate string into a [SpLatLng].
 ///

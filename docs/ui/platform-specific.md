@@ -5,7 +5,7 @@
 ## Adaptive Widgets
 
 ```dart
-import 'package:storypad/core/constants/app_constants.dart';
+import 'package:anzio/core/constants/app_constants.dart';
 
 if (kIsCupertino) {
   // iOS-specific UI

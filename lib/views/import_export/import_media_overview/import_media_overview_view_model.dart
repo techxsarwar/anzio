@@ -2,12 +2,12 @@ import 'dart:io';
 
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/databases/models/asset_db_model.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
-import 'package:storypad/core/mixins/dispose_aware_mixin.dart';
-import 'package:storypad/core/services/assets/import_media_from_tar_service.dart';
-import 'package:storypad/core/services/messenger_service.dart';
-import 'package:storypad/core/types/support_directory_path.dart';
+import 'package:anzio/core/databases/models/asset_db_model.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
+import 'package:anzio/core/mixins/dispose_aware_mixin.dart';
+import 'package:anzio/core/services/assets/import_media_from_tar_service.dart';
+import 'package:anzio/core/services/messenger_service.dart';
+import 'package:anzio/core/types/support_directory_path.dart';
 
 import 'import_media_overview_view.dart';
 

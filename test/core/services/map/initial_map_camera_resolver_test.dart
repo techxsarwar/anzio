@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/databases/models/place_db_model.dart';
-import 'package:storypad/core/objects/sp_latlng.dart';
-import 'package:storypad/core/services/map/initial_map_camera_resolver.dart';
+import 'package:anzio/core/databases/models/place_db_model.dart';
+import 'package:anzio/core/objects/sp_latlng.dart';
+import 'package:anzio/core/services/map/initial_map_camera_resolver.dart';
 
 void main() {
   group('InitialMapCameraResolver', () {

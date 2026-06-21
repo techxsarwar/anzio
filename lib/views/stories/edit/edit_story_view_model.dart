@@ -3,16 +3,16 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/databases/models/story_content_db_model.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
-import 'package:storypad/core/databases/models/story_page_db_model.dart';
-import 'package:storypad/core/objects/default_story_preferences_object.dart';
-import 'package:storypad/core/objects/story_page_objects_map.dart';
-import 'package:storypad/core/services/stories/story_should_revert_change_service.dart';
-import 'package:storypad/core/types/asset_type.dart';
-import 'package:storypad/core/types/editing_flow_type.dart';
-import 'package:storypad/providers/device_preferences_provider.dart';
-import 'package:storypad/views/stories/local_widgets/base_story_view_model.dart';
+import 'package:anzio/core/databases/models/story_content_db_model.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
+import 'package:anzio/core/databases/models/story_page_db_model.dart';
+import 'package:anzio/core/objects/default_story_preferences_object.dart';
+import 'package:anzio/core/objects/story_page_objects_map.dart';
+import 'package:anzio/core/services/stories/story_should_revert_change_service.dart';
+import 'package:anzio/core/types/asset_type.dart';
+import 'package:anzio/core/types/editing_flow_type.dart';
+import 'package:anzio/providers/device_preferences_provider.dart';
+import 'package:anzio/views/stories/local_widgets/base_story_view_model.dart';
 import 'edit_story_view.dart';
 
 class EditStoryViewModel extends BaseStoryViewModel {

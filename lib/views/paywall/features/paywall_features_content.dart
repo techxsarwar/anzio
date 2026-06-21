@@ -8,7 +8,7 @@ class _PaywallFeaturesContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final iapProvider = Provider.of<InAppPurchaseProvider>(context);
-    final activeDeal = iapProvider.getActiveDeal(.storypad_pro_lifetime);
+    final activeDeal = iapProvider.getActiveDeal(.anzio_pro_lifetime);
 
     return Scaffold(
       appBar: CupertinoSheetRoute.hasParentSheet(context)

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/core/extensions/color_scheme_extension.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/core/extensions/color_scheme_extension.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 class TemplateNote extends StatelessWidget {
   const TemplateNote({

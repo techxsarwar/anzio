@@ -1,4 +1,4 @@
-name: storypad
+name: anzio
 version: 2.32.0+759
 publish_to: none
 environment:
@@ -98,10 +98,10 @@ flutter:
     - assets/images/
     - assets/images/onboarding/
     - assets/emoji-64/
-    - assets/logos/storypad_logo_1_0.icon/Assets/storypad_logo_1_0.png
-    - assets/logos/storypad_logo_2_0.icon/Assets/storypad_logo_2_0.png
-    - assets/logos/storypad_logo_3_0.icon/Assets/storypad_logo_3_0.png
-    - assets/logos/storypad_logo_4_0.icon/Assets/storypad_logo_4_0.png
-    - assets/logos/storypad_logo_5_0.icon/Assets/storypad_logo_5_0.png
-    - assets/logos/storypad_logo_6_0.icon/Assets/storypad_logo_6_0.png
-    - assets/logos/storypad_logo_6_1.icon/Assets/storypad_logo_6_1.png
+    - assets/logos/anzio_logo_1_0.icon/Assets/anzio_logo_1_0.png
+    - assets/logos/anzio_logo_2_0.icon/Assets/anzio_logo_2_0.png
+    - assets/logos/anzio_logo_3_0.icon/Assets/anzio_logo_3_0.png
+    - assets/logos/anzio_logo_4_0.icon/Assets/anzio_logo_4_0.png
+    - assets/logos/anzio_logo_5_0.icon/Assets/anzio_logo_5_0.png
+    - assets/logos/anzio_logo_6_0.icon/Assets/anzio_logo_6_0.png
+    - assets/logos/anzio_logo_6_1.icon/Assets/anzio_logo_6_1.png

@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/services/remote_config/adaptors/none_remote_config_adaptor.dart';
+import 'package:anzio/core/services/remote_config/adaptors/none_remote_config_adaptor.dart';
 
 void main() {
   late NoneRemoteConfigAdaptor adaptor;

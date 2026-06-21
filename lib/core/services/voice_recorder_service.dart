@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'package:record/record.dart';
-import 'package:storypad/core/types/support_directory_path.dart';
+import 'package:anzio/core/types/support_directory_path.dart';
 
 /// Service for recording voice notes to m4a format.
 ///

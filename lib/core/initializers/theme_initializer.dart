@@ -1,4 +1,4 @@
-import 'package:storypad/core/storages/device_preferences_storage.dart';
+import 'package:anzio/core/storages/device_preferences_storage.dart';
 
 class ThemeInitializer {
   static Future<void> call() async {

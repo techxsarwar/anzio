@@ -2,13 +2,13 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:package_info_plus/package_info_plus.dart';
-import 'package:storypad/core/objects/device_info_object.dart';
-import 'package:storypad/core/services/analytics/adaptors/base_analytics_event_adaptor.dart';
-import 'package:storypad/core/services/analytics/adaptors/base_analytics_user_property_adaptor.dart';
-import 'package:storypad/core/services/cloud_storage/adaptors/base_cloud_storage_adaptor.dart';
-import 'package:storypad/core/services/error_reporting/adaptors/base_error_reporting_adaptor.dart';
-import 'package:storypad/core/services/remote_config/adaptors/base_remote_config_adaptor.dart';
-import 'package:storypad/core/types/app_logo.dart';
+import 'package:anzio/core/objects/device_info_object.dart';
+import 'package:anzio/core/services/analytics/adaptors/base_analytics_event_adaptor.dart';
+import 'package:anzio/core/services/analytics/adaptors/base_analytics_user_property_adaptor.dart';
+import 'package:anzio/core/services/cloud_storage/adaptors/base_cloud_storage_adaptor.dart';
+import 'package:anzio/core/services/error_reporting/adaptors/base_error_reporting_adaptor.dart';
+import 'package:anzio/core/services/remote_config/adaptors/base_remote_config_adaptor.dart';
+import 'package:anzio/core/types/app_logo.dart';
 
 const String kAppName = String.fromEnvironment('APP_NAME');
 const String kRevenueCatAndroidApiKey = String.fromEnvironment('REVENUE_CAT_ANDROID_API_KEY');
@@ -32,9 +32,9 @@ final bool kIAPEnabled =
 final bool kSupportCamera = Platform.isAndroid || Platform.isIOS;
 final bool kSupportQuickActions = Platform.isAndroid || Platform.isIOS;
 
-final bool kSpooky = kPackageInfo.packageName == 'com.juniorise.spooky';
-final bool kStoryPad = kPackageInfo.packageName == 'com.tc.writestory';
-final bool kCommunity = kPackageInfo.packageName == 'com.juniorise.spooky.community';
+final bool kSpooky = kPackageInfo.packageName == 'com.parallelogram.anzio';
+final bool kAnzio = kPackageInfo.packageName == 'com.parallelogram.anzio';
+final bool kCommunity = kPackageInfo.packageName == 'com.parallelogram.anzio.community';
 
 late final Directory kSupportDirectory;
 late final Directory kApplicationDirectory;

@@ -1,9 +1,9 @@
 import 'dart:isolate';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/databases/adapters/objectbox/base_box.dart';
-import 'package:storypad/core/databases/adapters/objectbox/entities.dart';
-import 'package:storypad/core/databases/models/event_db_model.dart';
-import 'package:storypad/objectbox.g.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/databases/adapters/objectbox/base_box.dart';
+import 'package:anzio/core/databases/adapters/objectbox/entities.dart';
+import 'package:anzio/core/databases/models/event_db_model.dart';
+import 'package:anzio/objectbox.g.dart';
 
 class EventsBox extends BaseBox<EventObjectBox, EventDbModel> {
   @override

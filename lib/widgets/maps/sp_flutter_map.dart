@@ -5,12 +5,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:latlong2/latlong.dart' as latlong;
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/mixins/debounched_callback.dart';
-import 'package:storypad/core/objects/sp_latlng.dart';
-import 'package:storypad/core/objects/sp_latlng_bounds.dart';
-import 'package:storypad/widgets/maps/map_types.dart';
-import 'package:storypad/widgets/maps/sp_map_controller.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/mixins/debounched_callback.dart';
+import 'package:anzio/core/objects/sp_latlng.dart';
+import 'package:anzio/core/objects/sp_latlng_bounds.dart';
+import 'package:anzio/widgets/maps/map_types.dart';
+import 'package:anzio/widgets/maps/sp_map_controller.dart';
 
 typedef SpFlutterMapMarkerBuilder<T> = Widget Function(BuildContext context, SpMapMarker<T> marker);
 typedef SpFlutterMapClusterMarkerBuilder<T> = Widget Function(BuildContext context, List<SpMapMarker<T>> markers);

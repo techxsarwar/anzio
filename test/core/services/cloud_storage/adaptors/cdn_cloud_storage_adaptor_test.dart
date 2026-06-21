@@ -5,8 +5,8 @@ import 'dart:typed_data';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/testing.dart';
-import 'package:storypad/core/services/cloud_storage/adaptors/base_cloud_storage_adaptor.dart';
-import 'package:storypad/core/services/cloud_storage/adaptors/cdn_cloud_storage_adaptor.dart';
+import 'package:anzio/core/services/cloud_storage/adaptors/base_cloud_storage_adaptor.dart';
+import 'package:anzio/core/services/cloud_storage/adaptors/cdn_cloud_storage_adaptor.dart';
 
 CdnCloudStorageAdaptor _adapterWith(http.Client client) {
   return CdnCloudStorageAdaptor(baseUrl: 'https://cdn.example.com', httpClient: client);

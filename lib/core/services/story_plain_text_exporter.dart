@@ -1,8 +1,8 @@
 import 'dart:ui';
-import 'package:storypad/core/databases/models/tag_db_model.dart';
-import 'package:storypad/core/objects/story_page_object.dart';
-import 'package:storypad/core/services/quill/quill_delta_to_plain_text_service.dart';
-import 'package:storypad/core/types/time_format_option.dart';
+import 'package:anzio/core/databases/models/tag_db_model.dart';
+import 'package:anzio/core/objects/story_page_object.dart';
+import 'package:anzio/core/services/quill/quill_delta_to_plain_text_service.dart';
+import 'package:anzio/core/types/time_format_option.dart';
 
 class StoryPlainTextExporter {
   final DateTime displayPathDate;
@@ -39,7 +39,7 @@ class StoryPlainTextExporter {
     final header = headerParts.isNotEmpty ? "${headerParts.join('\n')}\n\n" : '';
     final pagesText = pages.map(_pageContent).where((content) => content.isNotEmpty).join('\n\n---\n\n').trim();
 
-    return "$header$pagesText\n\n#StoryPad";
+    return "$header$pagesText\n\n#Anzio";
   }
 
   String _pageContent(StoryPageObject page) {

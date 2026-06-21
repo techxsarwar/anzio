@@ -1,11 +1,11 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:share_plus/share_plus.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/services/analytics/analytics_service.dart';
-import 'package:storypad/widgets/bottom_sheets/base_bottom_sheet.dart';
-import 'package:storypad/widgets/sp_icons.dart';
-import 'package:storypad/widgets/sp_single_state_widget.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/services/analytics/analytics_service.dart';
+import 'package:anzio/widgets/bottom_sheets/base_bottom_sheet.dart';
+import 'package:anzio/widgets/sp_icons.dart';
+import 'package:anzio/widgets/sp_single_state_widget.dart';
 
 class SpShareAppBottomSheet extends BaseBottomSheet {
   @override
@@ -18,7 +18,7 @@ class SpShareAppBottomSheet extends BaseBottomSheet {
         'general.share_app_sample_text',
         namedArgs: {
           'APP_NAME': kAppName,
-          'URL': 'https://storypad.me',
+          'URL': 'https://anzio.me',
         },
       ),
       builder: (context, notifier) {

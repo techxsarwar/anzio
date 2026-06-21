@@ -438,32 +438,32 @@ class $AssetsImagesGen {
 class $AssetsLogosGen {
   const $AssetsLogosGen();
 
-  /// Directory path: assets/logos/storypad_logo_1_0.icon
-  $AssetsLogosStorypadLogo10IconGen get storypadLogo10 =>
+  /// Directory path: assets/logos/anzio_logo_1_0.icon
+  $AssetsLogosStorypadLogo10IconGen get anzioLogo10 =>
       const $AssetsLogosStorypadLogo10IconGen();
 
-  /// Directory path: assets/logos/storypad_logo_2_0.icon
-  $AssetsLogosStorypadLogo20IconGen get storypadLogo20 =>
+  /// Directory path: assets/logos/anzio_logo_2_0.icon
+  $AssetsLogosStorypadLogo20IconGen get anzioLogo20 =>
       const $AssetsLogosStorypadLogo20IconGen();
 
-  /// Directory path: assets/logos/storypad_logo_3_0.icon
-  $AssetsLogosStorypadLogo30IconGen get storypadLogo30 =>
+  /// Directory path: assets/logos/anzio_logo_3_0.icon
+  $AssetsLogosStorypadLogo30IconGen get anzioLogo30 =>
       const $AssetsLogosStorypadLogo30IconGen();
 
-  /// Directory path: assets/logos/storypad_logo_4_0.icon
-  $AssetsLogosStorypadLogo40IconGen get storypadLogo40 =>
+  /// Directory path: assets/logos/anzio_logo_4_0.icon
+  $AssetsLogosStorypadLogo40IconGen get anzioLogo40 =>
       const $AssetsLogosStorypadLogo40IconGen();
 
-  /// Directory path: assets/logos/storypad_logo_5_0.icon
-  $AssetsLogosStorypadLogo50IconGen get storypadLogo50 =>
+  /// Directory path: assets/logos/anzio_logo_5_0.icon
+  $AssetsLogosStorypadLogo50IconGen get anzioLogo50 =>
       const $AssetsLogosStorypadLogo50IconGen();
 
-  /// Directory path: assets/logos/storypad_logo_6_0.icon
-  $AssetsLogosStorypadLogo60IconGen get storypadLogo60 =>
+  /// Directory path: assets/logos/anzio_logo_6_0.icon
+  $AssetsLogosStorypadLogo60IconGen get anzioLogo60 =>
       const $AssetsLogosStorypadLogo60IconGen();
 
-  /// Directory path: assets/logos/storypad_logo_6_1.icon
-  $AssetsLogosStorypadLogo61IconGen get storypadLogo61 =>
+  /// Directory path: assets/logos/anzio_logo_6_1.icon
+  $AssetsLogosStorypadLogo61IconGen get anzioLogo61 =>
       const $AssetsLogosStorypadLogo61IconGen();
 }
 
@@ -558,7 +558,7 @@ class $AssetsImagesOnboardingGen {
 class $AssetsLogosStorypadLogo10IconGen {
   const $AssetsLogosStorypadLogo10IconGen();
 
-  /// Directory path: assets/logos/storypad_logo_1_0.icon/Assets
+  /// Directory path: assets/logos/anzio_logo_1_0.icon/Assets
   $AssetsLogosStorypadLogo10IconAssetsGen get assets =>
       const $AssetsLogosStorypadLogo10IconAssetsGen();
 }
@@ -566,7 +566,7 @@ class $AssetsLogosStorypadLogo10IconGen {
 class $AssetsLogosStorypadLogo20IconGen {
   const $AssetsLogosStorypadLogo20IconGen();
 
-  /// Directory path: assets/logos/storypad_logo_2_0.icon/Assets
+  /// Directory path: assets/logos/anzio_logo_2_0.icon/Assets
   $AssetsLogosStorypadLogo20IconAssetsGen get assets =>
       const $AssetsLogosStorypadLogo20IconAssetsGen();
 }
@@ -574,7 +574,7 @@ class $AssetsLogosStorypadLogo20IconGen {
 class $AssetsLogosStorypadLogo30IconGen {
   const $AssetsLogosStorypadLogo30IconGen();
 
-  /// Directory path: assets/logos/storypad_logo_3_0.icon/Assets
+  /// Directory path: assets/logos/anzio_logo_3_0.icon/Assets
   $AssetsLogosStorypadLogo30IconAssetsGen get assets =>
       const $AssetsLogosStorypadLogo30IconAssetsGen();
 }
@@ -582,7 +582,7 @@ class $AssetsLogosStorypadLogo30IconGen {
 class $AssetsLogosStorypadLogo40IconGen {
   const $AssetsLogosStorypadLogo40IconGen();
 
-  /// Directory path: assets/logos/storypad_logo_4_0.icon/Assets
+  /// Directory path: assets/logos/anzio_logo_4_0.icon/Assets
   $AssetsLogosStorypadLogo40IconAssetsGen get assets =>
       const $AssetsLogosStorypadLogo40IconAssetsGen();
 }
@@ -590,7 +590,7 @@ class $AssetsLogosStorypadLogo40IconGen {
 class $AssetsLogosStorypadLogo50IconGen {
   const $AssetsLogosStorypadLogo50IconGen();
 
-  /// Directory path: assets/logos/storypad_logo_5_0.icon/Assets
+  /// Directory path: assets/logos/anzio_logo_5_0.icon/Assets
   $AssetsLogosStorypadLogo50IconAssetsGen get assets =>
       const $AssetsLogosStorypadLogo50IconAssetsGen();
 }
@@ -598,7 +598,7 @@ class $AssetsLogosStorypadLogo50IconGen {
 class $AssetsLogosStorypadLogo60IconGen {
   const $AssetsLogosStorypadLogo60IconGen();
 
-  /// Directory path: assets/logos/storypad_logo_6_0.icon/Assets
+  /// Directory path: assets/logos/anzio_logo_6_0.icon/Assets
   $AssetsLogosStorypadLogo60IconAssetsGen get assets =>
       const $AssetsLogosStorypadLogo60IconAssetsGen();
 }
@@ -606,7 +606,7 @@ class $AssetsLogosStorypadLogo60IconGen {
 class $AssetsLogosStorypadLogo61IconGen {
   const $AssetsLogosStorypadLogo61IconGen();
 
-  /// Directory path: assets/logos/storypad_logo_6_1.icon/Assets
+  /// Directory path: assets/logos/anzio_logo_6_1.icon/Assets
   $AssetsLogosStorypadLogo61IconAssetsGen get assets =>
       const $AssetsLogosStorypadLogo61IconAssetsGen();
 }
@@ -614,85 +614,85 @@ class $AssetsLogosStorypadLogo61IconGen {
 class $AssetsLogosStorypadLogo10IconAssetsGen {
   const $AssetsLogosStorypadLogo10IconAssetsGen();
 
-  /// File path: assets/logos/storypad_logo_1_0.icon/Assets/storypad_logo_1_0.png
-  AssetGenImage get storypadLogo10 => const AssetGenImage(
-    'assets/logos/storypad_logo_1_0.icon/Assets/storypad_logo_1_0.png',
+  /// File path: assets/logos/anzio_logo_1_0.icon/Assets/anzio_logo_1_0.png
+  AssetGenImage get anzioLogo10 => const AssetGenImage(
+    'assets/logos/anzio_logo_1_0.icon/Assets/anzio_logo_1_0.png',
   );
 
   /// List of all assets
-  List<AssetGenImage> get values => [storypadLogo10];
+  List<AssetGenImage> get values => [anzioLogo10];
 }
 
 class $AssetsLogosStorypadLogo20IconAssetsGen {
   const $AssetsLogosStorypadLogo20IconAssetsGen();
 
-  /// File path: assets/logos/storypad_logo_2_0.icon/Assets/storypad_logo_2_0.png
-  AssetGenImage get storypadLogo20 => const AssetGenImage(
-    'assets/logos/storypad_logo_2_0.icon/Assets/storypad_logo_2_0.png',
+  /// File path: assets/logos/anzio_logo_2_0.icon/Assets/anzio_logo_2_0.png
+  AssetGenImage get anzioLogo20 => const AssetGenImage(
+    'assets/logos/anzio_logo_2_0.icon/Assets/anzio_logo_2_0.png',
   );
 
   /// List of all assets
-  List<AssetGenImage> get values => [storypadLogo20];
+  List<AssetGenImage> get values => [anzioLogo20];
 }
 
 class $AssetsLogosStorypadLogo30IconAssetsGen {
   const $AssetsLogosStorypadLogo30IconAssetsGen();
 
-  /// File path: assets/logos/storypad_logo_3_0.icon/Assets/storypad_logo_3_0.png
-  AssetGenImage get storypadLogo30 => const AssetGenImage(
-    'assets/logos/storypad_logo_3_0.icon/Assets/storypad_logo_3_0.png',
+  /// File path: assets/logos/anzio_logo_3_0.icon/Assets/anzio_logo_3_0.png
+  AssetGenImage get anzioLogo30 => const AssetGenImage(
+    'assets/logos/anzio_logo_3_0.icon/Assets/anzio_logo_3_0.png',
   );
 
   /// List of all assets
-  List<AssetGenImage> get values => [storypadLogo30];
+  List<AssetGenImage> get values => [anzioLogo30];
 }
 
 class $AssetsLogosStorypadLogo40IconAssetsGen {
   const $AssetsLogosStorypadLogo40IconAssetsGen();
 
-  /// File path: assets/logos/storypad_logo_4_0.icon/Assets/storypad_logo_4_0.png
-  AssetGenImage get storypadLogo40 => const AssetGenImage(
-    'assets/logos/storypad_logo_4_0.icon/Assets/storypad_logo_4_0.png',
+  /// File path: assets/logos/anzio_logo_4_0.icon/Assets/anzio_logo_4_0.png
+  AssetGenImage get anzioLogo40 => const AssetGenImage(
+    'assets/logos/anzio_logo_4_0.icon/Assets/anzio_logo_4_0.png',
   );
 
   /// List of all assets
-  List<AssetGenImage> get values => [storypadLogo40];
+  List<AssetGenImage> get values => [anzioLogo40];
 }
 
 class $AssetsLogosStorypadLogo50IconAssetsGen {
   const $AssetsLogosStorypadLogo50IconAssetsGen();
 
-  /// File path: assets/logos/storypad_logo_5_0.icon/Assets/storypad_logo_5_0.png
-  AssetGenImage get storypadLogo50 => const AssetGenImage(
-    'assets/logos/storypad_logo_5_0.icon/Assets/storypad_logo_5_0.png',
+  /// File path: assets/logos/anzio_logo_5_0.icon/Assets/anzio_logo_5_0.png
+  AssetGenImage get anzioLogo50 => const AssetGenImage(
+    'assets/logos/anzio_logo_5_0.icon/Assets/anzio_logo_5_0.png',
   );
 
   /// List of all assets
-  List<AssetGenImage> get values => [storypadLogo50];
+  List<AssetGenImage> get values => [anzioLogo50];
 }
 
 class $AssetsLogosStorypadLogo60IconAssetsGen {
   const $AssetsLogosStorypadLogo60IconAssetsGen();
 
-  /// File path: assets/logos/storypad_logo_6_0.icon/Assets/storypad_logo_6_0.png
-  AssetGenImage get storypadLogo60 => const AssetGenImage(
-    'assets/logos/storypad_logo_6_0.icon/Assets/storypad_logo_6_0.png',
+  /// File path: assets/logos/anzio_logo_6_0.icon/Assets/anzio_logo_6_0.png
+  AssetGenImage get anzioLogo60 => const AssetGenImage(
+    'assets/logos/anzio_logo_6_0.icon/Assets/anzio_logo_6_0.png',
   );
 
   /// List of all assets
-  List<AssetGenImage> get values => [storypadLogo60];
+  List<AssetGenImage> get values => [anzioLogo60];
 }
 
 class $AssetsLogosStorypadLogo61IconAssetsGen {
   const $AssetsLogosStorypadLogo61IconAssetsGen();
 
-  /// File path: assets/logos/storypad_logo_6_1.icon/Assets/storypad_logo_6_1.png
-  AssetGenImage get storypadLogo61 => const AssetGenImage(
-    'assets/logos/storypad_logo_6_1.icon/Assets/storypad_logo_6_1.png',
+  /// File path: assets/logos/anzio_logo_6_1.icon/Assets/anzio_logo_6_1.png
+  AssetGenImage get anzioLogo61 => const AssetGenImage(
+    'assets/logos/anzio_logo_6_1.icon/Assets/anzio_logo_6_1.png',
   );
 
   /// List of all assets
-  List<AssetGenImage> get values => [storypadLogo61];
+  List<AssetGenImage> get values => [anzioLogo61];
 }
 
 class Assets {

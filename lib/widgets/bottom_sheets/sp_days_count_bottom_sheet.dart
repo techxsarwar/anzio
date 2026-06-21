@@ -1,8 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
-import 'package:storypad/widgets/bottom_sheets/base_bottom_sheet.dart';
-import 'package:storypad/widgets/sp_single_state_widget.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
+import 'package:anzio/widgets/bottom_sheets/base_bottom_sheet.dart';
+import 'package:anzio/widgets/sp_single_state_widget.dart';
 
 class SpDaysCountBottomSheet extends BaseBottomSheet {
   final StoryDbModel story;

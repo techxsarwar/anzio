@@ -1,12 +1,12 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/views/paywall/paywall_view.dart';
-import 'package:storypad/views/settings/local_widgets/font_weight_tile.dart';
-import 'package:storypad/widgets/bottom_sheets/base_bottom_sheet.dart';
-import 'package:storypad/widgets/sp_fade_in.dart';
-import 'package:storypad/widgets/sp_icons.dart';
-import 'package:storypad/widgets/sp_single_state_widget.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/views/paywall/paywall_view.dart';
+import 'package:anzio/views/settings/local_widgets/font_weight_tile.dart';
+import 'package:anzio/widgets/bottom_sheets/base_bottom_sheet.dart';
+import 'package:anzio/widgets/sp_fade_in.dart';
+import 'package:anzio/widgets/sp_icons.dart';
+import 'package:anzio/widgets/sp_single_state_widget.dart';
 
 class SpFontWeightSheet extends BaseBottomSheet {
   const SpFontWeightSheet({

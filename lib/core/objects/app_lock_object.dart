@@ -1,6 +1,6 @@
 import 'package:copy_with_extension/copy_with_extension.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:storypad/core/types/app_lock_question.dart' show AppLockQuestion;
+import 'package:anzio/core/types/app_lock_question.dart' show AppLockQuestion;
 
 part 'app_lock_object.g.dart';
 

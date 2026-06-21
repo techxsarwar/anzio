@@ -1,9 +1,9 @@
 import 'package:flutter/widgets.dart';
-import 'package:storypad/core/rich_text/rich_text_document.dart';
+import 'package:anzio/core/rich_text/rich_text_document.dart';
 
 /// Abstract interface for rich text editor controllers.
 ///
-/// This abstraction allows StoryPad to work with different rich text editor
+/// This abstraction allows Anzio to work with different rich text editor
 /// implementations without tight coupling to a specific library.
 ///
 /// Core responsibilities:

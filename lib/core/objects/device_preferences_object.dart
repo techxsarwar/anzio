@@ -1,15 +1,15 @@
 import 'package:copy_with_extension/copy_with_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/objects/app_quick_action_object.dart';
-import 'package:storypad/core/objects/default_story_preferences_object.dart';
-import 'package:storypad/core/objects/story_tile_preferences_object.dart';
-import 'package:storypad/core/types/asset_compression_option.dart';
-import 'package:storypad/core/types/first_day_of_week_option.dart';
-import 'package:storypad/core/types/font_size_option.dart';
-import 'package:storypad/core/types/time_format_option.dart';
-import 'package:storypad/widgets/maps/map_types.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/objects/app_quick_action_object.dart';
+import 'package:anzio/core/objects/default_story_preferences_object.dart';
+import 'package:anzio/core/objects/story_tile_preferences_object.dart';
+import 'package:anzio/core/types/asset_compression_option.dart';
+import 'package:anzio/core/types/first_day_of_week_option.dart';
+import 'package:anzio/core/types/font_size_option.dart';
+import 'package:anzio/core/types/time_format_option.dart';
+import 'package:anzio/widgets/maps/map_types.dart';
 
 part 'device_preferences_object.g.dart';
 

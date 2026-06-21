@@ -1,7 +1,7 @@
-import 'package:storypad/core/databases/models/relex_sound_mix_model.dart';
+import 'package:anzio/core/databases/models/relex_sound_mix_model.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/widgets/base_view/base_route.dart';
-import 'package:storypad/widgets/sp_text_inputs_page.dart';
+import 'package:anzio/widgets/base_view/base_route.dart';
+import 'package:anzio/widgets/sp_text_inputs_page.dart';
 
 class EditMixRoute extends BaseRoute {
   const EditMixRoute({

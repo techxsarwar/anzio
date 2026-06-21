@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/app_theme.dart';
-import 'package:storypad/providers/device_preferences_provider.dart';
-import 'package:storypad/providers/root_provider.dart';
+import 'package:anzio/app_theme.dart';
+import 'package:anzio/providers/device_preferences_provider.dart';
+import 'package:anzio/providers/root_provider.dart';
 
 /// Applies an overlay [Theme] tuned for map controls (AppBar, FAB, buttons)
 /// drawn on top of a map tile layer.

@@ -2,10 +2,10 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/constants/app_constants.dart' show kIsCupertino;
-import 'package:storypad/core/services/analytics/analytics_service.dart';
-import 'package:storypad/providers/root_provider.dart';
-import 'package:storypad/widgets/bottom_sheets/sp_cupertino_full_page_sheet_configurations.dart';
+import 'package:anzio/core/constants/app_constants.dart' show kIsCupertino;
+import 'package:anzio/core/services/analytics/analytics_service.dart';
+import 'package:anzio/providers/root_provider.dart';
+import 'package:anzio/widgets/bottom_sheets/sp_cupertino_full_page_sheet_configurations.dart';
 
 abstract class BaseBottomSheet {
   const BaseBottomSheet();

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/extensions/font_weight_extension.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/extensions/font_weight_extension.dart';
 
 part 'theme_object.g.dart';
 

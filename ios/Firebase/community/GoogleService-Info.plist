@@ -15,7 +15,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.juniorise.spooky.community</string>
+	<string>com.parallelogram.anzio.community</string>
 	<key>PROJECT_ID</key>
 	<string>juniorise-spooky-community</string>
 	<key>STORAGE_BUCKET</key>

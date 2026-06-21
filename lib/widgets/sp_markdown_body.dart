@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown_plus/flutter_markdown_plus.dart';
-import 'package:storypad/core/services/url_opener_service.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/core/services/url_opener_service.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 class SpMarkdownBody extends StatelessWidget {
   const SpMarkdownBody({

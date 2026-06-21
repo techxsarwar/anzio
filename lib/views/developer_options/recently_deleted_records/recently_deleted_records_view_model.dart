@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/core/databases/adapters/objectbox/entities.dart';
-import 'package:storypad/core/databases/models/collection_db_model.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
-import 'package:storypad/core/mixins/dispose_aware_mixin.dart';
-import 'package:storypad/objectbox.g.dart';
+import 'package:anzio/core/databases/adapters/objectbox/entities.dart';
+import 'package:anzio/core/databases/models/collection_db_model.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
+import 'package:anzio/core/mixins/dispose_aware_mixin.dart';
+import 'package:anzio/objectbox.g.dart';
 import 'recently_deleted_records_view.dart';
 
 class RecentlyDeletedRecordsViewModel extends ChangeNotifier with DisposeAwareMixin {

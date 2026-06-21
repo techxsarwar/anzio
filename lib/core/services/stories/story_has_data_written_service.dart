@@ -1,4 +1,4 @@
-import 'package:storypad/core/databases/models/story_content_db_model.dart';
+import 'package:anzio/core/databases/models/story_content_db_model.dart';
 
 class StoryHasDataWrittenService {
   static bool callByContent(StoryContentDbModel content) {

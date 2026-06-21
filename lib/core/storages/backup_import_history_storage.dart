@@ -1,5 +1,5 @@
-import 'package:storypad/core/services/backups/backup_service_type.dart';
-import 'package:storypad/core/storages/base_object_storages/map_storage.dart';
+import 'package:anzio/core/services/backups/backup_service_type.dart';
+import 'package:anzio/core/storages/base_object_storages/map_storage.dart';
 
 /// Stores the import/upload history per service per year
 /// Tracks the last 30 imported/uploaded timestamps to detect if a remote backup file needs downloading

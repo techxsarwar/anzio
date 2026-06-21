@@ -19,9 +19,9 @@ function run_command() {
 
 function get_package_name() {
   case "$1" in
-    storypad) echo "com.tc.writestory" ;;
-    spooky) echo "com.juniorise.spooky" ;;
-    community) echo "com.juniorise.spooky.community" ;;
+    anzio) echo "com.parallelogram.anzio" ;;
+    spooky) echo "com.parallelogram.anzio" ;;
+    community) echo "com.parallelogram.anzio.community" ;;
     *) echo "❌ Invalid flavor: $1" >&2; exit 1 ;;
   esac
 }
@@ -31,16 +31,16 @@ function validate_flavor_inputs() {
   COMMAND=$0
   FLAVOR=$1
 
-  if [ "$FLAVOR" != "--storypad" ] && [ "$FLAVOR" != "--spooky" ] && [ "$FLAVOR" != "--community" ]; then
+  if [ "$FLAVOR" != "--anzio" ] && [ "$FLAVOR" != "--spooky" ] && [ "$FLAVOR" != "--community" ]; then
     echo "❌ Error: Invalid environment specified: $FLAVOR"
-    echo "Usage: $COMMAND [--storypad | --spooky | --community]"
+    echo "Usage: $COMMAND [--anzio | --spooky | --community]"
     exit 1
   fi
 }
 
 function get_provision_source_path() {
   case "$1" in
-    storypad) echo "private_keys/ios_mobileprovision/StoryPad.mobileprovision" ;;
+    anzio) echo "private_keys/ios_mobileprovision/Anzio.mobileprovision" ;;
     spooky) echo "private_keys/ios_mobileprovision/Spooky.mobileprovision" ;;
     community) echo "private_keys/ios_mobileprovision/Community.mobileprovision" ;;
     *) echo "❌ Invalid flavor: $1" >&2; exit 1 ;;

@@ -1,5 +1,5 @@
-import 'package:storypad/core/services/days_count_in_month_service.dart';
-import 'package:storypad/core/types/first_day_of_week_option.dart';
+import 'package:anzio/core/services/days_count_in_month_service.dart';
+import 'package:anzio/core/types/first_day_of_week_option.dart';
 
 class CalendarDaysGenerator {
   static const int totalCells = DateTime.daysPerWeek * totalRows;

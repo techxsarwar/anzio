@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/extensions/matrix_4_extension.dart';
-import 'package:storypad/widgets/sp_page_view_datas.dart';
+import 'package:anzio/core/extensions/matrix_4_extension.dart';
+import 'package:anzio/widgets/sp_page_view_datas.dart';
 
 class SpPageView extends StatefulWidget {
   const SpPageView({

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/gen/assets.gen.dart';
+import 'package:anzio/gen/assets.gen.dart';
 
 class StoryDetailsScreenshot extends StatelessWidget {
   const StoryDetailsScreenshot({

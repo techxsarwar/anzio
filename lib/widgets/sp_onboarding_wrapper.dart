@@ -1,9 +1,9 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/extensions/matrix_4_extension.dart';
-import 'package:storypad/core/initializers/onboarding_initializer.dart';
-import 'package:storypad/views/onboarding/onboarding_view.dart';
-import 'package:storypad/widgets/sp_nested_navigation.dart';
+import 'package:anzio/core/extensions/matrix_4_extension.dart';
+import 'package:anzio/core/initializers/onboarding_initializer.dart';
+import 'package:anzio/views/onboarding/onboarding_view.dart';
+import 'package:anzio/widgets/sp_nested_navigation.dart';
 
 class SpOnboardingWrapper extends StatefulWidget {
   const SpOnboardingWrapper({

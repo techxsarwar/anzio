@@ -1,16 +1,16 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/extensions/color_scheme_extension.dart';
-import 'package:storypad/core/services/color_from_day_service.dart';
-import 'package:storypad/core/objects/cloud_storage_quota_object.dart';
-import 'package:storypad/core/services/backups/backup_service_type.dart';
-import 'package:storypad/core/types/support_directory_path.dart';
-import 'package:storypad/providers/backup_provider.dart';
-import 'package:storypad/widgets/base_view/base_route.dart';
-import 'package:storypad/widgets/sp_icons.dart';
-import 'package:storypad/widgets/sp_section_title.dart';
-import 'package:storypad/views/cloud_optimize/cloud_optimize_view.dart';
+import 'package:anzio/core/extensions/color_scheme_extension.dart';
+import 'package:anzio/core/services/color_from_day_service.dart';
+import 'package:anzio/core/objects/cloud_storage_quota_object.dart';
+import 'package:anzio/core/services/backups/backup_service_type.dart';
+import 'package:anzio/core/types/support_directory_path.dart';
+import 'package:anzio/providers/backup_provider.dart';
+import 'package:anzio/widgets/base_view/base_route.dart';
+import 'package:anzio/widgets/sp_icons.dart';
+import 'package:anzio/widgets/sp_section_title.dart';
+import 'package:anzio/views/cloud_optimize/cloud_optimize_view.dart';
 
 import 'storage_management_view_model.dart';
 

@@ -1,5 +1,5 @@
 import 'package:firebase_analytics/firebase_analytics.dart';
-import 'package:storypad/core/services/analytics/adaptors/base_analytics_event_adaptor.dart';
+import 'package:anzio/core/services/analytics/adaptors/base_analytics_event_adaptor.dart';
 
 class FirebaseAnalyticsEventAdaptor extends BaseAnalyticsEventAdaptor {
   @override

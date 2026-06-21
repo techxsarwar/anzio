@@ -2,7 +2,7 @@
 
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/widgets.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 enum AddOnType {
   relax_sounds(icon: SpIcons.musicNote, weekdayColor: 4),

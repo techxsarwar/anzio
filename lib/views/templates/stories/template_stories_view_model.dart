@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/core/mixins/dispose_aware_mixin.dart';
-import 'package:storypad/core/objects/search_filter_object.dart';
-import 'package:storypad/core/types/path_type.dart';
+import 'package:anzio/core/mixins/dispose_aware_mixin.dart';
+import 'package:anzio/core/objects/search_filter_object.dart';
+import 'package:anzio/core/types/path_type.dart';
 import 'template_stories_view.dart';
 
 class TemplateStoriesViewModel extends ChangeNotifier with DisposeAwareMixin {

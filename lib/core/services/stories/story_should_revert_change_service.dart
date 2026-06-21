@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
 
 class StoryShouldRevertChangeService {
   static Future<bool> call({

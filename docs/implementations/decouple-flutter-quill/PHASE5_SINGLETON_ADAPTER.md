@@ -58,7 +58,7 @@ flutter_quill package
 **Before**: Business logic imports concrete types
 
 ```dart
-import 'package:storypad/core/rich_text/rich_text.dart';
+import 'package:anzio/core/rich_text/rich_text.dart';
 
 // Exposes: QuillRichTextController, QuillLocalizations, etc.
 QuillLocalizations.delegate
@@ -69,7 +69,7 @@ QuillEmbedHelper.insertImage(...)
 **After**: Business logic uses singleton instance
 
 ```dart
-import 'package:storypad/core/rich_text/rich_text.dart';
+import 'package:anzio/core/rich_text/rich_text.dart';
 
 // Only exposes: editorAdapter + abstract interfaces
 editorAdapter.localizationsDelegates
@@ -87,8 +87,8 @@ editorAdapter.insertImage(...)
 
 ````dart
 import 'package:flutter/widgets.dart';
-import 'package:storypad/core/rich_text/rich_text_controller.dart';
-import 'package:storypad/core/rich_text/rich_text_document.dart';
+import 'package:anzio/core/rich_text/rich_text_controller.dart';
+import 'package:anzio/core/rich_text/rich_text_document.dart';
 
 /// Abstract interface for rich text editor adapter.
 ///
@@ -187,7 +187,7 @@ abstract class RichTextAdapter {
 }
 
 // Import the implementation
-import 'package:storypad/core/rich_text/flutter_quill/quill_rich_text_adapter.dart';
+import 'package:anzio/core/rich_text/flutter_quill/quill_rich_text_adapter.dart';
 
 /// Global singleton instance for rich text editor adapter.
 ///
@@ -217,12 +217,12 @@ final RichTextAdapter editorAdapter = QuillRichTextAdapter();
 import 'package:flutter/widgets.dart';
 import 'package:flutter_quill/flutter_quill.dart' as quill;
 import 'package:meta/meta.dart';
-import 'package:storypad/core/rich_text/flutter_quill/quill_adapter.dart';
-import 'package:storypad/core/rich_text/flutter_quill/quill_editor_builder.dart';
-import 'package:storypad/core/rich_text/flutter_quill/quill_toolbar_builder.dart';
-import 'package:storypad/core/rich_text/rich_text_adapter.dart';
-import 'package:storypad/core/rich_text/rich_text_controller.dart';
-import 'package:storypad/core/rich_text/rich_text_document.dart';
+import 'package:anzio/core/rich_text/flutter_quill/quill_adapter.dart';
+import 'package:anzio/core/rich_text/flutter_quill/quill_editor_builder.dart';
+import 'package:anzio/core/rich_text/flutter_quill/quill_toolbar_builder.dart';
+import 'package:anzio/core/rich_text/rich_text_adapter.dart';
+import 'package:anzio/core/rich_text/rich_text_controller.dart';
+import 'package:anzio/core/rich_text/rich_text_document.dart';
 
 /// Flutter Quill implementation of RichTextAdapter.
 @visibleForTesting
@@ -396,7 +396,7 @@ export 'rich_text_adapter.dart';
 ```dart
 // BEFORE:
 import 'package:flutter/material.dart';
-import 'package:storypad/core/rich_text/rich_text.dart';
+import 'package:anzio/core/rich_text/rich_text.dart';
 // ...
 localizationsDelegates: [
   ...EasyLocalization.of(context)!.delegates,
@@ -408,7 +408,7 @@ localizationsDelegates: [
 
 // AFTER:
 import 'package:flutter/material.dart';
-import 'package:storypad/core/rich_text/rich_text.dart';
+import 'package:anzio/core/rich_text/rich_text.dart';
 // ...
 localizationsDelegates: [
   ...EasyLocalization.of(context)!.delegates,
@@ -425,7 +425,7 @@ localizationsDelegates: [
 
 ```dart
 // BEFORE:
-import 'package:storypad/core/rich_text/flutter_quill/quill_toolbar_builder.dart';
+import 'package:anzio/core/rich_text/flutter_quill/quill_toolbar_builder.dart';
 // ...
 buildQuillToolbar(
   context: context,
@@ -433,7 +433,7 @@ buildQuillToolbar(
 )
 
 // AFTER:
-import 'package:storypad/core/rich_text/rich_text.dart';
+import 'package:anzio/core/rich_text/rich_text.dart';
 // ...
 editorAdapter.buildToolbar(
   context: context,
@@ -447,7 +447,7 @@ editorAdapter.buildToolbar(
 
 ```dart
 // BEFORE:
-import 'package:storypad/core/rich_text/flutter_quill/quill_editor_builder.dart';
+import 'package:anzio/core/rich_text/flutter_quill/quill_editor_builder.dart';
 // ...
 buildQuillEditor(
   context: context,
@@ -457,7 +457,7 @@ buildQuillEditor(
 )
 
 // AFTER:
-import 'package:storypad/core/rich_text/rich_text.dart';
+import 'package:anzio/core/rich_text/rich_text.dart';
 // ...
 editorAdapter.buildEditor(
   context: context,

@@ -1,4 +1,4 @@
-import 'package:storypad/core/services/backups/backup_service_type.dart';
+import 'package:anzio/core/services/backups/backup_service_type.dart';
 
 part 'auth_exception.dart';
 part 'configuration_exception.dart';

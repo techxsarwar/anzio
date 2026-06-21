@@ -2,7 +2,7 @@ import 'dart:typed_data';
 
 // ignore: depend_on_referenced_packages
 import 'package:http/http.dart' as http;
-import 'package:storypad/core/services/cloud_storage/adaptors/base_cloud_storage_adaptor.dart';
+import 'package:anzio/core/services/cloud_storage/adaptors/base_cloud_storage_adaptor.dart';
 
 class CdnCloudStorageAdaptor extends BaseCloudStorageAdaptor {
   final String baseUrl;

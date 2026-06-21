@@ -1,12 +1,12 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/databases/models/preference_db_model.dart';
-import 'package:storypad/providers/in_app_purchase_provider.dart';
-import 'package:storypad/widgets/bottom_sheets/sp_nickname_bottom_sheet.dart';
-import 'package:storypad/widgets/sp_icons.dart';
-import 'package:storypad/widgets/sp_single_state_widget.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/databases/models/preference_db_model.dart';
+import 'package:anzio/providers/in_app_purchase_provider.dart';
+import 'package:anzio/widgets/bottom_sheets/sp_nickname_bottom_sheet.dart';
+import 'package:anzio/widgets/sp_icons.dart';
+import 'package:anzio/widgets/sp_single_state_widget.dart';
 
 class AppIconTile extends StatelessWidget {
   const AppIconTile({

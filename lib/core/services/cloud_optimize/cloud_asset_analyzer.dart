@@ -1,5 +1,5 @@
-import 'package:storypad/core/databases/models/asset_db_model.dart';
-import 'package:storypad/core/objects/cloud_file_object.dart';
+import 'package:anzio/core/databases/models/asset_db_model.dart';
+import 'package:anzio/core/objects/cloud_file_object.dart';
 
 /// Classification result for a single cloud file.
 enum CloudFileClassification {

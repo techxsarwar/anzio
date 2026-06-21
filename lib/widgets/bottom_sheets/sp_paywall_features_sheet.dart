@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/views/paywall/features/paywall_features_view.dart';
-import 'package:storypad/widgets/bottom_sheets/base_bottom_sheet.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/views/paywall/features/paywall_features_view.dart';
+import 'package:anzio/widgets/bottom_sheets/base_bottom_sheet.dart';
 
 class SpPaywallFeaturesSheet extends BaseBottomSheet {
   SpPaywallFeaturesSheet({

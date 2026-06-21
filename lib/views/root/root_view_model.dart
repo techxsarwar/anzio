@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/mixins/debounched_callback.dart';
-import 'package:storypad/providers/backup_provider.dart';
-import 'package:storypad/views/home/home_view.dart';
+import 'package:anzio/core/mixins/debounched_callback.dart';
+import 'package:anzio/providers/backup_provider.dart';
+import 'package:anzio/views/home/home_view.dart';
 
 class RootViewModel extends ChangeNotifier with DebounchedCallback {
   // This is to trigger auto backup when user navigates to home page.

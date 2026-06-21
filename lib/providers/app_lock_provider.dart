@@ -2,15 +2,15 @@ import 'dart:async';
 import 'package:adaptive_dialog/adaptive_dialog.dart';
 import 'package:easy_localization/easy_localization.dart' show tr;
 import 'package:flutter/material.dart';
-import 'package:storypad/core/initializers/app_lock_initializer.dart';
-import 'package:storypad/core/objects/app_lock_object.dart';
-import 'package:storypad/core/services/analytics/analytics_service.dart';
-import 'package:storypad/core/services/avoid_dublicated_call_service.dart';
-import 'package:storypad/core/services/local_auth_service.dart';
-import 'package:storypad/core/storages/app_lock_storage.dart';
-import 'package:storypad/core/types/app_lock_question.dart';
-import 'package:storypad/views/app_locks/security_questions/security_questions_view.dart';
-import 'package:storypad/views/pin_unlock/pin_unlock_view.dart';
+import 'package:anzio/core/initializers/app_lock_initializer.dart';
+import 'package:anzio/core/objects/app_lock_object.dart';
+import 'package:anzio/core/services/analytics/analytics_service.dart';
+import 'package:anzio/core/services/avoid_dublicated_call_service.dart';
+import 'package:anzio/core/services/local_auth_service.dart';
+import 'package:anzio/core/storages/app_lock_storage.dart';
+import 'package:anzio/core/types/app_lock_question.dart';
+import 'package:anzio/views/app_locks/security_questions/security_questions_view.dart';
+import 'package:anzio/views/pin_unlock/pin_unlock_view.dart';
 
 class AppLockProvider extends ChangeNotifier {
   AppLockProvider() {

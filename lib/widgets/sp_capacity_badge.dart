@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/core/extensions/color_scheme_extension.dart';
+import 'package:anzio/core/extensions/color_scheme_extension.dart';
 
 class SpCapacityBadge extends StatelessWidget {
   const SpCapacityBadge({

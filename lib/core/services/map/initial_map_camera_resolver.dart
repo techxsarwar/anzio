@@ -1,6 +1,6 @@
-import 'package:storypad/core/databases/models/place_db_model.dart';
-import 'package:storypad/core/objects/sp_latlng.dart';
-import 'package:storypad/widgets/maps/map_types.dart';
+import 'package:anzio/core/databases/models/place_db_model.dart';
+import 'package:anzio/core/objects/sp_latlng.dart';
+import 'package:anzio/widgets/maps/map_types.dart';
 
 /// Returns the device's current or last-known location, or `null` when unavailable.
 typedef DeviceLocationLoader = Future<SpLatLng?> Function();

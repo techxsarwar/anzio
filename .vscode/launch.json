@@ -17,15 +17,15 @@
       ]
     },
     {
-      "name": "StoryPad",
+      "name": "Anzio",
       "request": "launch",
       "type": "dart",
       "flutterMode": "profile",
-      "program": "lib/main_storypad.dart",
+      "program": "lib/main_anzio.dart",
       "args": [
         "--flavor",
-        "storypad",
-        "--dart-define-from-file=private_keys/dart_defines/storypad.json"
+        "anzio",
+        "--dart-define-from-file=private_keys/dart_defines/anzio.json"
       ]
     },
     {
@@ -54,16 +54,16 @@
       ]
     },
     {
-      "name": "StoryPad (iOS)",
+      "name": "Anzio (iOS)",
       "request": "launch",
       "type": "dart",
       "flutterMode": "profile",
-      "program": "lib/main_storypad.dart",
+      "program": "lib/main_anzio.dart",
       "args": [
         "--flavor",
-        "storypad",
+        "anzio",
         "--dart-define=CUPERTINO=yes",
-        "--dart-define-from-file=private_keys/dart_defines/storypad.json"
+        "--dart-define-from-file=private_keys/dart_defines/anzio.json"
       ]
     },
     {
@@ -94,16 +94,16 @@
       "deviceId": "macos"
     },
     {
-      "name": "StoryPad (macOS)",
+      "name": "Anzio (macOS)",
       "request": "launch",
       "type": "dart",
       "flutterMode": "profile",
-      "program": "lib/main_storypad.dart",
+      "program": "lib/main_anzio.dart",
       "args": [
         "--flavor",
-        "storypad",
+        "anzio",
         "--dart-define=CUPERTINO=yes",
-        "--dart-define-from-file=private_keys/dart_defines/storypad.json"
+        "--dart-define-from-file=private_keys/dart_defines/anzio.json"
       ],
       "deviceId": "macos"
     }

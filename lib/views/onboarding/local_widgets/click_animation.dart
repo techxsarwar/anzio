@@ -1,8 +1,8 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:storypad/core/extensions/matrix_4_extension.dart';
-import 'package:storypad/widgets/sp_fade_in.dart';
+import 'package:anzio/core/extensions/matrix_4_extension.dart';
+import 'package:anzio/widgets/sp_fade_in.dart';
 
 class ClickAnimation extends StatefulWidget {
   const ClickAnimation({

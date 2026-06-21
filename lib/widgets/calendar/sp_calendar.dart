@@ -1,8 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/helpers/date_format_helper.dart';
-import 'package:storypad/core/services/calendar_days_generator.dart';
-import 'package:storypad/core/types/first_day_of_week_option.dart';
+import 'package:anzio/core/helpers/date_format_helper.dart';
+import 'package:anzio/core/services/calendar_days_generator.dart';
+import 'package:anzio/core/types/first_day_of_week_option.dart';
 
 part 'sp_calendar_month_grid.dart';
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/widgets/bottom_sheets/base_bottom_sheet.dart';
-import 'package:storypad/widgets/sp_firestore_storage_downloader_builder.dart';
-import 'package:storypad/widgets/sp_image.dart';
+import 'package:anzio/widgets/bottom_sheets/base_bottom_sheet.dart';
+import 'package:anzio/widgets/sp_firestore_storage_downloader_builder.dart';
+import 'package:anzio/widgets/sp_image.dart';
 
 class SpAndroidRedemptionSheet extends BaseBottomSheet {
   @override

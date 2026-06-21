@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/types/app_logo.dart';
-import 'package:storypad/providers/in_app_purchase_provider.dart';
-import 'package:storypad/views/paywall/paywall_view.dart';
-import 'package:storypad/widgets/sp_fade_in.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/core/types/app_logo.dart';
+import 'package:anzio/providers/in_app_purchase_provider.dart';
+import 'package:anzio/views/paywall/paywall_view.dart';
+import 'package:anzio/widgets/sp_fade_in.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 class SpAppLogoPicker extends StatelessWidget {
   const SpAppLogoPicker({
@@ -19,7 +19,7 @@ class SpAppLogoPicker extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Make sure male logo is always first to avoid in appropriate display.
-    final logos = {AppLogo.storypad_2_0, ...AppLogo.values};
+    final logos = {AppLogo.anzio_2_0, ...AppLogo.values};
     final iapProvider = Provider.of<InAppPurchaseProvider>(context);
 
     return SizedBox(

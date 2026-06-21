@@ -1,10 +1,10 @@
-import 'package:storypad/core/databases/models/story_preferences_db_model.dart';
-import 'package:storypad/core/objects/story_page_object.dart';
-import 'package:storypad/views/stories/local_widgets/story_pages_builder.dart';
+import 'package:anzio/core/databases/models/story_preferences_db_model.dart';
+import 'package:anzio/core/objects/story_page_object.dart';
+import 'package:anzio/views/stories/local_widgets/story_pages_builder.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/databases/models/story_content_db_model.dart';
-import 'package:storypad/widgets/base_view/base_route.dart';
+import 'package:anzio/core/databases/models/story_content_db_model.dart';
+import 'package:anzio/widgets/base_view/base_route.dart';
 
 import 'show_change_view_model.dart';
 

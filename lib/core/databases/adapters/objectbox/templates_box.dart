@@ -1,11 +1,11 @@
 import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
-import 'package:storypad/core/databases/adapters/objectbox/base_box.dart';
-import 'package:storypad/core/databases/adapters/objectbox/entities.dart';
-import 'package:storypad/core/databases/adapters/objectbox/helpers/story_content_helper.dart';
-import 'package:storypad/core/databases/models/template_db_model.dart';
-import 'package:storypad/objectbox.g.dart';
+import 'package:anzio/core/databases/adapters/objectbox/base_box.dart';
+import 'package:anzio/core/databases/adapters/objectbox/entities.dart';
+import 'package:anzio/core/databases/adapters/objectbox/helpers/story_content_helper.dart';
+import 'package:anzio/core/databases/models/template_db_model.dart';
+import 'package:anzio/objectbox.g.dart';
 
 part 'helpers/templates_box_transformer.dart';
 

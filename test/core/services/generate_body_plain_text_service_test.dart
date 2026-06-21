@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/databases/models/story_page_db_model.dart';
-import 'package:storypad/core/services/generate_body_plain_text_service.dart';
+import 'package:anzio/core/databases/models/story_page_db_model.dart';
+import 'package:anzio/core/services/generate_body_plain_text_service.dart';
 
 void main() {
   group('GenerateBodyPlainTextService', () {

@@ -3,7 +3,7 @@
 part 'app_legacy_product.dart';
 
 enum AppProduct {
-  storypad_pro_lifetime,
+  anzio_pro_lifetime,
   ;
 
   const AppProduct();

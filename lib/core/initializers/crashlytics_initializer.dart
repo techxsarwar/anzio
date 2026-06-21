@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:storypad/core/constants/app_constants.dart';
+import 'package:anzio/core/constants/app_constants.dart';
 
 class CrashlyticsInitializer {
   static void call() {

@@ -1,8 +1,8 @@
 import 'package:copy_with_extension/copy_with_extension.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:storypad/core/databases/adapters/objectbox/relax_sound_mixes_box.dart';
-import 'package:storypad/core/databases/models/base_db_model.dart';
-import 'package:storypad/core/databases/models/relax_sound_model.dart';
+import 'package:anzio/core/databases/adapters/objectbox/relax_sound_mixes_box.dart';
+import 'package:anzio/core/databases/models/base_db_model.dart';
+import 'package:anzio/core/databases/models/relax_sound_model.dart';
 
 part 'relex_sound_mix_model.g.dart';
 

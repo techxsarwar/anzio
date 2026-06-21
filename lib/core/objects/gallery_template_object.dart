@@ -1,8 +1,8 @@
 import 'package:copy_with_extension/copy_with_extension.dart';
 import 'package:json_annotation/json_annotation.dart';
-import 'package:storypad/core/databases/models/story_content_db_model.dart';
-import 'package:storypad/core/objects/gallery_template_page_object.dart';
-import 'package:storypad/core/types/page_layout_type.dart';
+import 'package:anzio/core/databases/models/story_content_db_model.dart';
+import 'package:anzio/core/objects/gallery_template_page_object.dart';
+import 'package:anzio/core/types/page_layout_type.dart';
 part 'gallery_template_object.g.dart';
 
 @CopyWith()

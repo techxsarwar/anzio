@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/services/error_reporting/adaptors/none_error_reporting_adaptor.dart';
+import 'package:anzio/core/services/error_reporting/adaptors/none_error_reporting_adaptor.dart';
 
 void main() {
   late NoneErrorReportingAdaptor adaptor;

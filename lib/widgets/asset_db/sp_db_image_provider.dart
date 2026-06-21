@@ -3,8 +3,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'dart:ui' as ui;
-import 'package:storypad/core/objects/google_user_object.dart';
-import 'package:storypad/widgets/asset_db/sp_db_asset_loader.dart';
+import 'package:anzio/core/objects/google_user_object.dart';
+import 'package:anzio/widgets/asset_db/sp_db_asset_loader.dart';
 
 class SpDbImageProvider extends ImageProvider<SpDbImageProvider> {
   final String relativePath;

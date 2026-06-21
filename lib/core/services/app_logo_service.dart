@@ -1,10 +1,10 @@
 import 'dart:io';
 import 'package:flutter/services.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/services/analytics/analytics_user_propery_service.dart';
-import 'package:storypad/core/services/logger/app_logger.dart';
-import 'package:storypad/core/storages/base_object_storages/enum_storage.dart';
-import 'package:storypad/core/types/app_logo.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/services/analytics/analytics_user_propery_service.dart';
+import 'package:anzio/core/services/logger/app_logger.dart';
+import 'package:anzio/core/storages/base_object_storages/enum_storage.dart';
+import 'package:anzio/core/types/app_logo.dart';
 
 class _AppLogoStorage extends EnumStorage<AppLogo> {
   @override
@@ -15,7 +15,7 @@ class AppLogoService {
   static const _channel = MethodChannel('default_platform_channel');
 
   Future<AppLogo> getCurrent() async {
-    return await _AppLogoStorage().readEnum() ?? AppLogo.storypad_1_0;
+    return await _AppLogoStorage().readEnum() ?? AppLogo.anzio_1_0;
   }
 
   Future<bool> set(AppLogo logo) async {
@@ -61,7 +61,7 @@ class AppLogoService {
 
     if (cleared) {
       await _AppLogoStorage().remove();
-      kAppLogo = AppLogo.storypad_1_0;
+      kAppLogo = AppLogo.anzio_1_0;
       AnalyticsUserProperyService.instance.logSetAppLogo(newAppLogo: null);
     }
 

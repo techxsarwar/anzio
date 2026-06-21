@@ -2,8 +2,8 @@ import 'dart:async';
 import 'dart:io';
 import 'package:flutter/widgets.dart';
 import 'package:just_audio/just_audio.dart';
-import 'package:storypad/core/helpers/path_helper.dart';
-import 'package:storypad/core/services/cloud_storage/cloud_storage_service.dart';
+import 'package:anzio/core/helpers/path_helper.dart';
+import 'package:anzio/core/services/cloud_storage/cloud_storage_service.dart';
 
 class AudioPlayerService {
   final AudioPlayer _player = AudioPlayer();

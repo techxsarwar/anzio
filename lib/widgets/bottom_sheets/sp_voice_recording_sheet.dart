@@ -3,17 +3,17 @@ import 'package:adaptive_dialog/adaptive_dialog.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/helpers/path_helper.dart';
-import 'package:storypad/core/rich_text/rich_text.dart';
-import 'package:storypad/core/types/asset_type.dart';
-import 'package:storypad/core/databases/models/asset_db_model.dart';
-import 'package:storypad/core/services/duration_format_service.dart';
-import 'package:storypad/core/services/messenger_service.dart';
-import 'package:storypad/core/services/voice_recorder_service.dart';
-import 'package:storypad/widgets/bottom_sheets/base_bottom_sheet.dart';
-import 'package:storypad/widgets/sp_voice_player.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/helpers/path_helper.dart';
+import 'package:anzio/core/rich_text/rich_text.dart';
+import 'package:anzio/core/types/asset_type.dart';
+import 'package:anzio/core/databases/models/asset_db_model.dart';
+import 'package:anzio/core/services/duration_format_service.dart';
+import 'package:anzio/core/services/messenger_service.dart';
+import 'package:anzio/core/services/voice_recorder_service.dart';
+import 'package:anzio/widgets/bottom_sheets/base_bottom_sheet.dart';
+import 'package:anzio/widgets/sp_voice_player.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 /// Sheet for recording voice notes
 ///

@@ -3,19 +3,19 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/app_theme.dart';
-import 'package:storypad/core/extensions/color_extension.dart';
-import 'package:storypad/core/helpers/date_format_helper.dart';
-import 'package:storypad/core/services/color_from_day_service.dart';
-import 'package:storypad/core/services/timer_picker_service.dart';
-import 'package:storypad/providers/relax_sounds_provider.dart';
-import 'package:storypad/views/relax_sounds/relax_sounds_view.dart';
-import 'package:storypad/widgets/sp_animated_icon.dart';
-import 'package:storypad/widgets/sp_fade_in.dart';
-import 'package:storypad/widgets/sp_icons.dart';
-import 'package:storypad/widgets/sp_loop_animation_builder.dart';
-import 'package:storypad/widgets/sp_refresh_state_in_duration.dart';
-import 'package:storypad/widgets/sp_tap_effect.dart';
+import 'package:anzio/app_theme.dart';
+import 'package:anzio/core/extensions/color_extension.dart';
+import 'package:anzio/core/helpers/date_format_helper.dart';
+import 'package:anzio/core/services/color_from_day_service.dart';
+import 'package:anzio/core/services/timer_picker_service.dart';
+import 'package:anzio/providers/relax_sounds_provider.dart';
+import 'package:anzio/views/relax_sounds/relax_sounds_view.dart';
+import 'package:anzio/widgets/sp_animated_icon.dart';
+import 'package:anzio/widgets/sp_fade_in.dart';
+import 'package:anzio/widgets/sp_icons.dart';
+import 'package:anzio/widgets/sp_loop_animation_builder.dart';
+import 'package:anzio/widgets/sp_refresh_state_in_duration.dart';
+import 'package:anzio/widgets/sp_tap_effect.dart';
 
 class SpFloatingRelaxSoundsTile extends StatelessWidget {
   const SpFloatingRelaxSoundsTile({

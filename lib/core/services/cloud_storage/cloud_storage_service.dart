@@ -2,11 +2,11 @@ import 'dart:async';
 import 'dart:io';
 import 'package:flutter/services.dart';
 import 'dart:convert';
-import 'package:storypad/core/helpers/path_helper.dart' as path;
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/services/cloud_storage/adaptors/base_cloud_storage_adaptor.dart';
-import 'package:storypad/core/services/logger/app_logger.dart';
-import 'package:storypad/core/types/support_directory_path.dart';
+import 'package:anzio/core/helpers/path_helper.dart' as path;
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/services/cloud_storage/adaptors/base_cloud_storage_adaptor.dart';
+import 'package:anzio/core/services/logger/app_logger.dart';
+import 'package:anzio/core/types/support_directory_path.dart';
 
 enum FirestoreStorageState { success, connectionFailed, unauthorized, unknown }
 

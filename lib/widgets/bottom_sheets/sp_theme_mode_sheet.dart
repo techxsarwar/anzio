@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/views/settings/local_widgets/theme_mode_tile.dart';
-import 'package:storypad/widgets/bottom_sheets/base_bottom_sheet.dart';
-import 'package:storypad/widgets/sp_fade_in.dart';
-import 'package:storypad/widgets/sp_icons.dart';
-import 'package:storypad/widgets/sp_single_state_widget.dart';
+import 'package:anzio/views/settings/local_widgets/theme_mode_tile.dart';
+import 'package:anzio/widgets/bottom_sheets/base_bottom_sheet.dart';
+import 'package:anzio/widgets/sp_fade_in.dart';
+import 'package:anzio/widgets/sp_icons.dart';
+import 'package:anzio/widgets/sp_single_state_widget.dart';
 
 class SpThemeModeSheet extends BaseBottomSheet {
   const SpThemeModeSheet({

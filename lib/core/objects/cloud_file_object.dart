@@ -1,6 +1,6 @@
 import 'package:googleapis/drive/v3.dart' as drive;
-import 'package:storypad/core/objects/backup_file_object.dart';
-import 'package:storypad/core/objects/device_info_object.dart';
+import 'package:anzio/core/objects/backup_file_object.dart';
+import 'package:anzio/core/objects/device_info_object.dart';
 
 class CloudFileObject {
   final String? fileName;
@@ -33,7 +33,7 @@ class CloudFileObject {
     );
   }
 
-  factory CloudFileObject.fromLegacyStoryPad(drive.File file) {
+  factory CloudFileObject.fromLegacyAnzio(drive.File file) {
     return CloudFileObject(
       fileName: file.name,
       id: file.id!,
@@ -55,7 +55,7 @@ class CloudFileObject {
 
       return BackupFileObject(
         createdAt: createdAt!,
-        device: DeviceInfoObject(model: 'StoryPad', id: 'legacy-model-id'),
+        device: DeviceInfoObject(model: 'Anzio', id: 'legacy-model-id'),
         hasCompression: fileName!.endsWith('.zip'),
       );
     } else {

@@ -11,7 +11,7 @@
 
 ## Introduction
 
-StoryPad's search system enables users to find stories quickly through text search and advanced filtering. The system uses **ObjectBox's full-text search** capabilities combined with a pre-computed search metadata index for optimal performance.
+Anzio's search system enables users to find stories quickly through text search and advanced filtering. The system uses **ObjectBox's full-text search** capabilities combined with a pre-computed search metadata index for optimal performance.
 
 ---
 
@@ -58,7 +58,7 @@ StoryPad's search system enables users to find stories quickly through text sear
 
 ### How It Works
 
-StoryPad uses a **pre-computed search metadata** approach for efficient text search:
+Anzio uses a **pre-computed search metadata** approach for efficient text search:
 
 1. **Index Generation** (`searchMetadata` field)
    - When a story is saved, all page titles and body text are extracted

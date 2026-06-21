@@ -1,15 +1,15 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/databases/models/tag_category_db_model.dart';
-import 'package:storypad/core/databases/models/tag_db_model.dart';
-import 'package:storypad/core/extensions/color_scheme_extension.dart';
+import 'package:anzio/core/databases/models/tag_category_db_model.dart';
+import 'package:anzio/core/databases/models/tag_db_model.dart';
+import 'package:anzio/core/extensions/color_scheme_extension.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/providers/tags_provider.dart';
-import 'package:storypad/widgets/base_view/base_route.dart';
-import 'package:storypad/widgets/sp_capacity_badge.dart';
-import 'package:storypad/widgets/sp_icons.dart';
-import 'package:storypad/widgets/sp_scroll_configuration.dart';
+import 'package:anzio/providers/tags_provider.dart';
+import 'package:anzio/widgets/base_view/base_route.dart';
+import 'package:anzio/widgets/sp_capacity_badge.dart';
+import 'package:anzio/widgets/sp_icons.dart';
+import 'package:anzio/widgets/sp_scroll_configuration.dart';
 
 import 'tags_view_model.dart';
 

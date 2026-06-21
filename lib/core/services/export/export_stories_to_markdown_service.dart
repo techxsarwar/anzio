@@ -1,7 +1,7 @@
 import 'dart:io';
-import 'package:storypad/core/databases/models/story_content_db_model.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
-import 'package:storypad/core/services/quill/quill_delta_to_plain_text_service.dart';
+import 'package:anzio/core/databases/models/story_content_db_model.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
+import 'package:anzio/core/services/quill/quill_delta_to_plain_text_service.dart';
 
 /// Service to export stories to Obsidian-compatible markdown files
 /// organized by year with proper YAML frontmatter.
@@ -102,7 +102,7 @@ class ExportStoriesToMarkdownService {
     final buffer = StringBuffer();
 
     // Core metadata
-    buffer.writeln('storypad_id: ${story.id}');
+    buffer.writeln('anzio_id: ${story.id}');
 
     // Optional fields
     if (story.starred == true) {
@@ -135,9 +135,9 @@ class ExportStoriesToMarkdownService {
 
     // Template ID (string for gallery template, int for custom template)
     if (story.galleryTemplateId != null) {
-      buffer.writeln('storypad_template_id: ${story.galleryTemplateId}');
+      buffer.writeln('anzio_template_id: ${story.galleryTemplateId}');
     } else if (story.templateId != null) {
-      buffer.writeln('storypad_template_id: ${story.templateId}');
+      buffer.writeln('anzio_template_id: ${story.templateId}');
     }
 
     // Event type (period marker, matched by date)

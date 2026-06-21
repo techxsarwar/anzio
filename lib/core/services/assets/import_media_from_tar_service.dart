@@ -1,8 +1,8 @@
 import 'dart:io';
 import 'dart:async';
-import 'package:storypad/core/databases/models/asset_db_model.dart';
-import 'package:storypad/core/helpers/path_helper.dart' as path;
-import 'package:storypad/core/types/asset_type.dart';
+import 'package:anzio/core/databases/models/asset_db_model.dart';
+import 'package:anzio/core/helpers/path_helper.dart' as path;
+import 'package:anzio/core/types/asset_type.dart';
 import 'package:tar/tar.dart';
 
 enum ImportMediaEntryResult {

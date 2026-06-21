@@ -26,7 +26,7 @@
         android:localeConfig="@xml/locales_config"
     >
         <activity
-            android:name="com.tc.writestory.MainActivity"
+            android:name="com.parallelogram.anzio.MainActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:taskAffinity=""

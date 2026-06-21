@@ -1,8 +1,8 @@
 import 'dart:typed_data';
 
 import 'package:firebase_storage/firebase_storage.dart';
-import 'package:storypad/core/services/cloud_storage/adaptors/base_cloud_storage_adaptor.dart';
-import 'package:storypad/core/services/logger/app_logger.dart';
+import 'package:anzio/core/services/cloud_storage/adaptors/base_cloud_storage_adaptor.dart';
+import 'package:anzio/core/services/logger/app_logger.dart';
 
 class FirebaseCloudStorageAdaptor extends BaseCloudStorageAdaptor {
   // 20mb — validated during upload in bin/firebase_admin/upload_files_to_firestore_storages.js

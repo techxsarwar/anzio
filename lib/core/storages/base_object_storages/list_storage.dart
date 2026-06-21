@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:storypad/core/storages/preference_storages/default_storage.dart';
+import 'package:anzio/core/storages/preference_storages/default_storage.dart';
 
 class ListStorage<T> extends DefaultStorage<String> {
   // only accept int, string, bool element

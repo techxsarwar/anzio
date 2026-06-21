@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/providers/app_lock_provider.dart';
-import 'package:storypad/providers/backup_provider.dart';
-import 'package:storypad/providers/in_app_purchase_provider.dart';
-import 'package:storypad/providers/in_app_update_provider.dart';
-import 'package:storypad/providers/nickname_provider.dart';
-import 'package:storypad/providers/relax_sounds_provider.dart';
-import 'package:storypad/providers/root_provider.dart';
-import 'package:storypad/providers/tags_provider.dart';
-import 'package:storypad/providers/device_preferences_provider.dart';
+import 'package:anzio/providers/app_lock_provider.dart';
+import 'package:anzio/providers/backup_provider.dart';
+import 'package:anzio/providers/in_app_purchase_provider.dart';
+import 'package:anzio/providers/in_app_update_provider.dart';
+import 'package:anzio/providers/nickname_provider.dart';
+import 'package:anzio/providers/relax_sounds_provider.dart';
+import 'package:anzio/providers/root_provider.dart';
+import 'package:anzio/providers/tags_provider.dart';
+import 'package:anzio/providers/device_preferences_provider.dart';
 
 // global providers
 class ProviderScope extends StatelessWidget {

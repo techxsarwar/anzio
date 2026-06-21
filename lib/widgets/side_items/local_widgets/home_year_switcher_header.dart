@@ -1,8 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/views/home/home_view_model.dart';
-import 'package:storypad/views/home/local_widgets/end_drawer/home_end_drawer_state.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/views/home/home_view_model.dart';
+import 'package:anzio/views/home/local_widgets/end_drawer/home_end_drawer_state.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 class HomeYearSwitcherHeader extends StatelessWidget {
   const HomeYearSwitcherHeader({

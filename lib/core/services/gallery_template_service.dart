@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
-import 'package:storypad/core/objects/gallery_template_category_object.dart';
-import 'package:storypad/core/objects/gallery_template_object.dart';
-import 'package:storypad/gen/assets.gen.dart';
+import 'package:anzio/core/objects/gallery_template_category_object.dart';
+import 'package:anzio/core/objects/gallery_template_object.dart';
+import 'package:anzio/gen/assets.gen.dart';
 import 'package:yaml/yaml.dart';
 
 class GalleryTemplateService {

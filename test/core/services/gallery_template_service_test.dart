@@ -2,10 +2,10 @@ import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/objects/gallery_template_category_object.dart';
-import 'package:storypad/core/objects/gallery_template_object.dart';
-import 'package:storypad/core/services/gallery_template_service.dart';
-import 'package:storypad/gen/assets.gen.dart';
+import 'package:anzio/core/objects/gallery_template_category_object.dart';
+import 'package:anzio/core/objects/gallery_template_object.dart';
+import 'package:anzio/core/services/gallery_template_service.dart';
+import 'package:anzio/gen/assets.gen.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

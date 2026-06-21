@@ -1,7 +1,7 @@
 // ignore_for_file: constant_identifier_names
 
-import 'package:storypad/core/storages/base_object_storages/map_storage.dart';
-import 'package:storypad/core/types/new_badge.dart';
+import 'package:anzio/core/storages/base_object_storages/map_storage.dart';
+import 'package:anzio/core/types/new_badge.dart';
 
 class NewBadgeStorage extends MapStorage {
   Future<bool> clicked(String badge) async {

@@ -1,5 +1,5 @@
 import 'package:emoji_picker_flutter/emoji_picker_flutter.dart';
-import 'package:storypad/core/storages/base_object_storages/map_storage.dart';
+import 'package:anzio/core/storages/base_object_storages/map_storage.dart';
 
 class PreferredEmojiTabStorage extends MapStorage {
   Future<Category?> getCategoryFor(int categoryId) {

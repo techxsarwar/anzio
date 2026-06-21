@@ -8,7 +8,7 @@
 
 ## Overview
 
-This test suite validates the rich text abstraction layer that decouples StoryPad from flutter_quill. The tests ensure that:
+This test suite validates the rich text abstraction layer that decouples Anzio from flutter_quill. The tests ensure that:
 
 1. **Abstraction layer works correctly** - All interfaces function as expected
 2. **Adapter implementation is correct** - QuillRichTextAdapter properly wraps flutter_quill

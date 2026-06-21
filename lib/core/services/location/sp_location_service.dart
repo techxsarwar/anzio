@@ -1,9 +1,9 @@
 import 'dart:async';
 
-import 'package:storypad/core/databases/models/place_db_model.dart';
+import 'package:anzio/core/databases/models/place_db_model.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:storypad/core/objects/sp_latlng.dart';
-import 'package:storypad/core/services/geocoding/sp_geocoding_service.dart';
+import 'package:anzio/core/objects/sp_latlng.dart';
+import 'package:anzio/core/services/geocoding/sp_geocoding_service.dart';
 
 enum SpLocationFetchStatus {
   success,

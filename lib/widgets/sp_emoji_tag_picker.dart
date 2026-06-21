@@ -2,15 +2,15 @@ import 'dart:async';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:emoji_picker_flutter/emoji_picker_flutter.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/databases/models/tag_category_db_model.dart';
-import 'package:storypad/core/databases/models/tag_db_model.dart';
-import 'package:storypad/core/mixins/debounched_callback.dart';
-import 'package:storypad/core/storages/preferred_emoji_tab_storage.dart';
-import 'package:storypad/widgets/sp_icons.dart';
-import 'package:storypad/widgets/sp_nested_navigation.dart';
-import 'package:storypad/widgets/sp_section_title.dart';
-import 'package:storypad/widgets/sp_tap_effect.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/databases/models/tag_category_db_model.dart';
+import 'package:anzio/core/databases/models/tag_db_model.dart';
+import 'package:anzio/core/mixins/debounched_callback.dart';
+import 'package:anzio/core/storages/preferred_emoji_tab_storage.dart';
+import 'package:anzio/widgets/sp_icons.dart';
+import 'package:anzio/widgets/sp_nested_navigation.dart';
+import 'package:anzio/widgets/sp_section_title.dart';
+import 'package:anzio/widgets/sp_tap_effect.dart';
 
 // ignore: constant_identifier_names
 const _PADDING = 12.0;

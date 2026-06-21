@@ -1,4 +1,4 @@
-import 'package:storypad/core/storages/base_object_storages/list_storage.dart';
+import 'package:anzio/core/storages/base_object_storages/list_storage.dart';
 
 class RecentlySelectedFontsStorage extends ListStorage<String> {
   Future<void> add(String value) async {

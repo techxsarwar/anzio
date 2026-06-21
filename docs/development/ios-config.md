@@ -76,7 +76,7 @@ Location: `ios/Runner.xcodeproj/`
 flutter run --flavor community --dart-define-from-file=configs/community.json --target=lib/main_community.dart
 
 # Release
-flutter build ios --flavor storypad --dart-define-from-file=configs/storypad.json --target=lib/main_storypad.dart
+flutter build ios --flavor anzio --dart-define-from-file=configs/anzio.json --target=lib/main_anzio.dart
 ```
 
 ## Common Issues

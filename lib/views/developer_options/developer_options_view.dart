@@ -1,10 +1,10 @@
 import 'package:adaptive_dialog/adaptive_dialog.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/types/support_directory_path.dart';
-import 'package:storypad/views/developer_options/recently_deleted_records/recently_deleted_records_view.dart';
-import 'package:storypad/widgets/base_view/base_route.dart';
-import 'package:storypad/widgets/bottom_sheets/sp_share_logs_bottom_sheet.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/core/types/support_directory_path.dart';
+import 'package:anzio/views/developer_options/recently_deleted_records/recently_deleted_records_view.dart';
+import 'package:anzio/widgets/base_view/base_route.dart';
+import 'package:anzio/widgets/bottom_sheets/sp_share_logs_bottom_sheet.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 
 class DeveloperOptionsRoute extends BaseRoute {
   const DeveloperOptionsRoute();

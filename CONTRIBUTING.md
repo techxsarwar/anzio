@@ -1,12 +1,12 @@
-# Contributing to StoryPad
+# Contributing to Anzio
 
 ## How to Help
 
-- **Report Bugs:** [Open an issue](https://github.com/theachoem/storypad/issues) with steps to reproduce
+- **Report Bugs:** [Open an issue](https://github.com/techxsarwar/anzio/issues) with steps to reproduce
 - **Suggest Features:** Create an issue with your idea
 - **Improve Docs:** Fix typos or unclear parts
 - **Code:** Pick an issue or suggest improvements
-- **Localization:** Help with translations ([Guide](https://storypad.me/contributions/localization/))
+- **Localization:** Help with translations ([Guide](https://anzio.me/contributions/localization/))
 
 ## Quick Start
 
@@ -24,4 +24,4 @@
 - Be friendly and respectful
 - Check the `/docs` directory for detailed documentation about the app's architecture and features
 
-Need help? Check the [README](./README.md), [docs](/docs), or [open an issue](https://github.com/theachoem/storypad/issues).
+Need help? Check the [README](./README.md), [docs](/docs), or [open an issue](https://github.com/techxsarwar/anzio/issues).

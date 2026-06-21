@@ -1,5 +1,5 @@
-import 'package:storypad/core/databases/models/base_db_model.dart';
-import 'package:storypad/core/services/logger/app_logger.dart';
+import 'package:anzio/core/databases/models/base_db_model.dart';
+import 'package:anzio/core/services/logger/app_logger.dart';
 
 class CollectionDbModel<T extends BaseDbModel> {
   final List<T> items;

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
 
 class SpStoryListenerBuilder extends StatefulWidget {
   const SpStoryListenerBuilder({

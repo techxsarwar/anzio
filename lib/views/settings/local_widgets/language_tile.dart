@@ -1,9 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:storypad/core/constants/locale_constants.dart';
-import 'package:storypad/views/languages/languages_view.dart';
-import 'package:storypad/widgets/sp_icons.dart';
-import 'package:storypad/widgets/sp_setting_icon_badge.dart';
+import 'package:anzio/core/constants/locale_constants.dart';
+import 'package:anzio/views/languages/languages_view.dart';
+import 'package:anzio/widgets/sp_icons.dart';
+import 'package:anzio/widgets/sp_setting_icon_badge.dart';
 
 class LanguageTile extends StatelessWidget {
   const LanguageTile({

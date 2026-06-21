@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/views/root/root_view.dart';
-import 'package:storypad/views/tags/tags_view.dart';
-import 'package:storypad/widgets/sp_nested_navigation.dart';
+import 'package:anzio/views/root/root_view.dart';
+import 'package:anzio/views/tags/tags_view.dart';
+import 'package:anzio/widgets/sp_nested_navigation.dart';
 
 class TagsEndDrawer extends StatelessWidget {
   const TagsEndDrawer({

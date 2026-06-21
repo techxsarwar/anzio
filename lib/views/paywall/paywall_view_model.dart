@@ -1,14 +1,14 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/mixins/dispose_aware_mixin.dart';
-import 'package:storypad/core/objects/paywall_feature_object.dart';
-import 'package:storypad/core/services/cloud_storage/cloud_storage_service.dart';
-import 'package:storypad/providers/in_app_purchase_provider.dart';
-import 'package:storypad/views/import_export/import_export_view.dart';
-import 'package:storypad/views/relax_sounds/relax_sounds_view.dart';
-import 'package:storypad/views/templates/templates_view.dart';
-import 'package:storypad/widgets/sp_icons.dart';
+import 'package:anzio/core/mixins/dispose_aware_mixin.dart';
+import 'package:anzio/core/objects/paywall_feature_object.dart';
+import 'package:anzio/core/services/cloud_storage/cloud_storage_service.dart';
+import 'package:anzio/providers/in_app_purchase_provider.dart';
+import 'package:anzio/views/import_export/import_export_view.dart';
+import 'package:anzio/views/relax_sounds/relax_sounds_view.dart';
+import 'package:anzio/views/templates/templates_view.dart';
+import 'package:anzio/widgets/sp_icons.dart';
 import 'paywall_view.dart';
 
 class PaywallViewModel extends ChangeNotifier with DisposeAwareMixin {

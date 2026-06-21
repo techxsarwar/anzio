@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:storypad/core/services/auto_sync_trigger_service.dart';
+import 'package:anzio/core/services/auto_sync_trigger_service.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

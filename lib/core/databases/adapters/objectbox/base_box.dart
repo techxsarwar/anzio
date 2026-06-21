@@ -1,11 +1,11 @@
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/databases/adapters/base_db_adapter.dart';
-import 'package:storypad/core/databases/adapters/objectbox/entities.dart';
-import 'package:storypad/core/databases/models/base_db_model.dart';
-import 'package:storypad/core/databases/models/collection_db_model.dart';
-import 'package:storypad/core/services/logger/app_logger.dart';
-import 'package:storypad/core/types/support_directory_path.dart';
-import 'package:storypad/objectbox.g.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/databases/adapters/base_db_adapter.dart';
+import 'package:anzio/core/databases/adapters/objectbox/entities.dart';
+import 'package:anzio/core/databases/models/base_db_model.dart';
+import 'package:anzio/core/databases/models/collection_db_model.dart';
+import 'package:anzio/core/services/logger/app_logger.dart';
+import 'package:anzio/core/types/support_directory_path.dart';
+import 'package:anzio/objectbox.g.dart';
 
 abstract class BaseBox<B extends BaseObjectBox, T extends BaseDbModel> extends BaseDbAdapter<T> {
   @override

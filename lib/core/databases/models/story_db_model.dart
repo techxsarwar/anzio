@@ -3,18 +3,18 @@
 import 'package:dart_quill_delta/dart_quill_delta.dart';
 import 'package:json_annotation/json_annotation.dart';
 import 'package:copy_with_extension/copy_with_extension.dart';
-import 'package:storypad/core/databases/adapters/objectbox/stories_box.dart';
-import 'package:storypad/core/databases/models/base_db_model.dart';
-import 'package:storypad/core/databases/models/event_db_model.dart';
-import 'package:storypad/core/databases/models/story_content_db_model.dart';
-import 'package:storypad/core/databases/models/story_page_db_model.dart';
-import 'package:storypad/core/databases/models/place_db_model.dart';
-import 'package:storypad/core/databases/models/story_preferences_db_model.dart';
-import 'package:storypad/core/databases/models/template_db_model.dart';
-import 'package:storypad/core/objects/sp_latlng.dart';
-import 'package:storypad/core/objects/gallery_template_object.dart';
-import 'package:storypad/core/objects/default_story_preferences_object.dart';
-import 'package:storypad/core/types/path_type.dart';
+import 'package:anzio/core/databases/adapters/objectbox/stories_box.dart';
+import 'package:anzio/core/databases/models/base_db_model.dart';
+import 'package:anzio/core/databases/models/event_db_model.dart';
+import 'package:anzio/core/databases/models/story_content_db_model.dart';
+import 'package:anzio/core/databases/models/story_page_db_model.dart';
+import 'package:anzio/core/databases/models/place_db_model.dart';
+import 'package:anzio/core/databases/models/story_preferences_db_model.dart';
+import 'package:anzio/core/databases/models/template_db_model.dart';
+import 'package:anzio/core/objects/sp_latlng.dart';
+import 'package:anzio/core/objects/gallery_template_object.dart';
+import 'package:anzio/core/objects/default_story_preferences_object.dart';
+import 'package:anzio/core/types/path_type.dart';
 
 part 'story_db_model.g.dart';
 

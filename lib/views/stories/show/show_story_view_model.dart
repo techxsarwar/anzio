@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:storypad/core/databases/models/story_content_db_model.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
-import 'package:storypad/core/databases/models/story_page_db_model.dart';
-import 'package:storypad/core/initializers/database_initializer.dart';
-import 'package:storypad/core/objects/story_page_objects_map.dart';
-import 'package:storypad/core/services/stories/story_content_embed_extractor.dart';
-import 'package:storypad/core/types/page_layout_type.dart';
-import 'package:storypad/views/stories/edit/edit_story_view.dart';
-import 'package:storypad/views/stories/local_widgets/base_story_view_model.dart';
+import 'package:anzio/core/databases/models/story_content_db_model.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
+import 'package:anzio/core/databases/models/story_page_db_model.dart';
+import 'package:anzio/core/initializers/database_initializer.dart';
+import 'package:anzio/core/objects/story_page_objects_map.dart';
+import 'package:anzio/core/services/stories/story_content_embed_extractor.dart';
+import 'package:anzio/core/types/page_layout_type.dart';
+import 'package:anzio/views/stories/edit/edit_story_view.dart';
+import 'package:anzio/views/stories/local_widgets/base_story_view_model.dart';
 import 'show_story_view.dart';
 
 class ShowStoryViewModel extends BaseStoryViewModel {
@@ -130,7 +130,7 @@ class ShowStoryViewModel extends BaseStoryViewModel {
     }
   }
 
-  // Migrate legacy embed asset paths (storypad://assets/xxx) to the new relative file paths if they still exist.
+  // Migrate legacy embed asset paths (anzio://assets/xxx) to the new relative file paths if they still exist.
   //
   // This migration was originally performed in database_initializer.dart#migrateEmbedAssetsToUseRelativeFilePaths.
   // However, some edge cases may leave certain stories with the old embed
@@ -145,7 +145,7 @@ class ShowStoryViewModel extends BaseStoryViewModel {
         ? StoryContentEmbedExtractor.images(story.draftContent ?? story.latestContent)
         : null;
 
-    const String legacyPrefix = 'storypad://assets/';
+    const String legacyPrefix = 'anzio://assets/';
     Set<int>? needMigrationAssetIds = assetPaths
         ?.where((a) => a.contains(legacyPrefix))
         .map((a) => int.tryParse(a.replaceAll(legacyPrefix, '')))

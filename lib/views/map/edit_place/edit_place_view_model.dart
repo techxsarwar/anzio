@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:storypad/core/databases/models/story_db_model.dart';
-import 'package:storypad/core/mixins/dispose_aware_mixin.dart';
+import 'package:anzio/core/databases/models/story_db_model.dart';
+import 'package:anzio/core/mixins/dispose_aware_mixin.dart';
 import 'edit_place_view.dart';
 
 class EditPlaceViewModel extends ChangeNotifier with DisposeAwareMixin {

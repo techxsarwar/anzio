@@ -1,6 +1,6 @@
-import 'package:storypad/core/constants/app_constants.dart';
-import 'package:storypad/core/objects/theme_object.dart';
-import 'package:storypad/core/storages/base_object_storages/object_storage.dart';
+import 'package:anzio/core/constants/app_constants.dart';
+import 'package:anzio/core/objects/theme_object.dart';
+import 'package:anzio/core/storages/base_object_storages/object_storage.dart';
 
 @Deprecated('Use [DevicePreferencesStorage] instead')
 class ThemeStorage extends ObjectStorage<ThemeObject> {

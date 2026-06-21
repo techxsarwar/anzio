@@ -1,4 +1,4 @@
-import 'package:storypad/core/types/support_directory_path.dart';
+import 'package:anzio/core/types/support_directory_path.dart';
 
 /// Asset type enumeration with storage subdirectory management.
 ///

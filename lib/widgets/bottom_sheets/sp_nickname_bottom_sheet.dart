@@ -2,15 +2,15 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/core/constants/app_constants.dart' show kAppLogo, kIsCupertino, kStoryPad;
-import 'package:storypad/core/services/app_logo_service.dart';
-import 'package:storypad/core/types/app_logo.dart';
-import 'package:storypad/providers/nickname_provider.dart';
-import 'package:storypad/widgets/bottom_sheets/base_bottom_sheet.dart';
-import 'package:storypad/widgets/sp_app_logo_picker.dart';
-import 'package:storypad/widgets/sp_default_text_controller.dart';
-import 'package:storypad/widgets/sp_single_state_widget.dart';
-import 'package:storypad/widgets/sp_two_value_listenable_builder.dart';
+import 'package:anzio/core/constants/app_constants.dart' show kAppLogo, kIsCupertino, kAnzio;
+import 'package:anzio/core/services/app_logo_service.dart';
+import 'package:anzio/core/types/app_logo.dart';
+import 'package:anzio/providers/nickname_provider.dart';
+import 'package:anzio/widgets/bottom_sheets/base_bottom_sheet.dart';
+import 'package:anzio/widgets/sp_app_logo_picker.dart';
+import 'package:anzio/widgets/sp_default_text_controller.dart';
+import 'package:anzio/widgets/sp_single_state_widget.dart';
+import 'package:anzio/widgets/sp_two_value_listenable_builder.dart';
 
 class SpNicknameBottomSheet extends BaseBottomSheet {
   const SpNicknameBottomSheet({
@@ -74,7 +74,7 @@ class SpNicknameBottomSheet extends BaseBottomSheet {
                     buildNicknameField(context, controller, appLogoNotifier),
                     const SizedBox(height: 8.0),
                   ],
-                  if (kStoryPad) ...[
+                  if (kAnzio) ...[
                     const SizedBox(height: 4.0),
                     buildLogoSelector(context, appLogoNotifier),
                     kIsCupertino ? const SizedBox(height: 12.0) : const SizedBox(height: 8.0),

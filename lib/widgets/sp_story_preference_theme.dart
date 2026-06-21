@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:storypad/app_theme.dart';
-import 'package:storypad/core/databases/models/story_preferences_db_model.dart';
-import 'package:storypad/core/extensions/color_scheme_extension.dart';
-import 'package:storypad/core/types/font_size_option.dart';
-import 'package:storypad/gen/story_backgrounds.dart';
-import 'package:storypad/providers/device_preferences_provider.dart';
-import 'package:storypad/providers/root_provider.dart';
-import 'package:storypad/widgets/sp_firestore_storage_downloader_builder.dart';
+import 'package:anzio/app_theme.dart';
+import 'package:anzio/core/databases/models/story_preferences_db_model.dart';
+import 'package:anzio/core/extensions/color_scheme_extension.dart';
+import 'package:anzio/core/types/font_size_option.dart';
+import 'package:anzio/gen/story_backgrounds.dart';
+import 'package:anzio/providers/device_preferences_provider.dart';
+import 'package:anzio/providers/root_provider.dart';
+import 'package:anzio/widgets/sp_firestore_storage_downloader_builder.dart';
 
 class SpStoryPreferenceTheme extends StatefulWidget {
   const SpStoryPreferenceTheme({
