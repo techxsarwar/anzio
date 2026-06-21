@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ develop ]
+    branches: [ develop, main ]
   pull_request:
-    branches: [ develop ]
+    branches: [ develop, main ]
 
 jobs:
   test:
@@ -50,3 +50,44 @@ jobs:
       with:
         file: coverage/lcov.info
         fail_ci_if_error: false
+
+  build_apk:
+    name: Build Android APK
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Read Flutter version from .tool-versions
+      id: flutter-version
+      run: |
+        FLUTTER_VERSION=$(grep flutter .tool-versions | awk '{print $2}' | cut -d'-' -f1)
+        echo "version=$FLUTTER_VERSION" >> $GITHUB_OUTPUT
+
+    - name: Setup Java 17
+      uses: actions/setup-java@v4
+      with:
+        distribution: 'temurin'
+        java-version: '17'
+
+    - name: Setup Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        flutter-version: ${{ steps.flutter-version.outputs.version }}
+        cache: true
+
+    - name: Get dependencies
+      run: flutter pub get
+
+    - name: Generate code
+      run: dart run build_runner build --delete-conflicting-outputs
+
+    - name: Build APK (Debug for testing)
+      run: flutter build apk --debug --flavor community --target=lib/main_community.dart --dart-define-from-file=configs/community.json
+
+    - name: Upload APK Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: anzio-community-apk
+        path: build/app/outputs/flutter-apk/app-community-debug.apk
+
